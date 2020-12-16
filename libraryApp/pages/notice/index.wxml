@@ -1,0 +1,14 @@
+<image class="background" src="../../image/bgd.png"  lazy-load="false"  />
+<view class="notice_worp">
+  <view class="notice_item" wx:for="{{notice}}" wx:key="id" bindtap="handleNotice"  >
+    <view class="notice_tital">
+    {{item.title}}
+    </view>
+    <rich-text class="rich-text" nodes="{{item.content}}">
+      
+    </rich-text>
+      
+    <view class="notice_time">{{item.time}}</view>
+  </view>
+</view>
+<view  class="notice_err" wx:if="{{!notice}}">当前无公告通知！</view>

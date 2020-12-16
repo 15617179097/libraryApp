@@ -1,0 +1,119 @@
+.index_warp {
+  padding: 5px;
+  height: 100%;
+}
+
+.top_banner .img{
+  border-radius: 10px;
+  width: 100%;
+}
+
+.index_warp .top_banner swiper {
+  height: 50vw;
+}
+.index_warp .top_banner swiper image {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+/* .content_banner{
+  height: 10vw;
+} */
+.content_banner .img{
+
+  width: 100%;
+}
+.index_warp .content_banner swiper {
+  height: 10vw;
+}
+.index_warp .content_banner swiper image {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.modulat_tital{
+  color: dimgray;
+  font-size: 40rpx;
+  margin-top: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.modulat_tital image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+}
+.index_warp .index_modular_all {
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 20rpx;
+}
+.index_warp .index_modular_all .modilar_content {
+  margin:30rpx 10rpx 10rpx 10rpx;
+  border-radius: 5px;
+  background-color: #fff;
+  flex: 40%;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 30rpx 10rpx;
+
+}
+.index_warp .index_modular_all .modilar_content image {
+ width: 128rpx;
+ height: 128rpx;
+}
+.index_warp .index_modular_all .modilar_content .modilar_title {
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.index_warp .index_subscribe_warp .index_subscribe {
+  padding: 20rpx;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_title {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 20rpx;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content {
+  padding: 20rpx;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_left .content_title {
+  padding: 10rpx;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_left .content_time {
+  padding: 10rpx;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_right {
+  padding: 0 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_right .content_pool_controllor {
+  padding: 10rpx;
+  background-color: #c5442d;
+  color: white;
+  border-radius: 20rpx;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_right .content_state {
+  color: white;
+  display: flex;
+}
+.index_warp .index_subscribe_warp .index_subscribe .subscribe_content .content_right .content_state .content_pool {
+  background-color: #2f8aad;
+  padding: 10rpx;
+  border-radius: 20rpx;
+}

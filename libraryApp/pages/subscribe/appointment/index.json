@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "tabs":"../../components/tabs/tabs"
+  },
+  "navigationBarTitleText": "自修室",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh":true
+  
+}

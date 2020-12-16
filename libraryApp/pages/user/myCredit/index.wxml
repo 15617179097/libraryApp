@@ -1,0 +1,12 @@
+<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
+<view class="myInfo_warp">
+    <view class="myInfo_top">
+        <view class="myInfo_title">
+            当前信誉值
+        </view>
+    </view>
+       <view class="myInfo_content">
+        <button>{{creditScore}}</button>
+        </view>
+</view>
+  

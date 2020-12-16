@@ -1,0 +1,17 @@
+
+<image class="background" src="../../image/bgd.png"  lazy-load="false" />
+<view class="user_warp">
+  <image src="{{fileUrl}}"></image>
+  <text wx:if="{{active}}">跳过广告 {{miao}}</text>
+   <text wx:else bindtap="cliadv">跳过广告 </text>
+  <view class="content">
+    <view class="content_box">
+      <image src="{{fileUrl}}"></image>
+      <view class="content_text">
+        <view class="advertising_title">{{title}}</view>
+        <view class="advertising_content">{{content}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+  

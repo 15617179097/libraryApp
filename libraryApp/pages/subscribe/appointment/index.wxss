@@ -1,0 +1,60 @@
+scroll-view .row {
+  display: -webkit-inline-flex;
+}
+scroll-view .row .all {
+  margin: 10rpx;
+  padding-inline: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+scroll-view .row .floor {
+  padding: 20rpx;
+  margin: 10rpx;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+scroll-view .row .active {
+  background-color: #bad9b6;
+  color: #fff;
+}
+.appointment_classroom_row {
+  margin: 10rpx 15rpx;
+  display: flex;
+  padding: 20rpx 15rpx;
+  background-color: #fff;
+  box-shadow: 0 0 0 #fffdfd;
+  border-radius: 10rpx;
+}
+.appointment_classroom_row .classroom_content {
+  flex: 4;
+}
+.appointment_classroom_row .classroom_content .classroom_title {
+  font-size: 32rpx;
+  color: #ccc;
+}
+.appointment_classroom_row .classroom_pool {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment_classroom_row .classroom_pool .classroom_pool_num {
+  display: flex;
+  color: red;
+}
+.appointment_classroom_row .classroom_pool .classroom_pool_sumNum {
+  display: flex;
+}
+.noItem{
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50rpx;
+  color: #ccc;
+}

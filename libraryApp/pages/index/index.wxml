@@ -1,0 +1,42 @@
+<view class="index_warp">
+
+    
+    <view class="top_banner">
+      
+        <swiper autoplay indicator-dots wx:if="{{advertising!=null}}">
+        <swiper-item wx:for="{{advertising}}" wx:key="id" bindtap="toAdvertising" data-id="{{item.id}}" >  
+            <image src="{{item.fileUrl}}" mode="widthFix"></image>
+            </swiper-item>
+        </swiper>
+        <image class="img" wx:else src="http://img0.imgtn.bdimg.com/it/u=498105951,1238588433&fm=26&gp=0.jpg" mode="widthFix"></image>
+   </view>
+
+    <view class="modulat_tital">
+        <image src="../../image/index/tuijian.png"></image>
+        <text>功能推荐</text>
+    </view>
+    <view class="index_modular_all">
+        <view class="modilar_content" bindtap="headelTomorrowSubscribe">
+            <image src="../../image/index/app.png" mode="widthFix"></image>
+            <view class="modilar_title">座位预约</view>
+        </view>
+        <view class="modilar_content" bindtap="handleSm">
+            <image src="../../image/index/scan.png" mode="widthFix"></image>
+            <view class="modilar_title">扫码签到</view>
+        </view>
+        <view></view>
+        <view class="modilar_content" bindtap="headleFeedback">
+            <image src="../../image/index/report.png" mode="heightFix" style=""></image>
+            <view class="modilar_title">监督占座</view>
+        </view>
+        <view class="modilar_content" bindtap="handleNotice">
+            <image src="../../image/index/notice.png" mode="widthFix"></image>
+            <view class="modilar_title">通知公告</view>
+        </view>
+         
+    </view>
+    <view class="index_subscribe_warp">
+            
+     </view> 
+      
+</view>

@@ -1,0 +1,28 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="true"
+        autoplay="true" >
+        <swiper-item>
+          <view class="swiper-item">
+            <image src="../../image/bgd.png" mode="widthFix" ></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item">
+            <image src="../../image/go.png" mode="widthFix"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+      </view>
+  </view>
+	<view class="page__bd">
+    <view class="bd_count">
+      <view class="title">新生专栏</view>
+    </view>
+    <view>
+
+    </view>
+  </view>
+  
+</view>

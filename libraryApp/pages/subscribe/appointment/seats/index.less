@@ -1,0 +1,109 @@
+page{
+    padding-top: 80rpx;
+    padding-bottom: 100rpx;
+}
+.seats_tips_warp{
+    background-color: white;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    .seats_title{
+        padding: 10rpx;
+        text-align: center;
+        font-weight: 600;
+    }
+    .seats_tips{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .seats_img{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            image{
+                width: 80rpx;
+            }
+        }
+      
+    }
+    .seats_tips_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+.seats_warp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .seats_row{
+        scroll-view{
+            padding-left: 30rpx;
+            margin-top: 80rpx;
+            width: 100%;
+            white-space: nowrap;
+            .img_v{
+                position: relative;
+                overflow: hidden;
+                display: inline-flex;
+                flex-direction: column;
+                text-align: center;
+                
+                image{
+                    position: relative;
+                    width: 70rpx;
+                }
+                text{
+                    color: #ccc;
+                    font-size: 20rpx;
+                    position: absolute;
+                    left: 0rpx;
+                    width: 70rpx;
+                    line-height: 30px;
+                    height: 30px;
+                }
+                .active{
+                    color: red;
+                }
+            }
+           
+        }
+    }
+    
+}
+.seats_info{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+  .seats_text{
+      padding: 20rpx;
+      background-color: white;
+  }
+  .seats_images{
+    display: flex;
+    picker{
+        flex: 1;
+    .seats_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70rpx;
+        background-color: coral;
+        width: 40vw;
+        border-radius: 50rpx;
+        color: white;
+        margin-left: 20rpx;
+        margin-bottom: 10rpx;
+       }
+    } 
+  }
+}

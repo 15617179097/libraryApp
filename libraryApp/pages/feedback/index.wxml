@@ -1,0 +1,21 @@
+<image class="background" src="../../image/bgd.png"  lazy-load="false" />
+<view class="feedback_warp">
+  <form class=""  bindsubmit="headFeedback" >
+    <view class="feedback_email">
+      <view class="email_title">联系邮箱</view>
+      <view>
+        <input value="{{email}}" name="email" type="digit" placeholder="请输入您的联系邮箱" bindblur="checkEmail" bindblur="checkEmail"></input>
+      </view>
+    </view>
+    <view class="feedback_content">
+      <view class="content_title">反馈内容</view>
+      <textarea class="" name="text" value="{{text}}" placeholder="请输入您反馈的内容"  maxlength="200" bindinput="cleckText"/>
+      <view class="content_limit">{{textSize}}/200</view> 
+    </view>
+    <view class="feedback_but">
+      <button   form-type="submit">提交</button>
+    </view>
+  </form>
+    
+</view>
+  

@@ -1,0 +1,49 @@
+<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
+<!--<tabs tabs="{{tabs}}" bindhandleTabs="handleTabs" ></tabs>-->
+<scroll-view scroll-x="true" enable-flex="true">
+<view class="row">
+<view class="{{activeFloor===0?'active':''}} all" bindtap="cleckFloor" data-floor="{{0}}">所有</view>
+  
+<view wx:for="{{floors}}" wx:key="index"  class="floor {{item===activeFloor?'active':''}}" bindtap="cleckFloor" data-floor="{{item}}">
+    {{item}}F
+</view>
+</view>
+  
+</scroll-view>
+  
+<view class="appointment_classroom_row" bindtap="handelSeats" 
+wx:if="{{item}}"
+data-id="{{item.id}}" 
+data-row="{{item.x}}"
+data-line="{{item.y}}"
+ wx:for="{{classRoom}}" wx:key="id">
+    <view class="classroom_content">
+        <view class="classroom_name">
+            {{item.classroomName}}
+        </view> 
+        <view class="classroom_title">
+      
+            7:00 ~ 23.30 开馆前可提前 预定
+        </view>
+    </view>
+    <view class="classroom_pool">
+   
+        <view class="classroom_pool_num">
+                <block wx:if="{{item.seatsNum}}">
+                {{item.seatsNum}}
+            </block>
+             <block wx:else>
+                0
+            </block> 
+        </view>
+        <view class="classroom_pool_sumNum">
+            /{{item.classroomNumber}}
+         </view >
+
+     </view>    
+</view>
+<view wx:if="{{!classRoom.length>0}}" class="noItem" >
+    尚未未开通！！
+</view>
+
+  

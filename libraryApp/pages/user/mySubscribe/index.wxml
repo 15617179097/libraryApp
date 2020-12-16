@@ -1,0 +1,36 @@
+<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
+<view class="mySubscribe_warp">
+  <view class="index_subscribe" wx:if="{{subscribe!=null}}">
+    <view class="subscribe_title">{{subscribeTitle}}</view>
+      <view class="subscribe_content">
+        <view class="content_left">
+          <view class="content_title">{{subscribe.classroomName}} {{subscribe.seatNumber}} 号座位</view>
+          <view class="content_time">
+            <view>到座时间为：{{createTime}}</view>
+            <view>结束时间为：{{endTime}}</view>
+          </view>
+        </view>
+        <view class="content_right" >
+          <view class="content_state" wx:if="{{subscribe.state===0}}">
+            <view class="content_pool">未签到</view>
+          </view>
+          <view class="content_state" wx:if="{{subscribe.state===1}}">
+            <view class="content_pool" bindtap="handleSuspend" data-id="{{subscribe.id}}">暂离</view>
+          </view>
+          <view class="content_pool_controllor" bindtap="handleRemove" data-id="{{subscribe.id}}">取消座位</view>
+        </view>
+      </view>    
+    </view>
+  <view class="index_subscribe" wx:if="{{subscribe.state===0}}">
+    <button bindtap="toOnLogin">前往签到>></button>
+  </view>
+  <view class="index_subscribe" wx:if="{{!subscribe}}">
+    <view class="subscribe_title isNo">
+      您暂无预约！
+    </view>
+    <button bindtap="toSubscribe">前往预约>></button>
+      
+  </view>
+      
+</view>
+  

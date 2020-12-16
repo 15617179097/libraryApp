@@ -1,0 +1,40 @@
+.login_warp .login_img swiper {
+  height: 30vh;
+}
+.login_warp .login_img swiper image {
+  height: 100%;
+  width: 100%;
+}
+.login_warp .from_content {
+  padding: 50rpx;
+}
+.login_warp .from_content .weui-input input {
+  background-color: #eee;
+  padding: 20rpx;
+  margin-top: 40rpx;
+}
+.login_warp .from_content .forget_password {
+  color: #ccc;
+  text-align: right;
+}
+.login_warp .login_controller {
+  margin-top: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.login_warp .login_controller .login_but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500rpx;
+  color: #ccc;
+  background-color: royalblue;
+  height: 100rpx;
+  border-radius: 15rpx;
+}
+.login_warp .login_controller .login_but button {
+  width: 98%;
+  height: 90%;
+}

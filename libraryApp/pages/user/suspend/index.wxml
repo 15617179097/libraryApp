@@ -1,0 +1,36 @@
+
+<view class="suspend_warp" icon="add" >
+    <view class="suspend_top">
+    <view class="top_title">
+        剩余时间
+    </view>
+      
+    <view class="active">
+          <view class="top_content {{ss%2===0?'top_contentActive':''}}">
+            {{HH}}:{{mm}}:{{ss}}   
+        </view>
+    </view>
+ 
+        
+    </view>
+    
+    <view class="suspend_main">
+    <view class="suspend_endTime">
+                <!-- 最晚保留时间：{{endTime}}   -->
+            </view> 
+        <view class="suspend_content">
+            <view class="susoend_end " bindtap="handleEnd">
+                    结束暂离
+             </view>
+         </view> 
+      
+       
+          
+  
+          
+    </view>
+      
+   
+</view>
+ 
+    

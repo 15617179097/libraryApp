@@ -1,0 +1,26 @@
+.myInfo_warp {
+  margin-top: 50rpx;
+  text-align: center;
+}
+.myInfo_warp .myInfo_top {
+  padding: 50rpx;
+}
+.myInfo_warp .myInfo_top .myInfo_title {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.myInfo_warp .myInfo_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.myInfo_warp .myInfo_content form input {
+  background-color: #F0F0F0;
+  width: 70vw;
+  padding: 15rpx;
+  margin-bottom: 30rpx;
+}
+.myInfo_warp .myInfo_content form button {
+  background-color: #9ed1a4;
+}

@@ -1,0 +1,57 @@
+.mySubscribe_warp {
+  padding: 10rpx;
+}
+.mySubscribe_warp .index_subscribe {
+  padding: 20rpx;
+}
+.mySubscribe_warp .index_subscribe .subscribe_title {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 20rpx;
+  font-weight: 550;
+}
+.mySubscribe_warp .index_subscribe .isNo {
+  margin-top: 100rpx;
+}
+.mySubscribe_warp .index_subscribe button {
+  background-color: #9ed1a4;
+  color: #fff;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content {
+  padding: 20rpx;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_left .content_title {
+  padding: 10rpx;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_left .content_time {
+  padding: 10rpx;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_right {
+  padding: 0 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_pool_controllor {
+  padding: 10rpx;
+  background-color: #c5442d;
+  color: #fff;
+  border-radius: 20rpx;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_state {
+  color: #fff;
+  display: flex;
+}
+.mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_state .content_pool {
+  background-color: #2f8aad;
+  padding: 10rpx;
+  border-radius: 20rpx;
+}

@@ -1,0 +1,52 @@
+<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
+<view class="myInfo_warp">
+    <view class="myInfo_top">
+        <view class="myInfo_title">
+            绑定信息
+        </view>
+    </view>
+
+ 
+      <view class="myInfo_content " wx:if="{{studentId===null}}">
+      
+          <form  bindsubmit="subInfo" >
+          <view class="section">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{schoolCity}}">
+            <view class="picker">
+                <input value="{{schoolCity[index]}}" name="schoolCity"    placeholder="请选择省市" bindinput="bindInstu"></input>
+            </view>
+        </picker>
+        <picker bindchange="bindPickerChangeName" value="{{nameindex}}" range="{{schoolName}}">
+            <view class="picker">
+                <input value="{{schoolName[nameindex]}}" name="schoolName"   placeholder="请选择学校" bindtap="handelName" ></input>
+            </view>
+        </picker>
+    </view>
+        
+            <input  value="{{studentId}}" name="studentId" focus="true" type="number"  placeholder="请输入您的学号" bindinput="bindInstu">
+            </input>
+            <button type="primary" form-type="submit">
+                绑 定
+            </button>
+          </form>
+            
+      </view>
+       <view class="myInfo_content" wx:else>
+       <form >
+            <view>
+                <input value="{{info.schoolName}}"></input>
+            </view>
+            <input  value="{{info.studentId}}" name="studentId" focus="true" type="number"  placeholder="请输入你的学号" disabled>
+            </input>
+            <button type="primary" bindtap="clearInfo" >
+               申请解绑学号
+            </button>
+          </form>
+       
+       <button></button>
+        </view>
+        <view class="zy">
+        注意：该信息只作为验证个人身份。
+        </view>
+</view>
+  

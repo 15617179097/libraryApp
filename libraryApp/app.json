@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/advertising/index",
+    "pages/authorize/index",
+    "pages/subscribe/index",
+    "pages/user/index",
+    "pages/notice/index",
+    "pages/login/index",
+    "pages/subscribe/appointment/index",
+    "pages/rule/index",
+    "pages/find/find",
+    "pages/subscribe/appointment/seats/index",
+    "pages/user/optionTime/index",
+    "pages/user/myInfo/index",
+    "pages/user/mySubscribe/index",
+    "pages/supervision/index",
+    "pages/user/suspend/index",
+    "pages/historicalAppointment/index",
+    "pages/feedback/index",
+    "pages/user/myCredit/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "图书馆占位",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#387CBE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/index.png",
+        "selectedIconPath": "icon/index_to.png"
+      },
+      {
+        "pagePath": "pages/subscribe/index",
+        "text": "预约",
+        "iconPath": "icon/appointment.png",
+        "selectedIconPath": "icon/appointment_to.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "icon/rule.png",
+        "selectedIconPath": "icon/rule_to.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "icon/user.png",
+        "selectedIconPath": "icon/user_to.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

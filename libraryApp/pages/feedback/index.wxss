@@ -1,0 +1,39 @@
+.feedback_warp {
+  padding: 40rpx;
+}
+.feedback_warp .feedback_email {
+  padding: 20rpx;
+}
+.feedback_warp .feedback_email input {
+  margin: 10rpx 0rpx;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  height: 50rpx;
+}
+.feedback_warp .feedback_content {
+  padding: 20rpx;
+}
+.feedback_warp .feedback_content textarea {
+  margin-top: 10rpx;
+  background-color: #fff;
+  width: 100%;
+  padding: 10rpx;
+}
+.feedback_warp .feedback_content .content_limit {
+  background-color: #fff;
+  text-align: right;
+  padding-right: 10rpx;
+  width: 358px;
+}
+.feedback_warp .feedback_but {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.feedback_warp .feedback_but button {
+  width: 200rpx;
+  background-color: #9ed1a4;
+  color: #fff;
+}

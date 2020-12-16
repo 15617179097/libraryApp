@@ -1,0 +1,45 @@
+.subscribe_warp .header_title {
+  margin: 20rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  color: #fff;
+  background-color: #bad9b6;
+}
+.subscribe_warp .subscribe_today {
+  padding: 50rpx;
+  border: 10rpx solid #f5f1f1;
+  background-color: #fff;
+}
+.subscribe_warp .subscribe_today .today_content .content_title {
+  font-size: 40rpx;
+  font-weight: 500;
+}
+.subscribe_warp .subscribe_today .today_content .tod_title {
+  color: #bad9b6;
+}
+.subscribe_warp .subscribe_today .today_content .tmw_title {
+  color: #bad9b6;
+}
+.subscribe_warp .subscribe_today .today_content .img {
+  width: 100%;
+  text-align: center;
+}
+.subscribe_warp .subscribe_today .today_content .img image {
+  width: 200rpx;
+  height: 200rpx;
+  padding-top: 20rpx;
+  border-bottom: solid 2px #ccc;
+}
+.subscribe_warp .subscribe_today .today_content .today_but,
+.subscribe_warp .subscribe_today .today_content .tomorrow_but {
+  color: #fff;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.subscribe_warp .subscribe_today .today_content .today_but {
+  background-color: #bad9b6;
+}
+.subscribe_warp .subscribe_today .today_content .tomorrow_but {
+  background-color: #bad9b6;
+}

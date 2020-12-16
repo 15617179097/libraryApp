@@ -1,0 +1,47 @@
+
+<view class="login_warp">
+    <view class="login_img">
+        <swiper>
+            <swiper-item  >
+                        <image src="../../image/login.jpg" ></image>
+            </swiper-item>
+               <swiper-item  >
+                        <image src="../../image/login.jpg" ></image>
+            </swiper-item>
+              
+        </swiper>
+          
+
+    </view>
+    <view class="from_content">
+    <form class=""  bindsubmit="headLogin" >
+
+      
+        <view class="weui-input">
+            <input value="{{numberId}}" name='studentId'   type="number" placeholder="请输入学号/工号" />
+        </view>
+        
+        <view class="weui-input">
+            <input value="{{password}}" name='password'  type="password" placeholder="请输入密码" />
+        </view>
+        <view class="forget_password">
+            忘记密码?
+        </view>
+        <view class="login_controller">
+            <view class="login_but">
+        <button  form-type="submit">
+              登陆
+        </button>
+         
+        </view>
+
+        </view>
+          
+           </form>
+         
+          
+          
+          
+    </view>
+      
+</view>

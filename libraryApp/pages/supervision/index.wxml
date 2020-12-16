@@ -1,0 +1,31 @@
+<image class="background" src="../../image/bgd.png"  lazy-load="false"  />
+<view class="feedback_warp">
+ <view class="section__title">填写监督占座</view>
+ <form bindsubmit="supervisionFrom" >
+ <view class="fedback_content">
+    <view class="fedback_classroom">
+        <picker name="classRoomName" bindchange="bindPickerChange" value="{{index}}" range="{{classRoom}}">
+            <view class="picker">
+            {{classRoom[index]}}
+            </view>
+        </picker>
+    </view>
+    <view class="fedback_seatsNum">
+        <input  value="{{seatsNum}}" type="number" name="seatsNum" placeholder="座位号"
+           bindinput="checkseatsName" >
+        </input>
+    </view>
+ </view>
+ <view class="feedback_but">
+     <button  type="primary"  form-type="submit" >
+         提交
+     </button> 
+       
+ </view>
+   </form>
+   <view class="feedback_text">
+    注意：谨慎使用！
+   </view>
+     
+</view> 
+  

@@ -1,0 +1,37 @@
+.auth_warp {
+  margin-top: 20vh;
+  text-align: center;
+}
+.auth_warp .auth_img image {
+  width: 200rpx;
+  border-radius: 50%;
+}
+.auth_warp .auth_title {
+  font-family: 600;
+}
+.auth_warp .title_content {
+  padding: 15rpx;
+  font-size: 28rpx;
+  color: #ccc;
+}
+.auth_warp .auth_but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40rpx;
+  flex-wrap: wrap;
+  
+}
+.auth_warp .auth_but button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex: auto;
+  width: 80vw;
+  font-size: 32rpx;
+  margin-bottom: 30rpx;
+}
+.auth_warp .auth_but  .over{
+  border: 1px #9b9a9a solid;
+}

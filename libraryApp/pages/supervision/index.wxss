@@ -1,0 +1,60 @@
+.feedback_warp{
+    padding: 50rpx;
+   
+}
+.feedback_warp .section__title{
+    text-align: center;
+    padding: 20rpx;
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 40rpx;
+}
+.feedback_warp .fedback_content{
+    display: flex;
+}
+.feedback_warp .fedback_content .fedback_classroom{
+    flex: 5;
+    line-height: 50rpx;
+}
+.feedback_warp .fedback_content .fedback_classroom .picker{
+    height: 40rpx;
+    padding-bottom: 17rpx;
+}
+.feedback_warp .fedback_content .fedback_seatsNum{
+    margin-left: 5rpx;
+    flex: 2;
+}
+.feedback_warp .fedback_content .fedback_classroom .picker{
+background-color: #e9e3e3;
+padding: 17rpx;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5rpx;
+}
+.feedback_warp .fedback_content .fedback_seatsNum input{
+    padding: 15rpx;
+    background-color: #e9e3e3;
+}
+.feedback_warp .feedback_but{
+    margin-top: 20rpx;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback_warp .feedback_but button{
+    width: 200rpx;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .feedback_warp .feedback_text{
+     padding: 20rpx;
+     text-align: center;
+     margin-top: 30rpx;
+ }
+ .feedback_warp .feedback_text:hover{
+    background-color: blanchedalmond;
+}
+    

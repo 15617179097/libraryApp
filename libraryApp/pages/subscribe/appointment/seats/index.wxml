@@ -1,0 +1,66 @@
+<!--头部标识-->
+<view class="seats_tips_warp">
+    <view class="seats_tips">
+        <view class="seats_img">
+            <image class="" src="../../../../image/seats_n.png" mode="widthFix"  />可选
+        </view>
+        <view class="seats_img">
+            <image class="" src="../../../../image/seats.png" mode="widthFix"  />选中
+        </view>
+        <view class="seats_img">
+            <image class="" src="../../../../image/seats_y.png" mode="widthFix"  />不可选
+        </view>
+    </view>
+    <view class="seats_tips_title">
+            正方向
+    </view>      
+</view>
+  
+<view class="seats_warp">
+    <view class="seats_row"  >
+        <scroll-view scroll-x="true" enable-flex="true">
+            <view>
+                <block wx:for="{{seats}}" wx:key="id">
+                    <view class="img_v">
+                        <image  src="{{item.img_src}}" mode="widthFix" /> 
+                        <block wx:if="{{item.state}}" wx:key="id">
+                            <text   decode="false" class="{{item.state?'active':''}}"   data-index="{{index}}" >{{index+1}}</text>
+                        </block>
+                        <block wx:else>
+                            <text bindtap="handleCheckSeate"  decode="false" data-index="{{index}}" >{{index+1}}</text>
+                        </block>
+                    </view>
+                    <!-- 一行几个 换行-->
+                    <block wx:if="{{(index+1)%2===0}}">
+                        <text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;</text>     
+                    </block>
+                    <block wx:if="{{(index+1)%row===0}}">
+                        <view></view>
+                    </block>
+                <!-- <block wx:if="{{(index+1)%8===0}}" class="huangang">--> 
+                    <!-- 第几列有过路-->
+                    <block wx:if="{{(index+1)===(row * line)}}">
+                        <view class="row"></view>
+                    </block>
+                </block>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<!--尾部预约时间-->
+<view class="seats_info">
+    <view class="seats_images"> 
+        <picker mode="time" value="{{time}}" start="{{startTime}}" end="21:01" bindchange="bindTimeChange">
+            <view class="seats_title">
+                <view class="picker">就位时间{{time}}</view>
+            </view>
+        </picker>
+        <picker mode="time" value="{{endTime}}" start="{{startEndTime}}" end="21:30" bindchange="bindEndTimeChange">
+            <view class="seats_title">
+                <view class="picker">结束时间{{endTime}}</view>
+            </view>
+        </picker>
+    </view>
+</view>
+  
+  

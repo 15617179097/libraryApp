@@ -1,0 +1,26 @@
+<view class="auth_warp">
+    <view class="auth_img">
+        <image class="" src="../../image/login.jpg" mode="widthFix"/>
+          
+    </view>
+      
+    <view class="auth_title">
+        申请获得一下权限：
+    </view>
+    <view class="title_content">
+        授权微信头像、昵称等信息,获取更优质服务
+    </view>
+    <view class="auth_but">
+        <button type='primary' open-type='getUserInfo' 
+        bindgetuserinfo='bindGetUserInfo'>
+        确定授权
+        </button>
+          <button type='default' class="over"
+        bindtap='bindOver'>
+        取消
+        </button>
+    </view>
+      
+      
+</view>
+  

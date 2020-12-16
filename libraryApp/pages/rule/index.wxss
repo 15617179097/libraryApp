@@ -1,0 +1,10 @@
+.rule_warp{
+  padding-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+p{
+  padding: 50rpx;
+}

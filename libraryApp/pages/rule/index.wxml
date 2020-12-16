@@ -1,0 +1,7 @@
+<image class="background" src="../../image/bgd.png"  lazy-load="false"  />
+<view class="rule_warp">
+  <rich-text class="" nodes="{{node}}"></rich-text>
+</view>
+  
+
+  
