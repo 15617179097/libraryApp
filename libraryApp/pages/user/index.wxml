@@ -28,7 +28,7 @@
         </a>
         <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
             <view class="weui-cell__hd">
-                <image src="../../image/user/subscribe.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
+                <image src="../../image/user/value.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
             </view>
             <view class="weui-cell__bd weui-cell_primary">
@@ -38,7 +38,7 @@
         </a>
         <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
             <view class="weui-cell__hd">
-                <image src="../../image/user/subscribe.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
+                <image src="../../image/user/binding.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
             </view>
             <view class="weui-cell__bd weui-cell_primary">
@@ -50,7 +50,7 @@
     <view class="weui-cells">
         <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
             <view class="weui-cell__hd">
-                <image src="../../image/user/subscribe.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
+                <image src="../../image/user/record.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
             </view>
             <view class="weui-cell__bd weui-cell_primary">
@@ -60,7 +60,7 @@
         </a>
         <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
             <view class="weui-cell__hd">
-                <image src="../../image/user/subscribe.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
+                <image src="../../image/user/point.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
             </view>
             <view class="weui-cell__bd weui-cell_primary">
