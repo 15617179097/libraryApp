@@ -31,6 +31,14 @@ Page({
    */
   onLoad: function (options) {
     let loginStateUUID = wx.getStorageSync('loginStateUUID');
+    wx.getUserInfo({
+      success: (result) => {
+      
+       this.setData({
+         userInfo:result.userInfo,schoolName
+       })
+      }
+    });
     // if (!loginStateUUID) {
     //   //logisns.onLaunch()
     //   wx.reLaunch({
@@ -45,14 +53,15 @@ Page({
    */
   onShow: function () {
     let {schoolName} = wx.getStorageSync('info')?wx.getStorageSync('info'):''
-    wx.getUserInfo({
-      success: (result) => {
-      
-       this.setData({
-         userInfo:result.userInfo,schoolName
-       })
-      }
-    });
+   
+  },
+
+  //登陆
+  loginGetInfo(){
+   wx.navigateTo({
+     url: '../authorize/index',
+   })
+
   },
   //绑定学号
   handelmyInfo(){

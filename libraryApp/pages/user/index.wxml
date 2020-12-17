@@ -2,23 +2,31 @@
 
 	<view class="page__hd">
 		<view class="weui-cells">
-			<view class="weui-cell weui-cell_active">
+			<view class="weui-cell weui-cell_active" wx:if="{{userInfo!=null}}">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="{{userInfo.avatarUrl}}" style="width: 100px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view> {{userInfo.nickName}}</view>
+					<view style="font-size: 13px; color: #888;">登陆更精彩</view>
+				</view>
+            </view>
+            <view class="weui-cell weui-cell_active" wx:if="{{userInfo==null}}" bindtap="loginGetInfo">
 				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
 					<image src="../../image/login.jpg" style="width: 100px; display: block;"></image>
-					<!-- <text class="weui-badge" style="position: absolute; top: -0.4em; right: -0.4em;">8</text> -->
 				</view>
 				<view class="weui-cell__bd">
 					<view>点击登陆</view>
-					<view style="font-size: 13px; color: #888;">登陆更精彩</view>
+					<view style="font-size: 13px; color: #888;">{{schoolName}}</view>
 				</view>
 			</view>
 		</view>
     </view>
     <view class="page__bd">
     <view class="weui-cells">
-        <a  class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
+        <a  class="weui-cell weui-cell_active weui-cell_access weui-cell_example"  bindtap="mySubscribe">
             <view class="weui-cell__hd">
-                <image src="../../image/user/subscribe.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
+                <image src="../../image/user/subscribe.png" alt style="width: 32px; height: 32px; margin-right: 16px; display: block;">
                 </image>
             </view>
             <view class="weui-cell__bd weui-cell_primary">

@@ -19,6 +19,37 @@
 	<view class="page__bd">
     <view class="bd_count">
       <view class="title">新生专栏</view>
+      <view class="bd_img">
+        <view class="content_img">
+          <image src="../../image/index/app.png"></image>
+          <view class="font">关于本馆</view>
+        </view>
+        <view class="content_img">
+          <image src="../../image/index/app.png"></image>
+          <view class="font">玩转本馆</view>
+        </view>
+        <view class="content_img">
+          <image src="../../image/index/app.png"></image>
+          <view class="font">馆长寄语</view>
+        </view>
+        <view class="content_img">
+          <image src="../../image/index/app.png"></image>
+          <view class="font">11</view>
+        </view>
+      
+      </view>
+      <!-- <view class="content_img">
+        <image src="../../image/index/app.png"></image>
+        <view>22</view>
+      </view>
+      <view class="content_img">
+        <image src="../../image/index/app.png"></image>
+        <view>33</view>
+      </view>
+      <view class="content_img">
+        <image src="../../image/index/app.png"></image>
+        <view>44</view>
+      </view> -->
     </view>
     <view>
 

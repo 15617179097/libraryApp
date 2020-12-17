@@ -53,9 +53,12 @@ Page({
         wx.hideLoading({
           complete: (res) => {},
         })
-        wx.reLaunch({
-          url: '../user/index',
+        wx.navigateBack({
+          delta: 1,
         })
+        // wx.({
+        //   url: '../user/index',
+        // })
         wx.showToast({title: '授权成功', icon: 'success', duration: 2000 })
       }
     })
