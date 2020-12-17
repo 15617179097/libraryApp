@@ -1,4 +1,4 @@
-<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
+
 <view class="myInfo_warp">
     <view class="myInfo_top">
         <view class="myInfo_title">

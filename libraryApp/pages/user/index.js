@@ -20,8 +20,8 @@ Page({
 
   // 我的预约
   async mySubscribe(){
-    const res = await checkInfos();
-    if(!res)  return;
+    // const res = await checkInfos();
+    // if(!res)  return;
     wx.navigateTo({
       url: './mySubscribe/index'  
     })
@@ -72,24 +72,24 @@ Page({
   },
   //信誉
   async handelmyCredit(){
-    const res = await checkInfos();
-    if(!res)  return;
+    // const res = await checkInfos();
+    // if(!res)  return;
     wx.navigateTo({
       url: './myCredit/index',
     })
   },
   //我的预约记录
   async handleOldSubscribe(){
-    const res = await checkInfos();
-    if(!res)  return;
+    // const res = await checkInfos();
+    // if(!res)  return;
     wx.navigateTo({
       url: '../../pages/historicalAppointment/index'
     });
   },
-  //我的违约记录
+  //反馈建议
   async handleFeedback(){
-    const res = await checkInfos();
-    if(!res)  return;
+    // const res = await checkInfos();
+    // if(!res)  return;
     wx.navigateTo({
       url: '../../pages/feedback/index'
     });

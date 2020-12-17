@@ -1,10 +1,11 @@
 .auth_warp {
-  margin-top: 20vh;
+  margin-top: 15vh;
   text-align: center;
 }
 .auth_warp .auth_img image {
-  width: 200rpx;
+  /* width: 200rpx; */
   border-radius: 50%;
+  margin-top:-20px;
 }
 .auth_warp .auth_title {
   font-family: 600;
@@ -19,8 +20,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 40rpx;
+  margin-top:50px;
   flex-wrap: wrap;
-  
 }
 .auth_warp .auth_but button {
   display: flex;

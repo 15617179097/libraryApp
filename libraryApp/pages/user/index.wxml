@@ -8,16 +8,16 @@
 				</view>
 				<view class="weui-cell__bd">
 					<view> {{userInfo.nickName}}</view>
-					<view style="font-size: 13px; color: #888;">登陆更精彩</view>
+					<view style="font-size: 13px; color: #888;">{{schoolName}}</view>
 				</view>
             </view>
             <view class="weui-cell weui-cell_active" wx:if="{{userInfo==null}}" bindtap="loginGetInfo">
 				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
-					<image src="../../image/login.jpg" style="width: 100px; display: block;"></image>
+					<image src="../../image/aaa.png" style="width: 100px; display: block;"></image>
 				</view>
 				<view class="weui-cell__bd">
 					<view>点击登陆</view>
-					<view style="font-size: 13px; color: #888;">{{schoolName}}</view>
+					<view style="font-size: 13px; color: #888;">登陆更精彩</view>
 				</view>
 			</view>
 		</view>
@@ -26,7 +26,7 @@
     <view class="weui-cells">
         <a  class="weui-cell weui-cell_active weui-cell_access weui-cell_example"  bindtap="mySubscribe">
             <view class="weui-cell__hd">
-                <image src="../../image/user/subscribe.png" alt style="width: 32px; height: 32px; margin-right: 16px; display: block;">
+                <image src="../../image/user/subscribe.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
             </view>
             <view class="weui-cell__bd weui-cell_primary">
@@ -34,7 +34,7 @@
             </view>
             <text class="weui-cell__ft"></text>
         </a>
-        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
+        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" bindtap="handelmyCredit">
             <view class="weui-cell__hd">
                 <image src="../../image/user/value.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
@@ -44,7 +44,7 @@
             </view>
             <text class="weui-cell__ft"></text>
         </a>
-        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
+        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" bindtap="handelmyInfo">
             <view class="weui-cell__hd">
                 <image src="../../image/user/binding.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
@@ -56,7 +56,7 @@
         </a>
     </view>
     <view class="weui-cells">
-        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
+        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" bindtap="handleOldSubscrib">
             <view class="weui-cell__hd">
                 <image src="../../image/user/record.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>
@@ -66,7 +66,7 @@
             </view>
             <text class="weui-cell__ft"></text>
         </a>
-        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example">
+        <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" bindtap="handleFeedback">
             <view class="weui-cell__hd">
                 <image src="../../image/user/point.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;">
                 </image>

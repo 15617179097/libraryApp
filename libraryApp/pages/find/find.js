@@ -7,7 +7,7 @@ Page({
   },
 
   data: {
-
+    swpierTrue:true
   },
 
   changeIndicatorDots() {

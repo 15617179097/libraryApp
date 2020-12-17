@@ -1,4 +1,4 @@
-<view class="page">
+<!-- <view class="page">
   <view class="page__hd">
     <view class="page-section page-section-spacing swiper">
       <swiper indicator-dots="true"
@@ -37,7 +37,7 @@
           <view class="font">11</view>
         </view>
       
-      </view>
+      </view> -->
       <!-- <view class="content_img">
         <image src="../../image/index/app.png"></image>
         <view>22</view>
@@ -50,10 +50,50 @@
         <image src="../../image/index/app.png"></image>
         <view>44</view>
       </view> -->
-    </view>
+    <!-- </view>
     <view>
 
     </view>
   </view>
   
+</view> -->
+<view class="page">
+  <view class="page_hd ">
+    
+    <swiper class="swiper" indicator-dots="{{swpierTrue}}" autoplay="{(swpierTrue)}" interval="3000">
+      <swiper-item>
+        <image src="../../image/bgd.png"></image>
+      </swiper-item>
+      <swiper-item>
+        asdsaf
+      </swiper-item>
+      <swiper-item>
+        asdsaf
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="page_bd">
+    <view class="title">
+      <text class="chinese">新生专栏</text>
+      <text class="english">New column</text>
+    </view>
+    <view class="body">
+      <view class="img">
+        <image src="../../image/newColumn/library.png" class="pic"></image>
+        <text>关于本馆</text>
+      </view>
+      <view class="img">  
+        <image src="../../image/newColumn/play.png" class="pic"></image>
+        <text>玩转本馆</text>
+      </view>
+      <view class="img">
+        <image src="../../image/newColumn/curator.png" class="pic"></image>
+        <text>馆长寄语</text>
+      </view>
+      <view class="img">
+        <image src="../../image/newColumn/etc.png" class="pic"></image>
+        <text>敬请期待</text>
+      </view>
+    </view>
+  </view>
 </view>
