@@ -256,6 +256,18 @@
         {
           "name": "pages/find/find",
           "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/authorize/index",
+          "pathName": "pages/authorize/index",
           "scene": null
         }
       ]
