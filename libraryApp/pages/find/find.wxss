@@ -25,11 +25,16 @@ margin-bottom: 5px;
 }*/
 .page .page_hd .swiper{
   margin:5px;
-  background-color:pink;
+  width:367px;
+}
+.page .page_hd .swiper .pic1{
+  width:367px;
+  margin-top: -5px;
 }
 .page .page_bd{
   margin:15px;
 }
+
 .page .page_bd .title{
   padding: 5px 10px 5px 10px;
   margin-top:10px;

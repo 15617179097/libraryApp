@@ -1,11 +1,20 @@
 .auth_warp {
-  margin-top: 15vh;
+  padding-top: 80px;
   text-align: center;
+}
+.auth_warp .auth_img{
+  width:140px;
+  height:140px;
+  border-radius: 100px;
+  background: white;
+  margin-left:105px;
+  border:5px solid #9FC8F4;
+  margin-bottom:40px;
 }
 .auth_warp .auth_img image {
   /* width: 200rpx; */
-  border-radius: 50%;
-  margin-top:-20px;
+  width: 130px;
+  height: 130px;
 }
 .auth_warp .auth_title {
   font-family: 600;

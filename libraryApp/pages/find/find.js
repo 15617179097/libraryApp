@@ -28,9 +28,35 @@ Page({
     })
   },
 
+  
   durationChange(e) {
     this.setData({
       duration: e.detail.value
     })
+  },
+
+  aboutLibrary() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/aboutLibrary/index"
+    })
+  },
+  
+  curatorMessage(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/curatorMessage/index"
+    })
+  },
+  
+  playLibrary(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/playLibrary/index"
+    })
   }
 })
+
