@@ -18,8 +18,10 @@
     "pages/user/suspend/index",
     "pages/historicalAppointment/index",
     "pages/feedback/index",
-    "pages/user/myCredit/index"
-    
+    "pages/user/myCredit/index",
+    "pages/newColumn/aboutLibrary/index",
+    "pages/newColumn/playLibrary/index",
+    "pages/newColumn/curatorMessage/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

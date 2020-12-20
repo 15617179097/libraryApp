@@ -1,5 +1,4 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "授权",
-  "navigationStyle":"custom"
+  "navigationBarTitleText": "登录"
 }

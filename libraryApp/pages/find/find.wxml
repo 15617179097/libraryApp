@@ -1,74 +1,15 @@
-<!-- <view class="page">
-  <view class="page__hd">
-    <view class="page-section page-section-spacing swiper">
-      <swiper indicator-dots="true"
-        autoplay="true" >
-        <swiper-item>
-          <view class="swiper-item">
-            <image src="../../image/bgd.png" mode="widthFix" ></image>
-          </view>
-        </swiper-item>
-        <swiper-item>
-          <view class="swiper-item">
-            <image src="../../image/go.png" mode="widthFix"></image>
-          </view>
-        </swiper-item>
-      </swiper>
-      </view>
-  </view>
-	<view class="page__bd">
-    <view class="bd_count">
-      <view class="title">新生专栏</view>
-      <view class="bd_img">
-        <view class="content_img">
-          <image src="../../image/index/app.png"></image>
-          <view class="font">关于本馆</view>
-        </view>
-        <view class="content_img">
-          <image src="../../image/index/app.png"></image>
-          <view class="font">玩转本馆</view>
-        </view>
-        <view class="content_img">
-          <image src="../../image/index/app.png"></image>
-          <view class="font">馆长寄语</view>
-        </view>
-        <view class="content_img">
-          <image src="../../image/index/app.png"></image>
-          <view class="font">11</view>
-        </view>
-      
-      </view> -->
-      <!-- <view class="content_img">
-        <image src="../../image/index/app.png"></image>
-        <view>22</view>
-      </view>
-      <view class="content_img">
-        <image src="../../image/index/app.png"></image>
-        <view>33</view>
-      </view>
-      <view class="content_img">
-        <image src="../../image/index/app.png"></image>
-        <view>44</view>
-      </view> -->
-    <!-- </view>
-    <view>
-
-    </view>
-  </view>
-  
-</view> -->
 <view class="page">
   <view class="page_hd ">
     
     <swiper class="swiper" indicator-dots="{{swpierTrue}}" autoplay="{(swpierTrue)}" interval="3000">
       <swiper-item>
-        <image src="../../image/bgd.png"></image>
+        <image class="pic1" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608468537008&di=06db4190effc4ab05ac8ce2fcf5a60b3&imgtype=0&src=http%3A%2F%2Ftsgzix.skxx.org%2Fuploads%2Fallimg%2F190129%2F7-1Z12913495N49.jpg"></image>
       </swiper-item>
       <swiper-item>
-        asdsaf
+        <image class="pic1" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608469188260&di=955a87b9d305aa03ae74a1d8ba4e7384&imgtype=0&src=http%3A%2F%2Fww3.sinaimg.cn%2Flarge%2Fa88b3b47jw1fa1zr0tfhcj21kw10z4qp.jpg"></image>
       </swiper-item>
       <swiper-item>
-        asdsaf
+        <image class="pic1" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608469353872&di=2d186a0c26ce63cf27f8b1251922f665&imgtype=0&src=http%3A%2F%2Fww3.sinaimg.cn%2Flarge%2Fa88b3b47jw1fa2010rg08j21kw1891kx.jpg"></image>
       </swiper-item>
     </swiper>
   </view>
@@ -78,15 +19,15 @@
       <text class="english">New column</text>
     </view>
     <view class="body">
-      <view class="img">
+      <view class="img" bindtap="aboutLibrary">
         <image src="../../image/newColumn/library.png" class="pic"></image>
         <text>关于本馆</text>
       </view>
-      <view class="img">  
+      <view class="img" bindtap="playLibrary">  
         <image src="../../image/newColumn/play.png" class="pic"></image>
         <text>玩转本馆</text>
       </view>
-      <view class="img">
+      <view class="img" bindtap="curatorMessage">
         <image src="../../image/newColumn/curator.png" class="pic"></image>
         <text>馆长寄语</text>
       </view>

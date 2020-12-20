@@ -1,6 +1,8 @@
+
+<image class="background" src="../../image/background.jpg"></image>
 <view class="auth_warp">
     <view class="auth_img">
-        <image class="" src="../../image/login.png" mode=""/>
+        <image src="../../image/login.png"></image>
           
     </view>
       
