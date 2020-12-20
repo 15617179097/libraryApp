@@ -63,6 +63,7 @@ margin-bottom: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top:10px;
 }
 .page .page_bd .pic{
   width: 50px;
