@@ -4,7 +4,7 @@
   border-radius: 10rpx;
   padding: 10rpx;
   color: #fff;
-  background-color: #bad9b6;
+  background-color: #8ebcf3;
 }
 .subscribe_warp .subscribe_today {
   padding: 50rpx;
@@ -16,10 +16,10 @@
   font-weight: 500;
 }
 .subscribe_warp .subscribe_today .today_content .tod_title {
-  color: #bad9b6;
+  color: #8ebcf3;
 }
 .subscribe_warp .subscribe_today .today_content .tmw_title {
-  color: #bad9b6;
+  color: #8ebcf3;
 }
 .subscribe_warp .subscribe_today .today_content .img {
   width: 100%;
@@ -38,8 +38,8 @@
   border-radius: 20rpx;
 }
 .subscribe_warp .subscribe_today .today_content .today_but {
-  background-color: #bad9b6;
+  background-color: #8ebcf3;
 }
 .subscribe_warp .subscribe_today .today_content .tomorrow_but {
-  background-color: #bad9b6;
+  background-color: #8ebcf3;
 }

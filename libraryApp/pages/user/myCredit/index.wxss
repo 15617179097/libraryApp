@@ -2,26 +2,53 @@
   text-align: center;
   margin:auto;
   margin-top:40px;
+  padding-top:10px;
   width:340px;
-  height:160px;
+  height:140px;
   border:none;
+}
+.myInfo_warp .myInfo_top{
+  margin-top:20px;
 }
 .myInfo_warp .myInfo_top .myInfo_title {
   font-size: 40rpx;
   font-weight: 600;
+  margin-bottom:10px;
+  color:#353636;
 }
 .myInfo_warp .myInfo_content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom:20px;
+  color:#353636;
 }
-.myInfo_warp .myInfo_content form input {
-  background-color: #F0F0F0;
-  width: 70vw;
-  padding: 15rpx;
-  margin-bottom: 30rpx;
+.myInfo_warp .onclick{
+  width:340px;
+  height:40px;
+  background: white;
+  margin-top:30px;
+  border-radius: 10px;
+  margin-top:40px;
+  padding-top:10px;
 }
-.myInfo_warp .myInfo_content form button {
-  background-color: #9ed1a4;
+.myInfo_warp .onclick .border_line{
+  width:1px;
+  height:30px;
+  background: #353636;
+  position: absolute;
+  left:180px;
 }
+.myInfo_warp .onclick1,.myInfo_warp .onclick2{
+  display: inline;
+}
+.myInfo_warp .onclick1{
+  position: absolute;
+  left:70px;
+}
+.myInfo_warp .onclick2{
+  position: absolute;
+  right:70px;
+}
+

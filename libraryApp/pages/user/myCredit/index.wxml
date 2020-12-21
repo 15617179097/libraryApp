@@ -1,16 +1,31 @@
-<image class="background" lazy-load="false" />
-<view class="myInfo_warp" style="background:url('../../../image/card.png')">
+
+<view class="myInfo_warp" style="background:url({{imgUrl}});border-radius:20px;">
     <view class="myInfo_top">
         
         <view class="myInfo_title">
             当前信誉值
         </view>
     </view>
-       <view class="myInfo_content">
-        {{creditScore}}
+    <view class="myInfo_content">
+    {{creditScore}}
+    </view>
+    <view class="progress-box" style="width:300px; margin:auto;">
+        <progress percent="{{creditScore}}" stroke-width="5" activeColor="white" backgroundColor="opacity"/>
+    </view>
+    <view class="onclick">
+        <view class="onclick1">
+            <a>
+                我的信誉
+            </a>
         </view>
-        <view class="progress-box" style="width:300px; margin:auto;">
-            <progress percent="{{creditScore}}" stroke-width="5" activeColor="green"/>
+        <view class="border_line">
+
         </view>
+        <view class="onclick2">
+            <a>
+                我的违约
+            </a>
+        </view>
+    </view>
 </view>
   

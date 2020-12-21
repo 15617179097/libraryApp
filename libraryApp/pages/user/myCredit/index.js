@@ -4,7 +4,8 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
+    data: {
+      imgUrl:'https://wxapp-library-20.oss-cn-beijing.aliyuncs.com/img/card.jpg?Expires=1608546599&OSSAccessKeyId=TMP.3Ki2nZ8VrwrhcdvdjcpYehQ8jwyhuKYPvrwdjf2VR2kNnBUvtnmJTBty31a48esqGZrgHBkyN1oAC2zsVmdhQVpr52P79d&Signature=aa0J49bfnu0mY62G6GLVEtXR0ow%3D',
     creditScore:60
   },
 
