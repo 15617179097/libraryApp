@@ -80,11 +80,12 @@ Page({
   //绑定学号
   async subInfo(e){
     let {studentId,schoolCity,schoolName}=e.detail.value;
-    if(schoolCity===""){
+    console.log(schoolCity);
+    if(schoolCity===""||typeof(schoolCity) == "undefined"){
       message.showToastNo('省份不能为空')
       return;
     }
-    if(schoolName===""){
+    if(schoolName===""||typeof(schoolCity) == "undefined"){
       message.showToastNo('学校不能为空')
       return;
     }
@@ -115,6 +116,14 @@ Page({
       studentId: null
     })
   },
+
+  //返回页面
+  blockToPage(){
+    wx.navigateBack({
+      delta: 1,
+    })
+  },
+
   // 解绑学号
  async clearInfo(){
    const data = await message.showModal("你确定解绑当前学号吗?")

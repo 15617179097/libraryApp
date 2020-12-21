@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -12,12 +12,15 @@
     "minified": true,
     "newFeature": true,
     "coverView": true,
+    "nodeModules": true,
     "autoAudits": true,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
+    "uglifyFileName": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
     "useMultiFrameRuntime": false,
     "useApiHook": true,
     "babelSetting": {
@@ -25,6 +28,7 @@
       "disablePlugins": [],
       "outputPath": ""
     },
+    "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
@@ -32,12 +36,11 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "nodeModules": true
+    "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.11.1",
-  "appid": "wx463c568732bed8ce",
+  "appid": "wxab05f784f49f7837",
   "projectname": "libraryApp",
   "debugOptions": {
     "hidedInDevtools": []
@@ -274,6 +277,12 @@
         {
           "name": "pages/find/find",
           "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myInfo/index",
+          "pathName": "pages/user/myInfo/index",
           "query": "",
           "scene": null
         },

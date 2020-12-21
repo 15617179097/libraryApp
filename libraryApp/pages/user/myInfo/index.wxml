@@ -1,4 +1,66 @@
 
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<!-- <view class="weui-form__text-area">
+			<h2 class="weui-form__title">原生选择框</h2>
+        </view> -->
+        <form  bindsubmit="subInfo" >
+            <view class="weui-form__control-area">
+                <view class="weui-cells__group weui-cells__group_form">
+                
+                    <view class="weui-cells">
+                        <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+                            <view class="weui-cell__hd">
+                                <label class="weui-label" style="width: 3em">省份</label>
+                            </view>
+                            <view class="weui-cell__bd">
+                                <picker bindchange="bindPickerChange" value="{{index}}" 
+                                range="{{schoolCity}}">
+                                <input hidden="1" name="schoolCity" value="{{schoolCity[index]}}"/>
+                                    <view class="weui-select text-pd" >{{schoolCity[index]}}</view>
+                                </picker>
+                            </view>
+                        </view>
+                        <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+                            <view class="weui-cell__hd">
+                                <label class="weui-label" style="width: 3em">学校</label>
+                            </view>
+                            <view class="weui-cell__bd">
+                                <picker bindchange="bindPickerChangeName" value="{{nameindex}}" range="{{schoolName}}">
+                                    <input hidden="1" name="schoolName" value="{{schoolName[nameindex]}}"/>
+                                    <view class="weui-select text-pd">{{schoolName[nameindex]}}</view>
+                                </picker>
+                            </view>
+                        </view>
+                        <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+                            <view class="weui-cell__hd">
+                                <label class="weui-label" style="width: 3em">学号</label>
+                            </view>
+                            <view class="weui-cell__bd">
+                                <input class="weui-input" style="padding: 10px;" type="number"name="studentId" placeholder="请输入号码" value="12345678907"></input>
+                            </view>
+                        </view>
+                        <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+                            <view class="weui-cell__hd">
+                                <label class="weui-label" style="width: 3em">密码</label>
+                            </view>
+                            <view class="weui-cell__bd">
+                                <input class="weui-input" style="padding: 10px;" type="number" name="password" placeholder="请输入密码" value="12345678907"></input>
+                            </view>
+                        </view>
+                
+                    </view>
+                </view>
+            </view>
+            <view class="weui-form__opr-area">
+                <button class="weui-btn weui-btn_primary" form-type="submit">绑定</button>
+                <button class="weui-btn weui-btn_primary" bindtap="blockToPage">以后再说</button>
+            </view>    
+        </form>
+	</view>
+</view>
+
+<!-- 
 <view class="myInfo_warp">
     <view class="myInfo_top">
         <view class="myInfo_title">
@@ -49,4 +111,4 @@
         注意：该信息只作为验证个人身份。
         </view>
 </view>
-  
+   -->

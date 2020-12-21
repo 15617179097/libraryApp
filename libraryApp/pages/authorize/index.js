@@ -40,34 +40,49 @@ Page({
     // 用户授权
     wx.getUserInfo({
       withCredentials: 'false',
-      success: async (result) => {
-        const res = await http.get("/saveUserInfo",
+      success:  (result) => {
+         http.get("/saveUserInfo",
         {
         "loginStateUUID":loginStateUUID,
         "encryptedData": result.encryptedData,
         "iv": result.iv
-        })
-        if(res.code!==200)
-          return wx.showToast({title: '授权登陆失败',icon: 'none', duration: 2000 });
-        this.getUserInfos(loginStateUUID)
-        wx.hideLoading({
-          complete: (res) => {},
-        })
-        wx.navigateBack({
-          delta: 1,
-        })
-        // wx.({
-        //   url: '../user/index',
+        }).then(
+          res =>{
+            if(res.code!==200){
+              wx.showToast({title: '授权登陆失败',icon: 'none', duration: 2000 });
+               return false;
+             }
+             console.log(111);
+             this.getUserInfos(loginStateUUID)
+             wx.hideLoading({
+               complete: (res) => {},
+             })
+             wx.navigateBack({
+               delta: 1,
+             })
+             // wx.({
+             //   url: '../user/index',
+             // })
+             wx.showToast({title: '授权成功', icon: 'success', duration: 2000 })
+            
+             console.log( getCurrentPages());
+             wx.navigateTo({
+               url: '../user/myInfo/index',
+             })
+          }
+        )
+        
+        // wx.navigateBack({
+        //   delta: 1,
         // })
-        wx.showToast({title: '授权成功', icon: 'success', duration: 2000 })
       }
     })
   },
   //存取用户信息
   async getUserInfos(loginStateUUID){
       const res =await http.get("userInfo")
-    
-      if(res.code===401) return this.getUserInfos(loginStateUUID);
+      console.log(res);
+      if(res.code===401) return false;
       wx.setStorageSync('info', res.data)
       login.handleWebSocket()
     },

@@ -19,7 +19,6 @@ import message from './wxRequest.js'
     }
     
     if(info.creditScore<=80){
-      
       message.showModalNo("信誉值不足");
       return false;
     }else{

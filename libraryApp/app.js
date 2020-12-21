@@ -14,7 +14,7 @@ App({
   onLaunch: function () {
     let loginStateUUID = wx.getStorageSync('loginStateUUID');
     if (loginStateUUID) {
-
+      console.log(loginStateUUID);
       let info = wx.getStorageSync('info');
       if(!info){
         logisns.getUserInfos(loginStateUUID)

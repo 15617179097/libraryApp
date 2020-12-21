@@ -16,8 +16,9 @@ Page({
     createTime:'',
     endTime:'',
     intervalNum:0,
-    advertising:null
-   
+    advertising:null,
+    //签到时间范围
+    signTime:60*30*1000
 
   },
   //广告
@@ -35,10 +36,21 @@ Page({
      })
   },
 
+  //绑定学号
+  handelmyInfo(){
+    wx.navigateTo({
+      url: '../user/myInfo/index'
+    });
+      
+  },
+
   //监督占座位
   async headleFeedback(){
     const res = await checkInfos();
-    if(!res)  return;
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    } 
     wx.navigateTo({
       url: '../supervision/index',
     });
@@ -47,7 +59,10 @@ Page({
   //规则
   async handleNotice(){
     const res = await checkInfos();
-    if(!res)  return;
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    }
     wx.navigateTo({
       url: '../notice/index',
     });
@@ -56,9 +71,12 @@ Page({
   //扫码签到
   async handleSm(){
     const res = await checkInfos();
-    if(!res)  return;
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    }
   
-    let {subscribe}=this.data;
+    let {subscribe,signTime}=this.data;
     let that=this;
     wx.scanCode({
       scanType:"qrCode",
@@ -76,8 +94,8 @@ Page({
         //预约签到时间最大范围
         // let creSignInTime = subscribe.signInTime-60*subscribe.rangeTime*1000;
         // let signInTime= subscribe.signInTime+60*subscribe.rangeTime*1000;
-        let creSignInTime = subscribe.signInTime-60*30*1000;
-        let signInTime= subscribe.signInTime+60*30*1000;
+        let creSignInTime = subscribe.signInTime-signTime;
+        let signInTime= subscribe.signInTime+signTime;
 
         //判断是否超过签到范围
         if(creSignInTime<nowTime&&nowTime<signInTime&&signInTime<(nowDate+24*60*60*1000)){
@@ -100,6 +118,11 @@ Page({
           }
         }else{
           message.showToastNo('请在预约前后30分钟内签到！') 
+
+          // 记录违约
+
+
+          
         } 
       }
     })
