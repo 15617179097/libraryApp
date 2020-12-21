@@ -287,8 +287,8 @@
           "scene": null
         },
         {
-          "name": "pages/user/myInfo/index",
-          "pathName": "pages/user/myInfo/index",
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
           "scene": null
         }
       ]

@@ -1,4 +1,4 @@
-<image class="background" src="../../image/bgd.png"  lazy-load="false"  />
+<image class="background" lazy-load="false"  />
 <tabs bindhandleTabs="handleTabs" tabs="{{tabs}}" >
 <view class="appointment_warp" wx:if="{{tabs[0].isActive}}"> 
     <view class="main">

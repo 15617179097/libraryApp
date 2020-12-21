@@ -1,12 +1,16 @@
-<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
-<view class="myInfo_warp">
+<image class="background" lazy-load="false" />
+<view class="myInfo_warp" style="background:url('../../../image/card.png')">
     <view class="myInfo_top">
+        
         <view class="myInfo_title">
             当前信誉值
         </view>
     </view>
        <view class="myInfo_content">
-        <button>{{creditScore}}</button>
+        {{creditScore}}
+        </view>
+        <view class="progress-box" style="width:300px; margin:auto;">
+            <progress percent="{{creditScore}}" stroke-width="5" activeColor="green"/>
         </view>
 </view>
   

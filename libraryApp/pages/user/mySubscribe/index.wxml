@@ -1,4 +1,4 @@
-<image class="background" src="../../../image/bgd.png"  lazy-load="false" />
+<image class="background" lazy-load="false" />
 <view class="mySubscribe_warp">
   <view class="index_subscribe" wx:if="{{subscribe!=null}}">
     <view class="subscribe_title">{{subscribeTitle}}</view>
