@@ -18,19 +18,28 @@ Page({
     })
   },
 
-  // 我的预约
-  async mySubscribe(){
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: './mySubscribe/index'  
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     let loginStateUUID = wx.getStorageSync('loginStateUUID');
+  
+    if (!loginStateUUID) {
+      //logisns.onLaunch()
+      wx.navigateTo({
+        url: '../authorize/index',
+      })
+      return
+    }
+ 
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+    let {schoolName} = wx.getStorageSync('info')?wx.getStorageSync('info'):''
     wx.getUserInfo({
       success: (result) => {
       
@@ -39,20 +48,6 @@ Page({
        })
       }
     });
-    // if (!loginStateUUID) {
-    //   //logisns.onLaunch()
-    //   wx.reLaunch({
-    //     url: '../authorize/index',
-    //   })
-    //   return
-    // }
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    let {schoolName} = wx.getStorageSync('info')?wx.getStorageSync('info'):''
    
   },
 
@@ -63,6 +58,8 @@ Page({
    })
 
   },
+
+  
   //绑定学号
   handelmyInfo(){
     wx.navigateTo({
@@ -70,18 +67,36 @@ Page({
     });
       
   },
+
+  // 我的预约
+  async mySubscribe(){
+    const res = await checkInfos();
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    }
+    wx.navigateTo({
+      url: './mySubscribe/index'  
+    })
+  },
   //信誉
   async handelmyCredit(){
-    // const res = await checkInfos();
-    // if(!res)  return;
+    const res = await checkInfos();
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    }
     wx.navigateTo({
-      url: './myCredit/index',
-    })
+      url: './myCredit/index'
+    });
   },
   //我的预约记录
   async handleOldSubscribe(){
-    // const res = await checkInfos();
-    // if(!res)  return;
+    const res = await checkInfos();
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    }
     wx.navigateTo({
       url: '../../pages/historicalAppointment/index'
     });

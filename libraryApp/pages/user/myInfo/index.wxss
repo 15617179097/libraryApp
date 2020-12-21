@@ -1,4 +1,8 @@
-.myInfo_warp {
+
+.text-pd{
+  padding-left: 20%;
+}
+/* .myInfo_warp {
   margin-top: 50rpx;
   text-align: center;
 }
@@ -26,4 +30,4 @@
 }
 .zy{
   color: #d3cece;
-}
+} */
