@@ -40,7 +40,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.11.1",
-  "appid": "wx463c568732bed8ce",
+  "appid": "wxab05f784f49f7837",
   "projectname": "libraryApp",
   "debugOptions": {
     "hidedInDevtools": []
@@ -222,7 +222,6 @@
           "scene": null
         },
         {
-          "id": -1,
           "name": "pages/user/myInfo/index",
           "pathName": "pages/user/myInfo/index",
           "query": "",
@@ -289,6 +288,7 @@
         {
           "name": "pages/user/myCredit/index",
           "pathName": "pages/user/myCredit/index",
+          "query": "",
           "scene": null
         }
       ]

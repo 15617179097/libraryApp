@@ -1,6 +1,7 @@
 // const baseUrl="https://wx.w.5ixf.vip/libraryApp/"
  import login from './login.js'
-const baseUrl="http://localhost:8001/"
+// const baseUrl="http://localhost:8001/"
+const baseUrl="http://192.168.1.105:8001/"
  function request(u, data, method) {
     return new Promise((resolve, reject) => {
         wx.showLoading({ title: '加载中' })

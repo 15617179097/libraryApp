@@ -14,16 +14,19 @@
     </view>
     <view class="onclick">
         <view class="onclick1">
-            <a>
+            <a>            
                 我的信誉
             </a>
-        </view>
-        <view class="border_line">
-
+            <a class="number">
+                ({{creditScore}})
+            </a>
         </view>
         <view class="onclick2">
             <a>
                 我的违约
+            </a>
+            <a class="number1">
+                ({{creditScore}})
             </a>
         </view>
     </view>
