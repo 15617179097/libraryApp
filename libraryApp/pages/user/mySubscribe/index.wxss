@@ -1,3 +1,14 @@
+.cirle{
+  width: 376px;
+  height: 200px;
+}
+.headpic{
+  width:100px;
+  height:100px;
+  position: absolute;
+  top:49px;
+  left:139px;
+}
 .mySubscribe_warp {
   padding: 10rpx;
 }
@@ -6,7 +17,7 @@
 }
 .mySubscribe_warp .index_subscribe .subscribe_title {
   text-align: center;
-  background-color: #F5F5F5;
+  background-color: white;
   padding: 20rpx;
   font-weight: 550;
 }
@@ -14,12 +25,13 @@
   margin-top: 100rpx;
 }
 .mySubscribe_warp .index_subscribe button {
-  background-color: #9ed1a4;
+  background-color: #448dee;
   color: #fff;
+  margin-top:20px;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content {
-  padding: 20rpx;
-  background-color: #F5F5F5;
+  padding: 30rpx;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -32,7 +44,7 @@
   padding: 10rpx;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_left .content_time {
-  padding: 10rpx;
+  padding: 0rpx;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right {
   padding: 0 40rpx;
@@ -42,16 +54,35 @@
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_pool_controllor {
   padding: 10rpx;
-  background-color: #c5442d;
+  background-color: #fd7d7d;
+  text-align: center;
+  width: 100px;
   color: #fff;
-  border-radius: 20rpx;
+  border-radius: 15rpx;
+  margin-top:10px;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_state {
   color: #fff;
   display: flex;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_state .content_pool {
-  background-color: #2f8aad;
+  background-color: #9cc1ed;
+  text-align: center;
   padding: 10rpx;
-  border-radius: 20rpx;
+  border-radius: 15rpx;
+  width: 100px;
+  margin-top: 10px;
+}
+#txt1{
+  position:absolute;
+  right:0;
+  bottom:10px;
+}
+#txt2{
+  background:blue;
+  height:70px;
+  width:30px;
+  font-size:13px;
+  color:white;
+  text-align: center;
 }

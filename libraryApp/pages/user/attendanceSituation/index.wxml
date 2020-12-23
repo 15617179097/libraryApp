@@ -1,0 +1,38 @@
+<image class="cirle" src="../../../image/cirle.png"></image>
+<image class="headpic" src="../../../image/aaa.png"></image>
+<view class="box1">
+  <view class="title">
+    <view class="attendance">
+      学生考勤情况
+    </view>
+    <view class="check">
+      查看出勤详情
+    </view>
+  </view>
+  <view class="body">
+    <view class="txt1">
+      <view class="txta">
+        {{subscribe}}
+      </view>
+      <view>
+        预约量
+      </view>
+    </view>
+    <view class="txt1">
+      <view class="txta">
+        {{sign_in}}%
+      </view>
+      <view>
+        学习时长
+      </view>
+    </view>
+    <view class="txt1">
+      <view class="txta">
+        {{attendance}}%
+      </view>
+      <view>
+        签到率
+      </view>
+    </view>
+  </view>
+</view>
