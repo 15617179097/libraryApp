@@ -63,10 +63,9 @@ Page({
   handelmyInfo(){
     wx.navigateTo({
       url: './myInfo/index'
-    });
-      
+    });    
   },
-
+ 
   // 我的预约
   async mySubscribe(){
     const res = await checkInfos();
@@ -106,6 +105,12 @@ Page({
     // if(!res)  return;
     wx.navigateTo({
       url: '../../pages/feedback/index'
+    });
+  },
+  //出勤记录
+  async attendanceSituation(){
+    wx.navigateTo({
+      url: '../user/attendanceSituation/index'
     });
   }
 })

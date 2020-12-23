@@ -21,7 +21,8 @@
     "pages/user/myCredit/index",
     "pages/newColumn/aboutLibrary/index",
     "pages/newColumn/playLibrary/index",
-    "pages/newColumn/curatorMessage/index"
+    "pages/newColumn/curatorMessage/index",
+    "pages/user/attendanceSituation/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

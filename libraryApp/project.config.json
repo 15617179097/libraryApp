@@ -290,6 +290,12 @@
           "pathName": "pages/user/myCredit/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/user/attendanceSituation/index",
+          "pathName": "pages/user/attendanceSituation/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

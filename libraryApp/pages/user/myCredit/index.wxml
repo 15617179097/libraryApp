@@ -15,7 +15,7 @@
     <view class="onclick">
         <view class="onclick1">
             <a>            
-                我的信誉
+                我的守约
             </a>
             <a class="number">
                 ({{subscribeSuccessCount}})
