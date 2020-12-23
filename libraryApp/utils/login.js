@@ -155,49 +155,49 @@ export default {
   
     if(res.code===401) return this.getCheckLogin();
     wx.setStorageSync('info', res.data)
-    this.handleWebSocket()
+    // this.handleWebSocket()
   },
 
-  //双工通信进行建立连接
-handleWebSocket() {
-  let loginStateUUID = wx.getStorageSync('loginStateUUID');
-  if (!loginStateUUID) return;
-  let bastUrl = request.baseUrl
-  let that = this
-    let socketOpen = false
-    let socketMsgQueue = []
-    wx.connectSocket({
-      url: 'ws://'+bastUrl+'webSocket/' + loginStateUUID
-    })
-    wx.onSocketOpen((result) => {
-      console.log("连接打开")
-    })
-    wx.onSocketMessage((result) => {
-      console.log(result)
-      message.showModalNo(result.data).then(result => {
-        if (result) {
-          that.setData({
-            subscribe: null
-          })
-        }
-      })
-    })
-    wx.onSocketOpen(function (res) {
-      socketOpen = true
-      for (let i = 0; i < socketMsgQueue.length; i++) {
-        sendSocketMessage(socketMsgQueue[i])
-      }
-      socketMsgQueue = []
-    })
-    function sendSocketMessage(msg) {
-      if (socketOpen) {
-        wx.sendSocketMessage({
-          data: msg
-        })
-      } else {
-        socketMsgQueue.push(msg)
-      }
-    }
+//   //双工通信进行建立连接
+// handleWebSocket() {
+//   let loginStateUUID = wx.getStorageSync('loginStateUUID');
+//   if (!loginStateUUID) return;
+//   let bastUrl = request.baseUrl
+//   let that = this
+//     let socketOpen = false
+//     let socketMsgQueue = []
+//     wx.connectSocket({
+//       url: 'ws://'+bastUrl+'webSocket/' + loginStateUUID
+//     })
+//     wx.onSocketOpen((result) => {
+//       console.log("连接打开")
+//     })
+//     wx.onSocketMessage((result) => {
+//       console.log(result)
+//       message.showModalNo(result.data).then(result => {
+//         if (result) {
+//           that.setData({
+//             subscribe: null
+//           })
+//         }
+//       })
+//     })
+//     wx.onSocketOpen(function (res) {
+//       socketOpen = true
+//       for (let i = 0; i < socketMsgQueue.length; i++) {
+//         sendSocketMessage(socketMsgQueue[i])
+//       }
+//       socketMsgQueue = []
+//     })
+//     function sendSocketMessage(msg) {
+//       if (socketOpen) {
+//         wx.sendSocketMessage({
+//           data: msg
+//         })
+//       } else {
+//         socketMsgQueue.push(msg)
+//       }
+//     }
 
-  }
+//   }
 }

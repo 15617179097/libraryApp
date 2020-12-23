@@ -2,7 +2,6 @@
 import {checkInfos} from "../../utils/check.js"
 // es7 简化promise
 import regeneratorRuntime from "../../utils/runtime.js"
-import logisns from "../../utils/login.js"
 Page({
 
   /**
