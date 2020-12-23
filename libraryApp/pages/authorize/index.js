@@ -65,10 +65,17 @@ Page({
              // })
              wx.showToast({title: '授权成功', icon: 'success', duration: 2000 })
             
-             console.log( getCurrentPages());
-             wx.navigateTo({
-               url: '../user/myInfo/index',
-             })
+            //  if(){}
+
+            http.get("/userInfo",{"loginStateUUID":loginStateUUID}).then(
+              (res)=>{
+                if(res.data==null){
+                  wx.navigateTo({
+                    url: '../user/myInfo/index',
+                  })
+                }
+            })
+            
           }
         )
         
