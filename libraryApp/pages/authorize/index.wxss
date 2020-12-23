@@ -22,7 +22,7 @@
 .auth_warp .title_content {
   padding: 15rpx;
   font-size: 28rpx;
-  color: #ccc;
+  color: #737a7c;
 }
 .auth_warp .auth_but {
   display: flex;

@@ -1,22 +1,25 @@
-
+<image class="background" src="../../../image/background.jpg"></image>
 <view class="page" data-weui-theme="{{theme}}">
-	<view class="weui-form">
+	<view>
 		<!-- <view class="weui-form__text-area">
 			<h2 class="weui-form__title">原生选择框</h2>
         </view> -->
         <form  bindsubmit="subInfo" >
-            <view class="weui-form__control-area">
+            <view>
                 <view class="weui-cells__group weui-cells__group_form">
-                
-                    <view class="weui-cells">
+                    <view class="form">
                         <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
                             <view class="weui-cell__hd">
                                 <label class="weui-label" style="width: 3em">省份</label>
                             </view>
-                            <view class="weui-cell__bd">
+                            <view class="weui-cell__bd1">
+                                
                                 <picker bindchange="bindPickerChange" value="{{index}}" 
                                 range="{{schoolCity}}">
-                                <input hidden="1" name="schoolCity" value="{{schoolCity[index]}}"/>
+                                  <view class="weui-cell__bd">
+                                       <input class="weui-input" style="padding: 10px;" name="province" disabled placeholder="请选择省份"></input>
+                                  </view>    
+                                    <input hidden="1" name="schoolCity" value="{{schoolCity[index]}}"/>
                                     <view class="weui-select text-pd" >{{schoolCity[index]}}</view>
                                 </picker>
                             </view>
@@ -25,8 +28,11 @@
                             <view class="weui-cell__hd">
                                 <label class="weui-label" style="width: 3em">学校</label>
                             </view>
-                            <view class="weui-cell__bd">
-                                <picker bindchange="bindPickerChangeName" value="{{nameindex}}" range="{{schoolName}}">
+                            <view class="weui-cell__bd2"> 
+                                <picker bindchange="bindPickerChangeName" value="{{nameindex}}"  range="{{schoolName}}">
+                                    <view class="weui-cell__bd">
+                                        <input class="weui-input" style="padding: 10px;" name="school" disabled placeholder="请选择学校"></input>
+                                    </view>
                                     <input hidden="1" name="schoolName" value="{{schoolName[nameindex]}}"/>
                                     <view class="weui-select text-pd">{{schoolName[nameindex]}}</view>
                                 </picker>
@@ -45,7 +51,7 @@
                                 <label class="weui-label" style="width: 3em">密码</label>
                             </view>
                             <view class="weui-cell__bd">
-                                <input class="weui-input" style="padding: 10px;" type="number" name="password" placeholder="请输入密码" value="12345678907"></input>
+                                <input class="weui-input" style="padding: 10px;" type="password" name="password" placeholder="请输入密码" value="12345678907"></input>
                             </view>
                         </view>
                 
@@ -53,62 +59,9 @@
                 </view>
             </view>
             <view class="weui-form__opr-area">
-                <button class="weui-btn weui-btn_primary" form-type="submit">绑定</button>
-                <button class="weui-btn weui-btn_primary" bindtap="blockToPage">以后再说</button>
+                <button class="btn" form-type="submit">绑定</button>
+                <button class="btn" bindtap="blockToPage">以后再说</button>
             </view>    
         </form>
 	</view>
 </view>
-
-<!-- 
-<view class="myInfo_warp">
-    <view class="myInfo_top">
-        <view class="myInfo_title">
-            绑定信息
-        </view>
-    </view>
-
- 
-      <view class="myInfo_content " wx:if="{{studentId===null}}">
-      
-          <form  bindsubmit="subInfo" >
-          <view class="section">
-        <picker bindchange="bindPickerChange" value="{{index}}" range="{{schoolCity}}">
-            <view class="picker">
-                <input value="{{schoolCity[index]}}" name="schoolCity"    placeholder="请选择省市" bindinput="bindInstu"></input>
-            </view>
-        </picker>
-        <picker bindchange="bindPickerChangeName" value="{{nameindex}}" range="{{schoolName}}">
-            <view class="picker">
-                <input value="{{schoolName[nameindex]}}" name="schoolName"   placeholder="请选择学校" bindtap="handelName" ></input>
-            </view>
-        </picker>
-    </view>
-        
-            <input  value="{{studentId}}" name="studentId" focus="true" type="number"  placeholder="请输入您的学号" bindinput="bindInstu">
-            </input>
-            <button type="primary" form-type="submit">
-                绑 定
-            </button>
-          </form>
-            
-      </view>
-       <view class="myInfo_content" wx:else>
-       <form >
-            <view>
-                <input value="{{info.schoolName}}"></input>
-            </view>
-            <input  value="{{info.studentId}}" name="studentId" focus="true" type="number"  placeholder="请输入你的学号" disabled>
-            </input>
-            <button type="primary" bindtap="clearInfo" >
-               申请解绑学号
-            </button>
-          </form>
-       
-       <button></button>
-        </view>
-        <view class="zy">
-        注意：该信息只作为验证个人身份。
-        </view>
-</view>
-   -->

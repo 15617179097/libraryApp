@@ -1,33 +1,25 @@
-
+.page{
+  padding-top:230px;
+}
+.page .weui-form__control-area{
+  margin:none;
+}
 .text-pd{
   padding-left: 20%;
 }
-/* .myInfo_warp {
-  margin-top: 50rpx;
-  text-align: center;
+.page .weui-form__opr-area{
+  margin-top: 20px;
 }
-.myInfo_warp .myInfo_top {
-  padding: 50rpx;
+.page .form .weui-cell__bd1{
+  height:43px;
 }
-.myInfo_warp .myInfo_top .myInfo_title {
-  font-size: 40rpx;
-  font-weight: 600;
+.page .form .weui-cell__bd2{
+  height:43px;
 }
-.myInfo_warp .myInfo_content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.page .weui-form__opr-area .btn{
+  background: #2F80ED;
+  margin-top: 10px;
+  width:200px;
+  height:40px;
+  color:white;
 }
-.myInfo_warp .myInfo_content form input {
-  background-color: #F0F0F0;
-  width: 70vw;
-  padding: 15rpx;
-  margin-bottom: 30rpx;
-}
-.myInfo_warp .myInfo_content form button {
-  background-color: #9ed1a4;
-}
-.zy{
-  color: #d3cece;
-} */

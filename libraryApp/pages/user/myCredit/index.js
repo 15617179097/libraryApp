@@ -4,7 +4,8 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
+    data: {
+      imgUrl:'http://wxapp-library-20.oss-cn-beijing.aliyuncs.com/img/card.jpg',
     creditScore:60
   },
 
