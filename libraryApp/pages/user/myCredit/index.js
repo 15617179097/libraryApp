@@ -1,4 +1,4 @@
-// pages/user/myCredit/index.js
+import http from ".././../../utils/request"
 Page({
 
   /**
@@ -6,7 +6,9 @@ Page({
    */
     data: {
       imgUrl:'http://wxapp-library-20.oss-cn-beijing.aliyuncs.com/img/card.jpg',
-    creditScore:60
+      creditScore:60,
+      subscribeErrorCount:0,
+      subscribeSuccessCount:0,
   },
 
   /**
@@ -26,11 +28,20 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-    let {creditScore} = wx.getStorageSync('info')
+ async onShow () {
+    // let {creditScore} = wx.getStorageSync('info')
+    
+   
+   let {data:res} = await http.get("findMyCreditScore",{"loginStateUUID":wx.getStorageSync('loginStateUUID')})
+    // console.log(res.creditScore);
+    // res.subscribeErrorCount
+    // res.subscribeSuccessCount
     this.setData({
-      creditScore
+      creditScore:res.creditScore,
+      subscribeErrorCount:res.subscribeErrorCount,
+      subscribeSuccessCount: res.subscribeSuccessCount
     })
+ 
   },
 
   /**

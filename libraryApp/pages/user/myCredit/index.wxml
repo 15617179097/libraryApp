@@ -18,7 +18,7 @@
                 我的信誉
             </a>
             <a class="number">
-                ({{creditScore}})
+                ({{subscribeSuccessCount}})
             </a>
         </view>
         <view class="onclick2">
@@ -26,7 +26,7 @@
                 我的违约
             </a>
             <a class="number1">
-                ({{creditScore}})
+                ({{subscribeErrorCount}})
             </a>
         </view>
     </view>
