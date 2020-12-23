@@ -33,9 +33,6 @@ Page({
     
    
    let {data:res} = await http.get("findMyCreditScore",{"loginStateUUID":wx.getStorageSync('loginStateUUID')})
-    // console.log(res.creditScore);
-    // res.subscribeErrorCount
-    // res.subscribeSuccessCount
     this.setData({
       creditScore:res.creditScore,
       subscribeErrorCount:res.subscribeErrorCount,

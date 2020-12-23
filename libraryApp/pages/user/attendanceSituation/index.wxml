@@ -12,7 +12,7 @@
   <view class="body">
     <view class="txt1">
       <view class="txta">
-        {{subscribe}}
+        {{subscribeCount}}
       </view>
       <view>
         预约量
@@ -20,7 +20,7 @@
     </view>
     <view class="txt1">
       <view class="txta">
-        {{sign_in}}%
+        {{time}}%
       </view>
       <view>
         学习时长

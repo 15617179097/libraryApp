@@ -1,13 +1,13 @@
-// pages/user/attendanceSituation/index.js
+import http from ".././../../utils/request"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    subscribe:0,
-    sign_in:0,
-    attendance:0
+    time:0,
+    subscribeCount:0,
+    attendance:0 
   },
 
   /**
@@ -27,8 +27,13 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-
+  async onShow(){
+    let {data:res} = await http.get("findMySubscribeInfo",{"loginStateUUID":wx.getStorageSync('loginStateUUID')})
+    this.setData({
+      time:res.time,
+      subscribeCount:res.subscribeCount,
+      attendance: res.signInPercentage
+    })
   },
 
   /**
