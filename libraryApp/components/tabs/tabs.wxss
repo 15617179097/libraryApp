@@ -1,18 +1,19 @@
 .tabs_warp .tabs_title_row {
   display: flex;
-  background-color: #3197D0;
+  background-color: #9dc5f6;
 }
 .tabs_warp .tabs_title_row .tabs_title {
   margin: 0 20rpx;
-  font-size: 32rpx;
+  font-size: 40rpx;
   font-weight: 540;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20rpx;
+  color:#2f80ed;
 }
 .tabs_warp .tabs_title_row .active {
-  color: #e9af59;
-  border-bottom: 4rpx #3197D0 solid;
+  color: white;
+  border-bottom: 4rpx white solid;
 }

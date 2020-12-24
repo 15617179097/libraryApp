@@ -22,7 +22,8 @@
     "pages/newColumn/aboutLibrary/index",
     "pages/newColumn/playLibrary/index",
     "pages/newColumn/curatorMessage/index",
-    "pages/user/attendanceSituation/index"
+    "pages/user/attendanceSituation/index",
+    "pages/newColumn/pleaseWaite/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

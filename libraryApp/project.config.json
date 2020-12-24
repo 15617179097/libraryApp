@@ -300,6 +300,18 @@
         {
           "name": "pages/notice/index",
           "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/pleaseWaite/index",
+          "pathName": "pages/newColumn/pleaseWaite/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/pleaseWaite/index",
+          "pathName": "pages/newColumn/pleaseWaite/index",
           "scene": null
         }
       ]

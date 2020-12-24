@@ -1,4 +1,4 @@
-<image class="background" src="../../image/bgd.png"  lazy-load="false"  />
+<image class="toppic" src="../../image/cirle.png"></image>
 <view class="feedback_warp">
  <view class="section__title">填写监督占座</view>
  <form bindsubmit="supervisionFrom" >
@@ -22,10 +22,6 @@
      </button> 
        
  </view>
-   </form>
-   <view class="feedback_text">
-    注意：谨慎使用！
-   </view>
-     
+</form>
 </view> 
   

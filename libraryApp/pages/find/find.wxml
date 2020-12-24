@@ -31,7 +31,7 @@
         <image src="../../image/newColumn/curator.png" class="pic"></image>
         <text>馆长寄语</text>
       </view>
-      <view class="img">
+      <view class="img" bindtap="pleaseWaite">
         <image src="../../image/newColumn/etc.png" class="pic"></image>
         <text>敬请期待</text>
       </view>

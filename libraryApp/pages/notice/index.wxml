@@ -1,14 +1,86 @@
-<image class="background" src="../../image/bgd.png"  lazy-load="false"  />
-<view class="notice_worp">
+ <!-- <view class="notice_worp">
   <view class="notice_item" wx:for="{{notice}}" wx:key="id" bindtap="handleNotice"  >
     <view class="notice_tital">
     {{item.title}}
     </view>
-    <rich-text class="rich-text" nodes="{{item.content}}">
+   <rich-text class="rich-text" nodes="{{item.content}}"> 
       
     </rich-text>
       
     <view class="notice_time">{{item.time}}</view>
+    
   </view>
 </view>
-<view  class="notice_err" wx:if="{{!notice}}">当前无公告通知！</view>
+<view  class="notice_err" wx:if="{{!notice}}">当前无公告通知！</view>-->
+<view class="box">
+      <view class="box_left">
+        <view class="box_left_top">
+
+        </view>
+        <view class="box_left_bottom">
+
+        </view>
+      </view>
+      <view class="box_right">
+        <text>
+          呵呵
+        </text>
+        <text class="time">
+          2020
+        </text>
+      </view>
+    </view>
+    <view class="box">
+      <view class="box_left">
+        <view class="box_left_top">
+
+        </view>
+        <view class="box_left_bottom">
+
+        </view>
+      </view>
+      <view class="box_right">
+        <text>
+          哈哈
+        </text>
+        <text class="time">
+          2020
+        </text>
+      </view>
+    </view>
+    <view class="box">
+      <view class="box_left">
+        <view class="box_left_top">
+
+        </view>
+        <view class="box_left_bottom">
+
+        </view>
+      </view>
+      <view class="box_right">
+        <text>
+          嘻嘻
+        </text>
+        <text class="time">
+         2020
+        </text>
+      </view>
+    </view>
+    <view class="box">
+      <view class="box_left">
+        <view class="box_left_top">
+
+        </view>
+        <view class="box_left_bottom">
+
+        </view>
+      </view>
+      <view class="box_right">
+        <text>
+        今年新生真的多呀！！服了gkygugyugyufgyuffuyfiyfuyfyfuygug
+        </text>
+        <text class="time">
+          2020-10-25 22:50
+        </text>
+      </view>
+    </view>
