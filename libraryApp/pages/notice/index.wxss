@@ -36,3 +36,27 @@
   align-items: center;
   margin-top: 50rpx;
 }
+.page{
+  display: flex;
+  margin: 10px 20px 10px 20px;
+}
+.page .content{
+  background-color: #fff;
+
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+}
+.page .title{
+  flex: 1;
+}
+.page .content{
+  flex: 10;
+}
+.page .title .yuan{
+  background-color: aqua;
+  width: 30px;
+  height: 10px;
+  padding: 5px;
+  border-radius: 50px;
+}

@@ -296,6 +296,11 @@
           "pathName": "pages/user/attendanceSituation/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
+          "scene": null
         }
       ]
     }

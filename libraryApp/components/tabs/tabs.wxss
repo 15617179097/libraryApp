@@ -1,6 +1,6 @@
 .tabs_warp .tabs_title_row {
   display: flex;
-  background-color: #bad9b6;
+  background-color: #3197D0;
 }
 .tabs_warp .tabs_title_row .tabs_title {
   margin: 0 20rpx;
@@ -14,5 +14,5 @@
 }
 .tabs_warp .tabs_title_row .active {
   color: #e9af59;
-  border-bottom: 4rpx #78be90 solid;
+  border-bottom: 4rpx #3197D0 solid;
 }

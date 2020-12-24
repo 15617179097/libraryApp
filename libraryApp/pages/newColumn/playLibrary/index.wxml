@@ -1,2 +1,12 @@
-<!--pages/newColumn/playLibrary/index.wxml-->
-<text>pages/newColumn/playLibrary/index.wxml</text>
+<image class="background" lazy-load="false"  />
+<tabs bindhandleTabs="handleTabs" tabs="{{tabs}}" >
+  <view class="appointment_warp" wx:if="{{tabs[0].isActive}}"> 
+ 
+      1
+  </view>
+  <view class="appointment_warp" wx:if="{{tabs[1].isActive}}"> 
+    2
+  </view>
+</tabs>
+
+  
