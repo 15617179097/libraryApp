@@ -16,13 +16,11 @@ App({
    
     
     if (loginStateUUID) {
-      console.log(loginStateUUID);
+  
       let info = wx.getStorageSync('info');
-
-      if(!info){
-        console.log(111);
-        logisns.getUserInfos(loginStateUUID)
-      }else{
+      logisns.getUserInfos(loginStateUUID);
+      info = wx.getStorageSync('info');
+      if(info){
         this.handleWebSocket()
       }
       
