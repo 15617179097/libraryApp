@@ -1,6 +1,12 @@
+.toppic{
+    width:376px;
+    height:200px;
+}
 .feedback_warp{
     padding: 50rpx;
-   
+    height:200px;
+    background:white;
+    margin:10px;
 }
 .feedback_warp .section__title{
     text-align: center;
@@ -25,7 +31,7 @@
     flex: 2;
 }
 .feedback_warp .fedback_content .fedback_classroom .picker{
-background-color: #e9e3e3;
+background-color: #e1edf9;
 padding: 17rpx;
 display: flex;
 justify-content: center;
@@ -34,7 +40,8 @@ border-radius: 5rpx;
 }
 .feedback_warp .fedback_content .fedback_seatsNum input{
     padding: 15rpx;
-    background-color: #e9e3e3;
+    background-color: #e1edf9;
+    text-align: center;
 }
 .feedback_warp .feedback_but{
     margin-top: 20rpx;
@@ -48,6 +55,8 @@ border-radius: 5rpx;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-top:20px;
+    background:#2F80ED;
  }
  .feedback_warp .feedback_text{
      padding: 20rpx;

@@ -79,10 +79,12 @@
   bottom:10px;
 }
 #txt2{
-  background:blue;
+  background:#2f80ed;
   height:70px;
   width:30px;
-  font-size:13px;
+  font-size:17px;
   color:white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-right:1px;
 }

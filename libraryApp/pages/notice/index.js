@@ -11,7 +11,8 @@ Page({
    */
   data: {
     //公告数组
-    notice:null
+    notice:null,
+    time:2020
   },
   queryParams: {
     pagenum: 1,

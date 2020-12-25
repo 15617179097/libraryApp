@@ -57,6 +57,13 @@ Page({
     wx.navigateTo({
       url: "../newColumn/playLibrary/index"
     })
+  },
+  pleaseWaite(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/pleaseWaite/index"
+    })
   }
 })
 

@@ -19,7 +19,7 @@ scroll-view .row .floor {
   border-radius: 10rpx;
 }
 scroll-view .row .active {
-  background-color: #bad9b6;
+  background-color: #9fc5f6;
   color: #fff;
 }
 .appointment_classroom_row {
