@@ -1,8 +1,8 @@
 .waiting{
   text-align: center;
-  margin-top: 200px;
+  margin-top: 170px;
 }
 .waiting image{
-  width: 200px;
-  height: 170px;
+  width: 250px;
+  height: 157px;
 }
