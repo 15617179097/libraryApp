@@ -150,11 +150,13 @@ export default {
   },
 
   //存取用户信息
-  async getUserInfos(loginStateUUID){
-    const res =await http.get("userInfo")
+   getUserInfos(loginStateUUID){
+      http.get("userInfo").then((res)=>{
+        if(res.code===401) return this.getCheckLogin();
+        wx.setStorageSync('info', res.data)
+      })
   
-    if(res.code===401) return this.getCheckLogin();
-    wx.setStorageSync('info', res.data)
+  
     // this.handleWebSocket()
   },
 
