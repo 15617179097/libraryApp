@@ -1,17 +1,16 @@
- <!-- <view class="notice_worp">
-  <view class="notice_item" wx:for="{{notice}}" wx:key="id" bindtap="handleNotice"  >
-    <view class="notice_tital">
-    {{item.title}}
+<view class="warp">
+  <view class="warp_title_row">
+    <view class="warp_title_active">
+      通知公告
     </view>
-   <rich-text class="rich-text" nodes="{{item.content}}"> 
-      
-    </rich-text>
-      
-    <view class="notice_time">{{item.time}}</view>
-    
+    <view class="warp_title">
+      资源动态
+    </view>
+    <view class="warp_title">
+      活动信息
+    </view>
   </view>
 </view>
-<view  class="notice_err" wx:if="{{!notice}}">当前无公告通知！</view>-->
 <view class="box">
       <view class="box_left">
         <view class="box_left_top">
@@ -21,7 +20,7 @@
 
         </view>
       </view>
-      <view class="box_right">
+      <view class="box_right" bindtap="text1">
         <text>
           呵呵
         </text>
@@ -39,7 +38,7 @@
 
         </view>
       </view>
-      <view class="box_right">
+      <view class="box_right" bindtap="text2">
         <text>
           哈哈
         </text>
@@ -57,7 +56,7 @@
 
         </view>
       </view>
-      <view class="box_right">
+      <view class="box_right" bindtap="text3">
         <text>
           嘻嘻
         </text>
@@ -75,7 +74,7 @@
 
         </view>
       </view>
-      <view class="box_right">
+      <view class="box_right" bindtap="text4">
         <text>
         今年新生真的多呀！！服了gkygugyugyufgyuffuyfiyfuyfyfuygug
         </text>

@@ -1,9 +1,5 @@
 // const baseUrl="https://wx.w.5ixf.vip/libraryApp/"
-<<<<<<< HEAD
-const wsBaseUrl="http://47.94.104.224:8001/"
-=======
 const wsBaseUrl="ws://47.94.104.224:8001/"
->>>>>>> 8999d8e9026ef48b01b2a58c8e9b11804ba513e2
  import login from './login.js'
 const baseUrl="http://47.94.104.224:8001/"
 

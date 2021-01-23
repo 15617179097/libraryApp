@@ -1,40 +1,12 @@
-// pages/newColumn/playLibrary/index.js
+// pages/noticetext/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tabs:[
-      {
-        id:0,
-        value:"初级装备",
-        isActive:true
-      },
-      {
-        id:1,
-        value:"进阶心法",
-        isActive:false
-      },
-      {
-        id:2,
-        value:"高阶神器",
-        isActive:false
-      }
-      
-    ],
-    activeState:0
+
   },
-    // 选择
-    handleTabs(e){
-      let {index}=e.detail
-      let {tabs} = this.data
-      tabs.forEach(v => v.id===index?v.isActive=true:v.isActive=false)
-      this.setData({
-        tabs, activeState: index
-      })
-      
-    },
 
   /**
    * 生命周期函数--监听页面加载

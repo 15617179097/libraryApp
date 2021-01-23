@@ -1,1 +1,14 @@
-/* pages/newColumn/playLibrary/index.wxss */
+.appointment_warp .line1{
+  width:332px;
+  margin-top:50px;
+  margin-left:20px;
+  border-bottom:1px solid #2f3030;
+  color:#2f3030;
+}
+.appointment_warp .line2{
+  width:332px;
+  margin-left:20px;
+  border-bottom:1px solid #2f3030;
+  margin-top:10px;
+  color:#2f3030;
+}

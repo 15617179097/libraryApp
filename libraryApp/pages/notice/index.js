@@ -95,5 +95,33 @@ Page({
       this.findNotice()
     }
 
+  },
+  text1() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../noticetext/text1/index"
+    })
+  },
+  text2() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../noticetext/text2/index"
+    })
+  },
+  text3() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../noticetext/text3/index"
+    })
+  },
+  text4() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../noticetext/text4/index"
+    })
   }
 })

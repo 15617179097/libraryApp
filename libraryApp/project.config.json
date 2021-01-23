@@ -312,6 +312,18 @@
         {
           "name": "pages/newColumn/pleaseWaite/index",
           "pathName": "pages/newColumn/pleaseWaite/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/index",
+          "pathName": "pages/newColumn/playLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
           "scene": null
         }
       ]

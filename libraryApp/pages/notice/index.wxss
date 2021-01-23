@@ -1,3 +1,31 @@
+.warp_title_row{
+  display: flex;
+  background-color: #9dc5f6;
+}
+.warp_title_active{
+  margin: 0 15rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+  color: white;
+  border-bottom: 4rpx white solid;
+}
+.warp_title{
+  margin: 0 15rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+  color: #2f80ed;
+}
+
 .notice_worp {
   margin: 40rpx;
 }
