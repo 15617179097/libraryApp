@@ -38,9 +38,18 @@ Page({
 
   //绑定学号
   handelmyInfo(){
-    wx.navigateTo({
-      url: '../user/myInfo/index'
-    });
+    let loginStateUUID = wx.getStorageSync('loginStateUUID');
+
+    if(loginStateUUID!=""){
+      wx.redirectTo({
+        url: '../user/myInfo/index',
+      })
+    }else{
+      wx.navigateTo({
+        url: '../authorize/index'
+      });
+    }
+    
       
   },
 

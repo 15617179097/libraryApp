@@ -52,7 +52,6 @@ Page({
               wx.showToast({title: '授权登陆失败',icon: 'none', duration: 2000 });
                return false;
              }
-             console.log(111);
              this.getUserInfos(loginStateUUID)
              wx.hideLoading({
                complete: (res) => {},
@@ -88,10 +87,11 @@ Page({
   //存取用户信息
   async getUserInfos(loginStateUUID){
       const res =await http.get("userInfo")
+
       console.log(res);
       if(res.code===401) return false;
       wx.setStorageSync('info', res.data)
-      login.handleWebSocket()
+      // login.handleWebSocket()
     },
 
   /**
@@ -105,7 +105,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**

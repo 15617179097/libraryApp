@@ -17,7 +17,7 @@
                                 <picker bindchange="bindPickerChange" value="{{index}}" 
                                 range="{{schoolCity}}">
                                   <view class="weui-cell__bd">
-                                       <input class="weui-input" name="schoolCity" style="padding: 10px;" value="{{schoolCity[index]}}" name="province" disabled placeholder="请选择省份"></input>
+                                       <input class="weui-input" name="schoolCity" style="padding: 10px;" value="{{schoolCity[index]}}"  disabled placeholder="请选择省份"></input>
                                   </view>    
                                 </picker>
                             </view>
@@ -39,7 +39,7 @@
                                 <label class="weui-label" style="width: 3em">学号</label>
                             </view>
                             <view class="weui-cell__bd">
-                                <input class="weui-input" style="padding: 10px;" type="number"name="studentId" placeholder="请输入号码" value="12345678907"></input>
+                                <input class="weui-input" style="padding: 10px;" type="number"name="studentId" placeholder="请输入学号" value=""></input>
                             </view>
                         </view>
                         <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">

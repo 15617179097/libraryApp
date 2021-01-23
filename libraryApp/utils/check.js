@@ -5,16 +5,16 @@ import message from './wxRequest.js'
     const info = wx.getStorageSync('info');
     const loginStateUUID = wx.getStorageSync('loginStateUUID');
     if (loginStateUUID.length<=0){
-      message.showToast("请先授权登陆");
+      // message.showToast("请先授权登陆");
       return false;
     }
     if (info === null){
-      message.showToast("请先绑定学号");
+      // message.showToast("请先绑定学号");
       return false;
     }
 
     if(info.studentId==null){
-      message.showToast("请先绑定学号");
+      // message.showToast("请先绑定学号");
       return false;
     }
     

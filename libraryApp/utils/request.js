@@ -1,7 +1,7 @@
 // const baseUrl="https://wx.w.5ixf.vip/libraryApp/"
-const wsBaseUrl="ws://localhost:8001/"
+const wsBaseUrl="ws://47.94.104.224:8001/"
  import login from './login.js'
-const baseUrl="http://192.168.1.105:8001/"
+const baseUrl="http://47.94.104.224:8001/"
 
  function request(u, data, method) {
     return new Promise((resolve, reject) => {

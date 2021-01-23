@@ -80,7 +80,7 @@ Page({
   //绑定学号
   async subInfo(e){
     let {studentId,schoolCity,schoolName}=e.detail.value;
-    console.log(schoolCity);
+    console.log(e.detail.value);
     if(schoolCity===""||typeof(schoolCity) == "undefined"){
       message.showToastNo('省份不能为空')
       return;
