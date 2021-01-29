@@ -324,6 +324,12 @@
         {
           "name": "pages/notice/index",
           "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/index",
+          "pathName": "pages/newColumn/playLibrary/index",
           "scene": null
         }
       ]

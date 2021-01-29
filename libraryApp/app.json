@@ -27,7 +27,12 @@
     "pages/noticetext/index",
     "pages/noticetext/text2/index",
     "pages/noticetext/text3/index",
-    "pages/noticetext/text4/index"
+    "pages/noticetext/text4/index",
+    "pages/newColumn/playLibrary/textpages/index",
+    "pages/newColumn/playLibrary/textpages/txt1/index",
+    "pages/newColumn/playLibrary/textpages/txt2/index",
+    "pages/newColumn/playLibrary/textpages/txt3/index",
+    "pages/newColumn/playLibrary/textpages/txt4/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

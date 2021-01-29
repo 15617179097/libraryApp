@@ -8,17 +8,17 @@ Page({
     tabs:[
       {
         id:0,
-        value:"初级装备",
+        value:"初来乍到",
         isActive:true
       },
       {
         id:1,
-        value:"进阶心法",
+        value:"跃跃欲试",
         isActive:false
       },
       {
         id:2,
-        value:"高阶神器",
+        value:"渐入佳境",
         isActive:false
       }
       
@@ -90,5 +90,33 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  txt1() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "./textpages/txt1/index"
+    })
+  },
+  txt1() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "./textpages/txt2/index"
+    })
+  },
+  txt3() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "./textpages/txt3/index"
+    })
+  },
+  txt4() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "./textpages/txt4/index"
+    })
   }
 })

@@ -1,46 +1,46 @@
 <image class="background" lazy-load="false"  />
 <tabs bindhandleTabs="handleTabs" tabs="{{tabs}}" >
   <view class="appointment_warp" wx:if="{{tabs[0].isActive}}"> 
-    <view class="line1">
-      <a href="#">玩转图书馆之总馆</a>
+    <view class="line1" bindtap="txt1">
+      玩转图书馆之总馆
     </view>
-    <view class="line2">
-      <a href="#">玩转图书馆之总馆</a>
+    <view class="line2" bindtap="txt2">
+      玩转图书馆之总馆
     </view>
-    <view class="line2">
-      <a href="#">玩转图书馆之总馆</a>
+    <view class="line2" bindtap="txt3">
+      玩转图书馆之总馆
     </view>
-    <view class="line2">
-      <a href="#">玩转图书馆之总馆</a>
+    <view class="line2" bindtap="txt4">
+      玩转图书馆之总馆
     </view>
     
   </view>
   <view class="appointment_warp" wx:if="{{tabs[1].isActive}}"> 
-    <view class="line1">
-      <a href="#">新生常见问题</a>
+    <view class="line1" bindtap="txt1">
+      新生常见问题
     </view>
-    <view class="line2">
-      <a href="#">新生常见问题</a>
+    <view class="line2" bindtap="txt2">
+      新生常见问题
     </view>
-    <view class="line2">
-      <a href="#">新生常见问题</a>
+    <view class="line2" bindtap="txt3">
+      新生常见问题
     </view>
-    <view class="line2">
-      <a href="#">新生常见问题</a>
+    <view class="line2" bindtap="txt4">
+      新生常见问题
     </view>
   </view>
   <view class="appointment_warp" wx:if="{{tabs[2].isActive}}"> 
-    <view class="line1">
-      <a href="#">带你了解数据库</a>
+    <view class="line1" bindtap="txt1">
+      带你了解数据库
     </view>
-    <view class="line2">
-      <a href="#">带你了解数据库</a>
+    <view class="line2" bindtap="txt2">
+      带你了解数据库
     </view>
-    <view class="line2">
-      <a href="#">带你了解数据库</a>
+    <view class="line2" bindtap="txt3">
+      带你了解数据库
     </view>
-    <view class="line2">
-      <a href="#">带你了解数据库</a>
+    <view class="line2" bindtap="txt4">
+      带你了解数据库
     </view>
   </view>
 </tabs>

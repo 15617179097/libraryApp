@@ -3,9 +3,9 @@
   background-color: #9dc5f6;
 }
 .tabs_warp .tabs_title_row .tabs_title {
-  margin: 0 20rpx;
-  font-size: 40rpx;
-  font-weight: 540;
+  margin: 0 15rpx;
+  font-size: 30rpx;
+  font-weight: 500;
   flex: 1;
   display: flex;
   justify-content: center;
