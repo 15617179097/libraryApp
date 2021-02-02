@@ -330,6 +330,24 @@
         {
           "name": "pages/newColumn/playLibrary/index",
           "pathName": "pages/newColumn/playLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
           "scene": null
         }
       ]

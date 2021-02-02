@@ -142,7 +142,7 @@ Page({
     this.setData({
       "multiIndex[0]": e.detail.value[0], "multiIndex[1]": e.detail.value[1]
     })
-  },   
+  },  
   onShareAppMessage: function () {
   }
 })
