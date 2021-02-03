@@ -4,42 +4,42 @@
     <view class="line1" bindtap="txt1">
       玩转图书馆之总馆
     </view>
-    <view class="line2" bindtap="txt2">
+    <view class="line2" bindtap="txt1">
       玩转图书馆之总馆
     </view>
-    <view class="line2" bindtap="txt3">
+    <view class="line2" bindtap="txt1">
       玩转图书馆之总馆
     </view>
-    <view class="line2" bindtap="txt4">
+    <view class="line2" bindtap="txt1">
       玩转图书馆之总馆
     </view>
     
   </view>
   <view class="appointment_warp" wx:if="{{tabs[1].isActive}}"> 
-    <view class="line1" bindtap="txt1">
+    <view class="line1" bindtap="txt2">
       新生常见问题
     </view>
     <view class="line2" bindtap="txt2">
       新生常见问题
     </view>
-    <view class="line2" bindtap="txt3">
+    <view class="line2" bindtap="txt2">
       新生常见问题
     </view>
-    <view class="line2" bindtap="txt4">
+    <view class="line2" bindtap="txt2">
       新生常见问题
     </view>
   </view>
   <view class="appointment_warp" wx:if="{{tabs[2].isActive}}"> 
-    <view class="line1" bindtap="txt1">
-      带你了解数据库
-    </view>
-    <view class="line2" bindtap="txt2">
+    <view class="line1" bindtap="txt3">
       带你了解数据库
     </view>
     <view class="line2" bindtap="txt3">
       带你了解数据库
     </view>
-    <view class="line2" bindtap="txt4">
+    <view class="line2" bindtap="txt3">
+      带你了解数据库
+    </view>
+    <view class="line2" bindtap="txt3">
       带你了解数据库
     </view>
   </view>
