@@ -360,6 +360,30 @@
         {
           "name": "pages/user/myCredit/index",
           "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt1/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt3/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt3/index",
           "scene": null
         }
       ]

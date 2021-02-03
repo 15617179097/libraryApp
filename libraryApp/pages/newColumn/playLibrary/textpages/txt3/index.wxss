@@ -1,1 +1,22 @@
-/* pages/newColumn/playLibrary/textpages/txt3/index.wxss */
+.warp .title{
+  font-size: 20px;
+  margin:10px;
+}
+.warp .SchoolName{
+  font-size: 14px;
+  margin:11px;
+  color:#5fa5fa;
+}
+.warp .time{
+  position: absolute;
+  top:53px;
+  left:170px;
+  font-size:14px;
+}
+.warp .text{
+  margin:40px 12px 0 12px;
+  background:white;
+  height:120%;
+  padding:14px;
+  color:#2f3030;
+}

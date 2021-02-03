@@ -102,6 +102,13 @@ Page({
     // const res = await checkInfos();
     // if(!res)  return;
     wx.navigateTo({
+      url: "./textpages/txt1/index"
+    })
+  },
+  txt2() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
       url: "./textpages/txt2/index"
     })
   },
@@ -110,13 +117,6 @@ Page({
     // if(!res)  return;
     wx.navigateTo({
       url: "./textpages/txt3/index"
-    })
-  },
-  txt4() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "./textpages/txt4/index"
     })
   }
 })
