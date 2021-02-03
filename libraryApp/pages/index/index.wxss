@@ -32,6 +32,7 @@
   width: 50px;
 }
 .modulat_tital{
+  height: 5vh;
   color: dimgray;
   font-size: 40rpx;
   margin-top: 60rpx;
@@ -54,18 +55,21 @@
   padding-bottom: 20rpx;
 }
 .index_warp .index_modular_all .modilar_content {
+  height: 20vh;
   margin:30rpx 10rpx 10rpx 10rpx;
   border-radius: 5px;
   background-color: #fff;
   flex: 40%;
-  box-sizing: border-box;
-  width: 40%;
-  padding: 30rpx 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 .index_warp .index_modular_all .modilar_content image {
  width: 128rpx;
  height: 128rpx;
+ margin-bottom: 10rpx;
 }
 .index_warp .index_modular_all .modilar_content .modilar_title {
   font-size: 30rpx;
