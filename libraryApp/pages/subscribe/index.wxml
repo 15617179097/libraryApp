@@ -7,7 +7,6 @@
     <view class="today_content">
       <view class="content_title tod_title">今天</view>
       <view class="_info">{{today}}（预约时间:00:00-20:00）</view>
-      <view class="img"><image src="../../image/yz.png" /></view>
       <button bindtap="todayBut"  type="" class="today_but">预约座位>></button>
 
     </view>
@@ -16,8 +15,7 @@
     <view class="today_content">
       <view class="content_title tmw_title">明天</view>
       <view class="_info">{{tomorrow}}（预约时间:00:00-20:00）</view>
-      <view class="img"><image src="../../image/yz.png" /></view>
-      <button bindtap="tomorrowBut" type="" class="tomorrow_but">预约座位>></button>
+      <button bindtap="tomorrowBut" type="" class="tomorrow_but">预约座位>></button>  
     </view>
   </view>
       

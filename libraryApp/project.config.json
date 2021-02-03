@@ -348,6 +348,18 @@
         {
           "name": "pages/newColumn/playLibrary/textpages/txt2/index",
           "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
           "scene": null
         }
       ]
