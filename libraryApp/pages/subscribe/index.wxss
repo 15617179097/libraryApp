@@ -1,14 +1,19 @@
 .subscribe_warp .header_title {
-  margin: 20rpx;
+  margin: 10rpx;
   text-align: center;
   border-radius: 10rpx;
   padding: 10rpx;
   color: #fff;
   background-color: #8ebcf3;
+  font-size: 14px;
 }
 .subscribe_warp .subscribe_today {
-  padding: 50rpx;
-  border: 10rpx solid #f5f1f1;
+  padding-left: 50rpx;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  border-top: 10rpx solid #f5f1f1;
+  border-left: 10rpx solid #f5f1f1;
+  border-right: 10rpx solid #f5f1f1;
   background-color: #fff;
 }
 .subscribe_warp .subscribe_today .today_content .content_title {
@@ -22,14 +27,13 @@
   color: #8ebcf3;
 }
 .subscribe_warp .today_content ._info{
-  margin-top:10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color:#6c6d6d;
 }
 .subscribe_warp .subscribe_today .today_content .today_but,
 .subscribe_warp .subscribe_today .today_content .tomorrow_but {
   color: #fff;
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   border-radius: 20rpx;
 }
 .subscribe_warp .subscribe_today .today_content .today_but {
@@ -37,4 +41,11 @@
 }
 .subscribe_warp .subscribe_today .today_content .tomorrow_but {
   background-color: #8ebcf3;
+}
+.subscribe_today .today_content .chairpic{
+  text-align: center;
+}
+.subscribe_today .today_content .chair{
+  width:110px;
+  height:105px; 
 }

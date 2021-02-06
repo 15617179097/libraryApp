@@ -13,7 +13,7 @@
         <progress percent="{{creditScore}}" stroke-width="5" activeColor="white" backgroundColor="opacity"/>
     </view>
     <view class="onclick">
-        <view class="onclick1" bindtap="">
+        <view class="onclick1" bindtap="notes">
             <a>            
                 我的记录
             </a>
@@ -21,7 +21,7 @@
                 ({{subscribeSuccessCount}})
             </a>
         </view>
-        <view class="onclick2" bindtap="">
+        <view class="onclick2" bindtap="notes">
             <a>
                 我的违约
             </a>

@@ -1,5 +1,6 @@
-<image class="cirle" src="../../../image/cirle.png"></image>
-<image class="headpic" src="../../../image/aaa.png"></image>
+<view class="cirlepic">
+  <image class="cirle" src="../../../image/cirle1.jpg"></image>
+</view>
 <image class="background" lazy-load="false" />
 <view class="mySubscribe_warp">
   <view class="index_subscribe" wx:if="{{subscribe!=null}}">
