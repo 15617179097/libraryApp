@@ -384,6 +384,24 @@
         {
           "name": "pages/newColumn/playLibrary/textpages/txt3/index",
           "pathName": "pages/newColumn/playLibrary/textpages/txt3/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
           "scene": null
         }
       ]

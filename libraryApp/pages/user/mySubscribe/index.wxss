@@ -1,13 +1,9 @@
+.cirlepic{
+  text-align: center;
+}
 .cirle{
   width: 376px;
-  height: 200px;
-}
-.headpic{
-  width:100px;
-  height:100px;
-  position: absolute;
-  top:49px;
-  left:139px;
+  height: 200px; 
 }
 .mySubscribe_warp {
   padding: 10rpx;

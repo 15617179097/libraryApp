@@ -12,4 +12,13 @@
     <view>（1）数据库是一个实体，它是能够合理保管数据的“仓库”，用户在该“仓库”中存放要管理的事务数据，“数据”和“库”两个概念结合成为数据库。</view>
     <view>（2）数据库是数据管理的新方法和技术，它能更合适的组织数据、更方便的维护数据、更严密的控制数据和更有效的利用数据。</view>
   </view>
+  <view class="line">
+  
+  </view>
+  <view class="siaslogo">
+    <image src="../../../../../image/siaslogo.png" class="logo"></image>
+  </view>
+  <view class="e-mail">
+    投稿邮箱：********@qq.com
+  </view>
 </view>
