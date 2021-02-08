@@ -1,2 +1,49 @@
-<!--pages/noticetext/text2/index.wxml-->
-<text>一大段文字</text>
+<view class="warp">
+  <view class="title">
+    《请回答1988》同款考研自习室，开放申请了！
+  </view>
+  <view class="tip">
+    <view class="SchoolName">
+      西亚斯图书馆
+    </view>
+    <view class="time">2020-11-23</view>
+  </view> 
+  <view class="lirarypic">
+    <image src="../../../image/lirarypic.jpg" class="lirary"></image>
+  </view>
+  <view class="text">
+    <view>
+      理事长和校领导对考研工作高度重视，对考研学子深切关怀，为贯彻落实学校“精准分类、个性服务”的人才培养计划，专门创立考研专区，为立志考研学生提供更好的学习环境和氛围，提供更多的资源支持和帮助，环境氛围统统满分。
+    </view>
+    <view>
+      自习室位于图书馆十三层，走进来的时候有种走入电视剧剧情的感觉，每个都独立隔开，桌面有专属的光源，旁边还有可以给手机电脑充电的电源。
+    </view>
+    <view>
+      学习区：单人单桌，配备护眼灯、专用插座，满足学生专注学习的需求；
+    </view>
+    <view>
+      休闲区：提供微波炉、冰箱、自助饮水设备、休闲桌椅，满足学生饮食和放松身心需求；
+    </view>
+    <view>
+      自助服务区：配备自助打印设备、自助售货设备，满足学生个性服务需求；
+    </view>
+    <view>
+      咨询研讨区：配备学习桌椅，为学生提供考研专业咨询，供学生进行小规模研讨，满足学生对考研深入了解的需求。
+    </view>
+    <view>
+      开放时间与图书馆开放时间相同
+    </view>
+    <view>
+      每天7：30-22:00。
+    </view>
+  </view>
+  <view class="line">
+  
+</view>
+<view class="siaslogo">
+  <image src="../../../image/siaslogo.png" class="logo"></image>
+</view>
+<view class="e-mail">
+  投稿邮箱：********@qq.com
+</view>
+</view>

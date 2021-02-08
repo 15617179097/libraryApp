@@ -22,10 +22,10 @@
       </view>
       <view class="box_right" bindtap="text1">
         <text>
-          呵呵
+          关于寒假期间校园安全管理和疫情防控工作的通知
         </text>
         <text class="time">
-          2020
+          2020-01-15 21:08
         </text>
       </view>
     </view>
@@ -40,10 +40,10 @@
       </view>
       <view class="box_right" bindtap="text2">
         <text>
-          哈哈
+          《请回答1988》同款考研自习室，开放申请了！
         </text>
         <text class="time">
-          2020
+          2020-11-23 17：31
         </text>
       </view>
     </view>
@@ -58,10 +58,10 @@
       </view>
       <view class="box_right" bindtap="text3">
         <text>
-          嘻嘻
+          2020年全国大学生英语竞赛开始报名啦！
         </text>
         <text class="time">
-         2020
+         2020-09-08 19：33
         </text>
       </view>
     </view>
@@ -76,10 +76,10 @@
       </view>
       <view class="box_right" bindtap="text4">
         <text>
-        今年新生真的多呀！！服了gkygugyugyufgyuffuyfiyfuyfyfuygug
+        关于2020届本科毕业论文（设计）答辩要求
         </text>
         <text class="time">
-          2020-10-25 22:50
+          2020-05-27 22:50
         </text>
       </view>
     </view>
