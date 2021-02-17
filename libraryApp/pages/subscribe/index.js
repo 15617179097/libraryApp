@@ -21,9 +21,22 @@ Page({
   onLoad: function (options) {
     
   },
+  checkScore(){
+    let {creditScore}=this.data
+    if(creditScore<=80){
+      message.showModalNo("信誉值不足");
+      return false;
+    }else{
+      return true;
+    }
+  }
+  ,
   todayBut(){
     const res = checkInfos()
+    console.log(res);
     if(!res) return;
+    const score=this.checkScore()
+    if(!score) return;
     let time = new Date().getHours();
     if(time>=this.endTime) return message.showToastNo("预约时间:00:00-20:00")
     
@@ -34,6 +47,8 @@ Page({
   tomorrowBut(){
     const res = checkInfos()
     if (!res) return;
+    const score=this.checkScore()
+    if(!score) return;
     wx.navigateTo({
       url: './appointment/index?state=1'
     });
