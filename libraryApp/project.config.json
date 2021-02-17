@@ -402,6 +402,48 @@
         {
           "name": "pages/subscribe/index",
           "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/aboutLibrary/index",
+          "pathName": "pages/newColumn/aboutLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/curatorMessage/index",
+          "pathName": "pages/newColumn/curatorMessage/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noticetext/text2/index",
+          "pathName": "pages/noticetext/text2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noticetext/text3/index",
+          "pathName": "pages/noticetext/text3/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noticetext/text4/index",
+          "pathName": "pages/noticetext/text4/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
           "scene": null
         }
       ]

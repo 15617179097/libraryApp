@@ -1,1 +1,24 @@
-/* pages/newColumn/curatorMessage/index.wxss */
+.logo{
+  filter: alpha(opacity=30);
+  -moz-opacity:0.3;
+  opacity: 0.3;
+  text-align: center;
+  margin-top:150px;
+}
+.siaslogo{
+  width:150px;
+  height:140px;
+  z-index: 0.1;
+}
+.aboutLirary_tip{
+  position: absolute;
+  top:10px;
+  left:20px;
+}
+.aboutLirary_text{
+  padding:25px;
+  font-size: 14px;
+  position: absolute;
+  top:30px;
+  color:#333333;
+}
