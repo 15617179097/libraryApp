@@ -29,13 +29,13 @@ Page({
 
   async findNotice(){
     let {schoolId} = wx.getStorageSync('info')
-    const res = await http.get("notice/"+schoolId,this.queryParams)
+    const res = await http.get("notice/"+schoolId+"/0",this.queryParams)
     if(res.code!=200) return;
 
     let notice = res.data.notice
-    notice.forEach(v => {
-    v.content = v.content.split("<img").join('<img style="max-width:100%;height:auto"')
-    });
+    // notice.forEach(v => {
+    // v.content = v.content.split("<img").join('<img style="max-width:100%;height:auto"')
+    // });
     
     
     this.pageTotal = res.data.total
@@ -96,32 +96,11 @@ Page({
     }
 
   },
-  text1() {
+  clickText(e){
     // const res = await checkInfos();
     // if(!res)  return;
     wx.navigateTo({
-      url: "../noticetext/text1/index"
-    })
-  },
-  text2() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "../noticetext/text2/index"
-    })
-  },
-  text3() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "../noticetext/text3/index"
-    })
-  },
-  text4() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "../noticetext/text4/index"
+      url: "./text/index?id="+e.currentTarget.dataset.id
     })
   }
 })

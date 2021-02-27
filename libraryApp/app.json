@@ -6,6 +6,7 @@
     "pages/subscribe/index",
     "pages/user/index",
     "pages/notice/index",
+    "pages/notice/text/index",
     "pages/login/index",
     "pages/subscribe/appointment/index",
     "pages/rule/index",
@@ -21,17 +22,12 @@
     "pages/user/myCredit/index",
     "pages/newColumn/aboutLibrary/index",
     "pages/newColumn/playLibrary/index",
+    "pages/newColumn/playLibrary/txt/index",
     "pages/newColumn/curatorMessage/index",
     "pages/user/attendanceSituation/index",
-    "pages/newColumn/pleaseWaite/index",
-    "pages/noticetext/index",
-    "pages/noticetext/text2/index",
-    "pages/noticetext/text3/index",
-    "pages/noticetext/text4/index",
-    "pages/newColumn/playLibrary/textpages/index",
-    "pages/newColumn/playLibrary/textpages/txt1/index",
-    "pages/newColumn/playLibrary/textpages/txt2/index",
-    "pages/newColumn/playLibrary/textpages/txt3/index"
+    "pages/newColumn/pleaseWaite/index"
+   
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,18 +1,28 @@
-// pages/noticetext/text1/index.js
+import http from '../../../../utils/request.js'
+// es7 简化promise
+import regeneratorRuntime from "../../../../utils/runtime.js"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    nodes: null,
+    dateTime:"2020-01-15"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  async onLoad(options) {
+    console.log(options.id);
+   let res= await http.get("notice/"+options.id)
+   let dateTime=res.data.time
+   let nodes=res.data.content.split("<p").join('<p style="text-indent:2em;"')
+   nodes=nodes.split('<p style="text-indent:2em;"><img').join('<p><img style="max-width:100%;height:auto"')
+   this.setData({
+    nodes,dateTime
+   })
   },
 
   /**

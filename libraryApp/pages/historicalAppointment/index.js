@@ -57,7 +57,6 @@ Page({
   //获取所有记录
   async getMyhistoricalAppointment(){
     let result= await http.get("findMyAllSubscribe",  this.queryParamsAll)
-    console.log(result);
     
     if(result.code!==200) return;
     let allInfo = result.data.allSubscribe;
@@ -76,7 +75,6 @@ Page({
   //获取违约记录
   async getUserRecord(){
     const res = await http.get("userRecord", this.queryParams)
-    console.log(res);
     
     if (res.code !== 200) return;
     this.pageTotal = res.data.total
