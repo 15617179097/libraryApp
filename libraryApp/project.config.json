@@ -444,6 +444,12 @@
         {
           "name": "pages/subscribe/index",
           "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
           "scene": null
         }
       ]
