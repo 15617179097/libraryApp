@@ -6,9 +6,12 @@
     <view class="SchoolName">
       郑州西亚斯学院图书馆
     </view>
-    <view class="time">2020-01-15</view>
+    <view class="time">{{dateTime}}</view>
   </view> 
-  <view class="text">
+  <view style="    padding: 20px;">
+    <rich-text nodes="{{nodes}}" space="emsp"></rich-text>
+  </view>
+  <!-- <view class="text">
     <view>
       根据学校寒假放假时间安排，为加强寒假期间校园安全管理和常态化疫情防控工作，确保校园安全稳定和师生人身、财产安全，防止各类事故、案件发生，根据上级要求和学校实际，现将寒假期间校园安全管理和疫情防控工作通知如下：
     </view>
@@ -30,7 +33,7 @@
     <view>
       5、各单位离校前要妥善保管好办公设备、机要文件、印签等贵重物品，现金存放要严格按照学校财务制度办理；提醒师生寒假期间妥善保管好个人财产、物品，携带个人物品离校要严格执行学校管理规定，须持单位开具的出门条经校警查验留存后方可带离学校，校属资产严禁个人以任何名义带离学校；
     </view>
-  </view>
+  </view> -->
   <view class="line">
   
 </view>

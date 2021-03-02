@@ -4,82 +4,28 @@
       通知公告
     </view>
     <view class="warp_title">
-      资源动态
+      
     </view>
     <view class="warp_title">
-      活动信息
+      
     </view>
   </view>
 </view>
-<view class="box">
+
+    <view class="box" wx:for="{{notice}}" wx:key="id">
       <view class="box_left">
         <view class="box_left_top">
-
         </view>
         <view class="box_left_bottom">
-
         </view>
       </view>
-      <view class="box_right" bindtap="text1">
+      <view class="box_right" bindtap="clickText" data-id="{{item.id}}">
         <text>
-          关于寒假期间校园安全管理和疫情防控工作的通知
+          {{item.title}}
         </text>
         <text class="time">
-          2020-01-15 21:08
+          {{item.time}}
         </text>
       </view>
     </view>
-    <view class="box">
-      <view class="box_left">
-        <view class="box_left_top">
-
-        </view>
-        <view class="box_left_bottom">
-
-        </view>
-      </view>
-      <view class="box_right" bindtap="text2">
-        <text>
-          《请回答1988》同款考研自习室，开放申请了！
-        </text>
-        <text class="time">
-          2020-11-23 17：31
-        </text>
-      </view>
-    </view>
-    <view class="box">
-      <view class="box_left">
-        <view class="box_left_top">
-
-        </view>
-        <view class="box_left_bottom">
-
-        </view>
-      </view>
-      <view class="box_right" bindtap="text3">
-        <text>
-          2020年全国大学生英语竞赛开始报名啦！
-        </text>
-        <text class="time">
-         2020-09-08 19：33
-        </text>
-      </view>
-    </view>
-    <view class="box">
-      <view class="box_left">
-        <view class="box_left_top">
-
-        </view>
-        <view class="box_left_bottom">
-
-        </view>
-      </view>
-      <view class="box_right" bindtap="text4">
-        <text>
-        关于2020届本科毕业论文（设计）答辩要求
-        </text>
-        <text class="time">
-          2020-05-27 22:50
-        </text>
-      </view>
-    </view>
+    

@@ -15,6 +15,7 @@
   border-left: 10rpx solid #f5f1f1;
   border-right: 10rpx solid #f5f1f1;
   background-color: #fff;
+  height: 43vh;
 }
 .subscribe_warp .subscribe_today .today_content .content_title {
   font-size: 40rpx;

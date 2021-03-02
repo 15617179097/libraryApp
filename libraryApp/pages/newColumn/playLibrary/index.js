@@ -1,4 +1,9 @@
-// pages/newColumn/playLibrary/index.js
+import http from '../../../utils/request.js'
+// es7 简化promise
+import regeneratorRuntime from "../../../utils/runtime.js"
+// //检验
+// import {checkInfos} from "../../utils/check.js"
+// import message from '../../utils/wxRequest.js'
 Page({
 
   /**
@@ -23,100 +28,91 @@ Page({
       }
       
     ],
-    activeState:0
-  },
+    activeState:0,
+    //数组
+    notice3:null,
+    notice4:null,
+    notice5:null,
+    time:2020
+    },
+    queryParams: {
+    pagenum: 1,
+    pagesize: 10
+    },
+    pageTotal:1,
+    state:3,
     // 选择
     handleTabs(e){
       let {index}=e.detail
       let {tabs} = this.data
       tabs.forEach(v => v.id===index?v.isActive=true:v.isActive=false)
+      console.log(index);
       this.setData({
         tabs, activeState: index
       })
-      
+
+       this.findNotice(index)
     },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+    onLoad: function (options) {
+      let {activeState}=this.data
+      this.findNotice(activeState)
+    },
+  
+    async findNotice(state){
+      state=state+3
+      let {schoolId} = wx.getStorageSync('info')
+      const res = await http.get("notice/"+schoolId+"/"+state,this.queryParams)
+      if(res.code!=200) return;
+  
+      let notice = res.data.notice
+      console.log(notice);
+      // notice.forEach(v => {
+      // v.content = v.content.split("<img").join('<img style="max-width:100%;height:auto"')
+      // });
+      
+      
+      this.pageTotal = res.data.total
+      this.setData({
+        notice3:notice
+      })
+    },
 
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
+ /**
+    * 页面相关事件处理函数--监听用户下拉动作
+    */
+   onPullDownRefresh: function () {
+    this.setData({
+      notice: []
+    })
+    this.queryParams.pagenum = 1;
+    this.findNotice()
+    wx.stopPullDownRefresh()
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
+    if (this.queryParams.pagenum >= this.pageTotal) {
+      wx.showToast({ title: '没有下一页了' });
+
+    } else {
+      this.queryParams.pagenum++
+      this.findNotice()
+    }
 
   },
 
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
 
-  },
-  txt1() {
+
+  clickText(e) {
+    console.log(e);
+    console.log(e.currentTarget.dataset.id);
     // const res = await checkInfos();
     // if(!res)  return;
     wx.navigateTo({
-      url: "./textpages/txt1/index"
-    })
-  },
-  txt1() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "./textpages/txt1/index"
-    })
-  },
-  txt2() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "./textpages/txt2/index"
-    })
-  },
-  txt3() {
-    // const res = await checkInfos();
-    // if(!res)  return;
-    wx.navigateTo({
-      url: "./textpages/txt3/index"
+      url: "./txt/index?id="+e.currentTarget.dataset.id
     })
   }
 })
