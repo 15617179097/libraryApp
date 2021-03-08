@@ -444,6 +444,24 @@
         {
           "name": "pages/subscribe/index",
           "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/feedback/index",
+          "pathName": "pages/feedback/index",
           "scene": null
         }
       ]
