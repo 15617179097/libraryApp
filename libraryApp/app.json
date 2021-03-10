@@ -25,8 +25,11 @@
     "pages/newColumn/playLibrary/txt/index",
     "pages/newColumn/curatorMessage/index",
     "pages/user/attendanceSituation/index",
-    "pages/newColumn/pleaseWaite/index"
-   
+    "pages/newColumn/pleaseWaite/index",
+    "pages/newColumn/EnglishNews/index",
+    "pages/newColumn/CollegeDaily/index",
+    "pages/newColumn/SiasCollege/index",
+    "pages/newColumn/SiasOffice/index"
     
   ],
   "window": {

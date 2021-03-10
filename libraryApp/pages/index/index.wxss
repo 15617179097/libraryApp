@@ -1,10 +1,10 @@
 .index_warp {
-  padding: 5px;
+  padding: 5rpx;
   height: 100%;
 }
 
 .top_banner .img{
-  border-radius: 10px;
+  border-radius: 15rpx;
   width: 100%;
 }
 
@@ -12,7 +12,7 @@
   height: 50vw;
 }
 .index_warp .top_banner swiper image {
-  border-radius: 5px;
+  border-radius: 8rpx;
   height: 100%;
   width: 100%;
 }
@@ -27,9 +27,9 @@
   height: 10vw;
 }
 .index_warp .content_banner swiper image {
-  border-radius: 10px;
-  height:50px;
-  width: 50px;
+  border-radius: 10rpx;
+  height:52rpx;
+  width: 52rpx;
 }
 .modulat_tital{
   height: 5vh;
@@ -57,7 +57,7 @@
 .index_warp .index_modular_all .modilar_content {
   height: 20vh;
   margin:30rpx 10rpx 10rpx 10rpx;
-  border-radius: 5px;
+  border-radius: 5rpx;
   background-color: #fff;
   flex: 40%;
   display: flex;

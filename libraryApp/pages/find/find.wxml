@@ -37,27 +37,51 @@
       </view>
     </view>
   </view>
-  <view class="page_td">
-    <view class="title1">
-      <text class="chinese1">教学培训</text>
-      <text class="english1">Teaching training</text>
+  <view class="page_bd">
+    <view class="title">
+      <text class="chinese">教学培训</text>
+      <text class="english">Teaching training</text>
     </view>
     <view class="body">
-      <view class="img1" bindtap="aboutLibrary">
-        <image src="../../image/newColumn/schedule.png" class="pic1"></image>
+      <view class="img" bindtap="aboutLibrary">
+        <image src="../../image/newColumn/schedule.png" class="pic"></image>
         <text>培训日程</text>
       </view>
-      <view class="img1" bindtap="playLibrary">
-        <image src="../../image/newColumn/period.png" class="pic1"></image>
+      <view class="img" bindtap="playLibrary">
+        <image src="../../image/newColumn/period.png" class="pic"></image>
         <text>往期培训</text>
       </view>
-      <view class="img1" bindtap="curatorMessage">
-        <image src="../../image/newColumn/video.png" id="pic2"></image>
+      <view class="img" bindtap="curatorMessage">
+        <image src="../../image/newColumn/video.png" class="pic"></image>
         <text>教学课程</text>
       </view>
-      <view class="img1" bindtap="pleaseWaite">
-        <image src="../../image/newColumn/strategy.png" class="pic1"></image>
+      <view class="img" bindtap="pleaseWaite">
+        <image src="../../image/newColumn/strategy.png" class="pic"></image>
         <text>使用攻略</text>
+      </view>
+    </view>
+  </view> 
+  <view class="page_bd">
+    <view class="title">
+      <text class="chinese">微信公众号</text>
+      <text class="english">WeChat Official Account</text>
+    </view>
+    <view class="body">
+      <view class="img" bindtap="EnglishNews">
+        <image src="../../image/newColumn/news.png" class="pic"></image>
+        <text>English News</text>
+      </view>
+      <view class="img" bindtap="CollegeDaily">
+        <image src="../../image/newColumn/college.png" class="pic"></image>
+        <text>河南高校日报</text>
+      </view>
+      <view class="img" bindtap="SiasCollege">
+        <image src="../../image/newColumn/sias.png" class="pic"></image>
+        <text>郑州西亚斯学院</text>
+      </view>
+      <view class="img" bindtap="SiasOffice">
+        <image src="../../image/newColumn/siasoffice.png" class="pic"></image>
+        <text>西亚斯教务处</text>
       </view>
     </view>
   </view> 

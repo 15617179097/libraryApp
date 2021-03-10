@@ -1,8 +1,8 @@
 
-.page__hd image{height:100px;height: 100px;border-radius: 50px;}
+.page__hd image{height:130rpx;height:190rpx;border-radius: 120rpx;}
 .page__hd .weui-cells{
   margin: 0;
 }
 .weui-cell{
-  padding: 21px;
+  padding: 42rpx;
 }

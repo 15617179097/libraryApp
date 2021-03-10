@@ -5,7 +5,7 @@
     <view class="attendance">
       学生考勤情况
     </view>
-    <view class="check">
+    <view class="check" bindtap="">
       查看出勤详情
     </view>
   </view>

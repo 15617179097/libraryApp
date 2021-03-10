@@ -1,19 +1,19 @@
 .myInfo_warp {
   text-align: center;
   margin:auto;
-  margin-top:40px;
-  padding-top:10px;
-  width:340px;
-  height:140px;
+  margin-top:40rpx;
+  padding-top:10rpx;
+  width:90%;
+  height:280rpx;
   border:none;
 }
 .myInfo_warp .myInfo_top{
-  margin-top:20px;
+  margin-top:90rpx;
 }
 .myInfo_warp .myInfo_top .myInfo_title {
   font-size: 40rpx;
   font-weight: 600;
-  margin-bottom:10px;
+  margin-bottom:10rpx;
   color:#353636;
 }
 .myInfo_warp .myInfo_content {
@@ -21,17 +21,17 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom:20px;
+  margin-bottom:20rpx;
   color:#353636;
 }
 .myInfo_warp .onclick{
-  width:340px;
-  height:50px;
+  width:340rpx;
+  height:50rpx;
   background: white;
-  margin-top:30px;
-  border-radius: 10px;
-  margin-top:40px;
-  padding-top:10px;
+  margin-top:30rpx;
+  border-radius: 10rpx;
+  margin-top:40rpx;
+  padding-top:50rpx;
 }
 
 .myInfo_warp .onclick1,.myInfo_warp .onclick2{
@@ -39,21 +39,21 @@
 }
 .myInfo_warp .onclick1{
   position: absolute;
-  left:30px;
-  width:155px;
-  height:40px;
-  border-right:1px solid #c6cacc;
+  left:50rpx;
+  width:155rpx;
+  height:40rpx;
+  border-right:1rpx solid #c6cacc;
 }
 .myInfo_warp .onclick1 .number,.myInfo_warp .onclick2 .number1{
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  font-size:12px;
+  font-size:24rpx;
   color: #6bc6f4;
 }
 
 .myInfo_warp .onclick2{
   position: absolute;
-  right:70px;
+  right:70rpx;
 }
 
