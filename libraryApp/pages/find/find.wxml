@@ -68,19 +68,19 @@
     </view>
     <view class="body">
       <view class="img" bindtap="EnglishNews">
-        <image src="../../image/newColumn/news.png" class="pic"></image>
+        <image src="../../image/newColumn/new.jpg" class="pic"></image>
         <text>English News</text>
       </view>
       <view class="img" bindtap="CollegeDaily">
-        <image src="../../image/newColumn/college.png" class="pic"></image>
+        <image src="../../image/newColumn/henan.jpg" class="pic"></image>
         <text>河南高校日报</text>
       </view>
       <view class="img" bindtap="SiasCollege">
-        <image src="../../image/newColumn/sias.png" class="pic"></image>
+        <image src="../../image/newColumn/sias.jpg" class="pic"></image>
         <text>郑州西亚斯学院</text>
       </view>
       <view class="img" bindtap="SiasOffice">
-        <image src="../../image/newColumn/siasoffice.png" class="pic"></image>
+        <image src="../../image/newColumn/siasoffice.jpg" class="pic"></image>
         <text>西亚斯教务处</text>
       </view>
     </view>

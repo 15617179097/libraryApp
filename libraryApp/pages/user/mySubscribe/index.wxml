@@ -1,5 +1,5 @@
 <view class="cirlepic">
-  <image class="cirle" src="../../../image/cirle1.jpg"></image>
+  <image class="cirle" src="../../../image/computer.jpg"></image>
 </view>
 <image class="background" lazy-load="false" />
 <view class="mySubscribe_warp">

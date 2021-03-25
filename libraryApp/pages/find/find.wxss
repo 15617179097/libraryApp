@@ -45,6 +45,7 @@
   width: 100rpx;
   height: 100rpx;
   margin-bottom: 10rpx;
+  border-radius:60rpx;
 }
 .page .page_bd .img text{
   font-size:22rpx;

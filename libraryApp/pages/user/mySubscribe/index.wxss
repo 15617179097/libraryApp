@@ -10,7 +10,9 @@
 }
 .mySubscribe_warp .index_subscribe {
   padding: 20rpx;
+  font-size: 35rpx;
 }
+
 .mySubscribe_warp .index_subscribe .subscribe_title {
   text-align: center;
   background-color: white;
@@ -49,13 +51,13 @@
   justify-content: space-between;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_pool_controllor {
-  padding: 10rpx;
+  padding: 15rpx;
   background-color: #fd7d7d;
   text-align: center;
-  width: 100rpx;
+  width: 200rpx;
   color: #fff;
   border-radius: 15rpx;
-  margin-top:10rpx;
+  margin-top:20rpx;
 }
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_state {
   color: #fff;
@@ -64,10 +66,10 @@
 .mySubscribe_warp .index_subscribe .subscribe_content .content_right .content_state .content_pool {
   background-color: #9cc1ed;
   text-align: center;
-  padding: 10rpx;
+  padding: 15rpx;
   border-radius: 15rpx;
-  width: 100rpx;
-  margin-top: 10rpx;
+  width: 200rpx;
+  margin-top: 20rpx;
 }
 #txt1{
   bottom:10rpx;
@@ -75,9 +77,9 @@
 }
 #txt2{
   background:#62a1f3;
-  height:40rpx;
+  height:80rpx;
   width:270rpx;
-  font-size:17rpx;
+  font-size:35rpx;
   color:white;
-
+ border-radius: 20rpx;
 }

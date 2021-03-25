@@ -1,1 +1,31 @@
-
+<view id="time">
+  <span>
+    周三 晚上 10：38
+  </span>
+</view>
+<view class="page">
+  
+  <view class="content">
+    <view class="new-hot">
+      <image src="../../../image/new.1.jpg" class="new-pic1"></image>
+    </view>
+    <view class="new1">
+      <text>
+        Boulder shooting:Ten victims and suspect identified by police
+      </text>
+      <image src="../../../image/new.2.jpg" class="new-pic2"></image>
+    </view>
+    <view class="new2">
+      <text>
+        'Greed' and 'capitalism' helped UK's vaccines success,says PM;
+      </text>
+      <image src="../../../image/new.3.jpg" class="new-pic3"></image>
+    </view>
+    <view class="new3">
+      <text class="one-line">
+        [20210324] 3 minutes news
+      </text>
+      <image src="../../../image/new.4.jpg" class="new-pic4"></image>
+    </view>
+  </view>
+</view>

@@ -1,11 +1,10 @@
-<image class="cirle" src="../../../image/cirle.png"></image>
-<image class="headpic" src="../../../image/aaa.png"></image>
+<image class="cirle" src="../../../image/computer.jpg"></image>
 <view class="box1">
   <view class="title">
     <view class="attendance">
       学生考勤情况
     </view>
-    <view class="check" bindtap="">
+    <view class="check" bindtap="clocking">
       查看出勤详情
     </view>
   </view>

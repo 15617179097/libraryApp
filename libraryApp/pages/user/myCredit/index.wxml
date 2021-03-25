@@ -10,7 +10,7 @@
     {{creditScore}}
     </view>
     <view class="progress-box" style="width:300px; margin:auto;">
-        <progress percent="{{creditScore}}" stroke-width="5" activeColor="white" backgroundColor="opacity"/>
+        <progress percent="{{creditScore}}" stroke-width="5" activeColor="#78ac97" backgroundColor="opacity"/>
     </view>
     <view class="onclick">
         <view class="onclick1" bindtap="notes">

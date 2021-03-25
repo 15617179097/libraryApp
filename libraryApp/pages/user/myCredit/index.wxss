@@ -25,12 +25,12 @@
   color:#353636;
 }
 .myInfo_warp .onclick{
-  width:340rpx;
-  height:50rpx;
+  width:680rpx;
+  height:100rpx;
   background: white;
-  margin-top:30rpx;
-  border-radius: 10rpx;
-  margin-top:40rpx;
+  margin-top:60rpx;
+  border-radius: 20rpx;
+  margin-top:80rpx;
   padding-top:50rpx;
 }
 
@@ -39,8 +39,8 @@
 }
 .myInfo_warp .onclick1{
   position: absolute;
-  left:50rpx;
-  width:155rpx;
+  left:80rpx;
+  width:300rpx;
   height:40rpx;
   border-right:1rpx solid #c6cacc;
 }
@@ -54,6 +54,6 @@
 
 .myInfo_warp .onclick2{
   position: absolute;
-  right:70rpx;
+  right:140rpx;
 }
 

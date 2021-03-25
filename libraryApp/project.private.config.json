@@ -1,53 +1,5 @@
 {
-  "description": "项目配置文件",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": false,
-    "es6": true,
-    "enhance": false,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "bundle": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "useApiHostProcess": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.11.1",
-  "appid": "wxab05f784f49f7837",
-  "projectname": "libraryApp",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -588,6 +540,30 @@
         {
           "name": "pages/subscribe/index",
           "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/aboutLibrary/index",
+          "pathName": "pages/newColumn/aboutLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/curatorMessage/index",
+          "pathName": "pages/newColumn/curatorMessage/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/EnglishNews/index",
+          "pathName": "pages/newColumn/EnglishNews/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/CollegeDaily/index",
+          "pathName": "pages/newColumn/CollegeDaily/index",
           "scene": null
         }
       ]

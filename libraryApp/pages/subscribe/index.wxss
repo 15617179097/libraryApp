@@ -9,7 +9,7 @@
 }
 .subscribe_warp .subscribe_today {
   padding-left: 50rpx;
-  padding-top:20rpx;
+  padding-top:30rpx;
   padding-bottom:20rpx;
   border-top: 10rpx solid #f5f1f1;
   border-left: 10rpx solid #f5f1f1;
@@ -28,13 +28,13 @@
   color: #8ebcf3;
 }
 .subscribe_warp .today_content ._info{
-  margin-bottom: 30rpx;
+  margin-bottom: 40rpx;
   color:#6c6d6d;
 }
 .subscribe_warp .subscribe_today .today_content .today_but,
 .subscribe_warp .subscribe_today .today_content .tomorrow_but {
   color: #fff;
-  margin-top: 10rpx;
+  margin-top: 20rpx;
   border-radius: 20rpx;
 }
 .subscribe_warp .subscribe_today .today_content .today_but {

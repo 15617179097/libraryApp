@@ -1,6 +1,7 @@
 .cirle{
+  padding: 5rpx;
   width:100%;
-  height:400rpx;
+  height:380rpx;
 }
 .headpic{
   position: absolute;

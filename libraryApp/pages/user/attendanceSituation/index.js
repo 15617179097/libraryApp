@@ -69,5 +69,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  clocking(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../../historicalAppointment/index"
+    })
   }
+
 })
