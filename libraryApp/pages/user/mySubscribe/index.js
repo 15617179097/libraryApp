@@ -61,13 +61,13 @@ Page({
 
     let loginStateUUID = wx.getStorageSync('loginStateUUID');
     const res = await http.get("subscribe/my")
-
+    console.log(res);
     if (res.code !== 200 || res.data == null) return;
 
     //获取预约时间
     var date = new Date(res.data.signInTime);
     var endDate = new Date(res.data.endTime);
-
+    console.log(date);
     //预约签到时间格式化 获取时间 去除多余的：0
     var createTime = date.toLocaleTimeString()
     var index = createTime.lastIndexOf(":")

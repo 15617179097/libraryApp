@@ -22,7 +22,15 @@
             <view>
                 <block wx:for="{{seats}}" wx:key="id">
                     <view class="img_v">
-                        <image  src="{{item.img_src}}" mode="widthFix" /> 
+                        <block wx:if="{{item.state===0&&item.seatsV===undefined}}" wx:key="id">
+                            <image  src="../../../../image/seats_n.png" mode="widthFix" /> 
+                        </block>
+                        <block wx:elif="{{item.state===2}}" wx:key="id">
+                            <image  src="../../../../image/seats.png" mode="widthFix" />
+                        </block>
+                        <block wx:else>
+                            <image  src="../../../../image/seats_y.png" mode="widthFix" />
+                        </block>
                         <block wx:if="{{item.state}}" wx:key="id">
                             <text   decode="false" class="{{item.state?'active':''}}"   data-index="{{index}}" >{{index+1}}</text>
                         </block>

@@ -67,14 +67,15 @@ Page({
     const res = await http.get("seats/" + id,{"createTime":time,"timeState":tabState})
     //校验是否请求成功
     if(res.code!=200) return;
-    let seats=res.data;
+    // let seats=res.data;
     //数组图片变
-    seats.forEach((v,i) => {
-      if(v.state===0&&v.seatsV===undefined)
-      seats[i]["img_src"]="../../../../image/seats_n.png";
-      else  seats[i]["img_src"]="../../../../image/seats_y.png";
-    });
-    
+    // seats.forEach((v,i) => {
+    //   if(v.state===0&&v.seatsV===undefined)
+    //   seats[i]["img_src"]="../../../../image/seats_n.png";
+    //   else  seats[i]["img_src"]="../../../../image/seats_y.png";
+    // });
+    // console.log(seats);
+    // console.log(res.data);
     this.setData({
       seats:res.data,classRoomId:id
     })
@@ -142,7 +143,8 @@ Page({
     // options.push(index);
     seats.findIndex((v,i)=>{
       if(i===index)
-      seats[i]["img_src"]="../../../../image/seats.png";
+      // seats[i]["img_src"]="../../../../image/seats.png";
+      seats[i]["state"]=2;
     })
     //判断用户有没有选中 
   
@@ -157,7 +159,8 @@ Page({
     // options.push(index);
     seats.findIndex((v, i) => {
       if (i === index)
-        seats[i]["img_src"] = "../../../../image/seats.png";
+        // seats[i]["img_src"] = "../../../../image/seats.png";
+        seats[i]["state"]=0;
     })
     this.setData({
       subscribeState: false
@@ -211,6 +214,7 @@ Page({
     var tomorrow=new Date();
     var nowDate=tomorrow.toLocaleDateString().split("/").join("-");
     var tomorrowTime=nowDate+" "+time;
+    console.log( new Date(tomorrowTime));
     return tomorrowTime;
     
   },
@@ -220,6 +224,7 @@ Page({
     tomorrow.setTime(tomorrow.getTime() + 24*60*60*1000);
     var nowDate=tomorrow.toLocaleDateString().split("/").join("-");
     var tomorrowTime=nowDate+" "+time;
+   
     return tomorrowTime;
   }
 

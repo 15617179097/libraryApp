@@ -1,9 +1,14 @@
 // const baseUrl="https://wx.w.5ixf.vip/libraryApp/"
-// const wsBaseUrl="ws://47.94.104.224:8001/"
-const wsBaseUrl="ws://localhost:8001/"
+const wsBaseUrl="wss://www.paw35u.cn/app"
+// const wsBaseUrl="ws://localhost:8001/"
  import login from './login.js'
+<<<<<<< HEAD
  const baseUrl="http://47.94.104.224:8001/"
 //const baseUrl="http://localhost:8001/"
+=======
+const baseUrl="https://www.paw35u.cn/app/"
+// const baseUrl="http://localhost:8001/"
+>>>>>>> f24e06897b37eaf262070620a16f0fa8d452e2ea
  function request(u, data, method) {
     return new Promise((resolve, reject) => {
         wx.showLoading({ title: '加载中' })
@@ -25,7 +30,7 @@ const wsBaseUrl="ws://localhost:8001/"
             responseType: 'text',
             success: (result) => {
                 
-                wx.hideLoading({ complete: (res) => { } })
+              
                 // 校验是否token是否过期
                 if (result.data.code === 401) {
                     wx.removeStorageSync('loginStateUUID')
@@ -34,6 +39,7 @@ const wsBaseUrl="ws://localhost:8001/"
                 }
                 // 成功返回
                 resolve(result.data);
+                wx.hideLoading({ complete: (res) => { } })
             },
             //异常
             fail: (err) => {
