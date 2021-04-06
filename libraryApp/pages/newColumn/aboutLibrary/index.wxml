@@ -1,7 +1,7 @@
 
 <view class="aboutLirary">
   <view class="logo">
-  <image src="../../../image/siaslogo.png" class="siaslogo"></image>
+  <image src="../../../image/newColumn/siasoffice.jpg" class="siaslogo"></image>
 </view>
  
   <view class="aboutLirary_text">

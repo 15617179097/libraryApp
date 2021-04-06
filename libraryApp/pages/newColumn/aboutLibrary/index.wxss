@@ -21,7 +21,7 @@
   font-size: 14px;
   position: absolute;
   top:30px;
-  color:#333333;
+  color:#4e4e4e;
 }
 .text_tip{
   display: flex;

@@ -1,12 +1,12 @@
 #time{
-  margin-top: 50rpx;
+  margin-top: 60rpx;
   text-align: center;
-  color: darkgray;
+  color: rgb(99, 99, 99);
 }
 .content{
   margin: 30rpx;
   height:800rpx;
-  margin-top: 20rpx;
+  margin-top: 40rpx;
   background: #f7f7f7;
 }
 .new-pic1{

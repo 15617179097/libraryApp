@@ -564,6 +564,36 @@
         {
           "name": "pages/newColumn/CollegeDaily/index",
           "pathName": "pages/newColumn/CollegeDaily/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/CollegeDaily/index",
+          "pathName": "pages/newColumn/CollegeDaily/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/SiasCollege/index",
+          "pathName": "pages/newColumn/SiasCollege/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/SiasOffice/index",
+          "pathName": "pages/newColumn/SiasOffice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
           "scene": null
         }
       ]

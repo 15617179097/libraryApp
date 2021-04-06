@@ -1,7 +1,7 @@
 <view class="index_warp">  
     <view class="top_banner">
       
-        <swiper autoplay indicator-dots wx:if="{{advertising!=null}}" interval="1000">
+        <swiper autoplay indicator-dots wx:if="{{advertising!=null}}" interval="1000" circular="true">
         <swiper-item wx:for="{{advertising}}" wx:key="id" bindtap="toAdvertising" data-id="{{item.id}}" >  
             <image src="{{item.fileUrl}}" mode="widthFix"></image>
             </swiper-item>

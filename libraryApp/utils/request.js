@@ -2,13 +2,10 @@
 const wsBaseUrl="wss://www.paw35u.cn/app"
 // const wsBaseUrl="ws://localhost:8001/"
  import login from './login.js'
-<<<<<<< HEAD
- const baseUrl="http://47.94.104.224:8001/"
-//const baseUrl="http://localhost:8001/"
-=======
+
 const baseUrl="https://www.paw35u.cn/app/"
 // const baseUrl="http://localhost:8001/"
->>>>>>> f24e06897b37eaf262070620a16f0fa8d452e2ea
+
  function request(u, data, method) {
     return new Promise((resolve, reject) => {
         wx.showLoading({ title: '加载中' })

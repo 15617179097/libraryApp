@@ -23,5 +23,5 @@
   font-size: 35rpx;
   position: absolute;
   top:60rpx;
-  color:#333333;
+  color:#4e4e4e;
 }
