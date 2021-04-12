@@ -1,0 +1,23 @@
+<view class="warp">
+  <view class="title">
+  关于寒假期间校园管理和疫情防控工作的通知
+  </view>
+  <view class="tip">
+    <view class="SchoolName">
+      郑州西亚斯学院图书馆
+    </view>
+    <view class="time">{{dateTime}}</view>
+  </view> 
+  <view style="    padding: 20px;">
+    <rich-text nodes="{{nodes}}" space="emsp"></rich-text>
+  </view>
+  <view class="line">
+  
+</view>
+<view class="siaslogo">
+  <image src="../../../../image/newColumn/siasoffice.png" class="logo"></image>
+</view>
+<view class="e-mail">
+  投稿邮箱：********@qq.com
+</view>
+</view>

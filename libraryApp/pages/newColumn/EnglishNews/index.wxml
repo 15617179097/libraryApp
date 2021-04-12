@@ -5,23 +5,23 @@
 </view>
 <view class="page">
   
-  <view class="content">
+  <view class="content" bindtap="new_one">
     <view class="new-hot">
       <image src="../../../image/newpic/new.1.jpg" class="new-pic1"></image>
     </view>
-    <view class="new1">
+    <view class="new1" bindtap="new_two">
       <text>
         Boulder shooting:Ten victims and suspect identified by police
       </text>
       <image src="../../../image/newpic/new.2.jpg" class="new-pic2"></image>
     </view>
-    <view class="new2">
+    <view class="new2" bindtap="new_three">
       <text>
         'Greed' and 'capitalism' helped UK's vaccines success,says PM;
       </text>
       <image src="../../../image/newpic/new.3.jpg" class="new-pic3"></image>
     </view>
-    <view class="new3">
+    <view class="new3" bindtap="new_four">
       <text class="one-line">
         [20210324] 3 minutes news
       </text>

@@ -1,0 +1,49 @@
+.warp .title{
+  font-size: 20px;
+  margin:10px;
+}
+.warp .SchoolName{
+  font-size: 14px;
+  margin:11px;
+  color:#5fa5fa;
+  display: inline;
+}
+.warp .time{
+  display: inline;
+  font-size: 13px;
+}
+.warp .tip{
+  width:300px;
+  height:20px;
+}
+.warp .text{
+  margin:40px 12px 0 12px;
+  height:120%;
+  padding:14px;
+  color:#2f3030;
+}
+.warp .line{
+  height:1px;
+  width:95%;
+  background:#656666;
+  margin:auto;
+  margin-top:50px;
+}
+.warp .siaslogo{
+  text-align: center;
+  margin-top:20px;
+}
+.warp .siaslogo .logo{
+  height:120px;
+  width:120px;
+}
+.warp .e-mail{
+  font-size: 14px;
+  color:#4e4e4e;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:40px;
+}
+.p{
+  text-indent:2em;
+}

@@ -80,8 +80,8 @@
         <text>郑州西亚斯学院</text>
       </view>
       <view class="img" bindtap="SiasOffice">
-        <image src="../../image/newColumn/siasoffice.jpg" class="pic"></image>
-        <text>西亚斯教务处</text>
+        <image src="../../image/newColumn/siasoffice.png" class="pic"></image>
+        <text>西亚斯学务处</text>
       </view>
     </view>
   </view> 

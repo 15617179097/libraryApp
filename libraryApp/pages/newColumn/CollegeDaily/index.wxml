@@ -3,7 +3,7 @@
     <text>3月25日 上午07：29</text>
   </view>
   
-  <view class="context1">   
+  <view class="context1" bindtap="new_one">   
     <image src="../../../image/newpic/pic1.jpg" class="pic1"></image>
     <text>“何日相聚？念、念、念、念！”左权给妻女的最后一封家书</text>
   </view>
@@ -11,7 +11,7 @@
     <text>3月25日 晚上18：09</text>
   </view>
   
-  <view class="context2">   
+  <view class="context2" bindtap="new_two">   
     <image src="../../../image/newpic/pic2.jpg" class="pic1"></image>
     <text style="margin-left:15rpx;">外交部、商务部、中消协发声！中国品牌集体表态！</text>
 </view>

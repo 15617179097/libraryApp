@@ -1,6 +1,6 @@
 <view class="warp">
   <view class="title">
-  座位使用规则
+  关于寒假期间校园管理和疫情防控工作的通知
   </view>
   <view class="tip">
     <view class="SchoolName">
@@ -38,7 +38,7 @@
   
 </view>
 <view class="siaslogo">
-  <image src="../../../image/siaslogo.png" class="logo"></image>
+  <image src="../../../image/newColumn/siasoffice.png" class="logo"></image>
 </view>
 <view class="e-mail">
   投稿邮箱：********@qq.com

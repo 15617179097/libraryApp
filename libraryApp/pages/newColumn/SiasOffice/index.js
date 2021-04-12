@@ -62,5 +62,33 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  new_one() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../new4/new4.1/index"
+    })
+  },
+  new_two() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../new4/new4.2/index"
+    })
+  },
+  new_three() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../new4/new4.3/index"
+    })
+  },
+  new_four() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../new4/new4.4/index"
+    })
   }
 })

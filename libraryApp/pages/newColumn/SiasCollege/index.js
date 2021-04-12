@@ -62,5 +62,19 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  new_one() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../new3/new3.1/index"
+    })
+  },
+  new_two() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../new3/new3.2/index"
+    })
   }
 })

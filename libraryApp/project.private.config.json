@@ -594,6 +594,48 @@
         {
           "name": "pages/find/find",
           "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new1/new1.1/index",
+          "pathName": "pages/newColumn/new1/new1.1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new1/new1.2/index",
+          "pathName": "pages/newColumn/new1/new1.2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new1/new1.3/index",
+          "pathName": "pages/newColumn/new1/new1.3/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new2/new2.1/index",
+          "pathName": "pages/newColumn/new2/new2.1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new2/new2.1/index",
+          "pathName": "pages/newColumn/new2/new2.1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new4/new4.1/index",
+          "pathName": "pages/newColumn/new4/new4.1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/new4/new4.2/index",
+          "pathName": "pages/newColumn/new4/new4.2/index",
           "scene": null
         }
       ]
