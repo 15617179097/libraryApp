@@ -1,4 +1,4 @@
-<image class="toppic" src="../../image/cirle.png"></image>
+<image class="toppic" src="../../image/computer.jpg"></image>
 <view class="feedback_warp">
  <view class="section__title">填写监督占座</view>
  <form bindsubmit="supervisionFrom" >

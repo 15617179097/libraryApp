@@ -1,5 +1,5 @@
 
-.page__hd image{height:130rpx;height:190rpx;border-radius: 120rpx;}
+.page__hd image{width:200rpx;height:200rpx;border-radius: 120rpx;}
 .page__hd .weui-cells{
   margin: 0;
 }
