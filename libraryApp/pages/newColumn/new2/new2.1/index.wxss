@@ -21,6 +21,7 @@
   height:120%;
   padding:14px;
   color:#2f3030;
+  text-align: center;
 }
 .warp .line{
   height:1px;

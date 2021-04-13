@@ -17,7 +17,7 @@
   height:20px;
 }
 .warp .text{
-  margin:40px 12px 0 12px;
+  margin:0px 12px 0 12px;
   height:120%;
   padding:14px;
   color:#2f3030;

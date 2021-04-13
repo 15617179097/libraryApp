@@ -5,13 +5,13 @@
 }
 .content{
   margin: 30rpx;
-  height:1000rpx;
+  height:800rpx;
   margin-top: 40rpx;
   background: #f7f7f7;
 }
 .new-pic1{
   width:100%;
-  height: 320rpx;
+  height: 280rpx;
 }
 text{
   float: left;
