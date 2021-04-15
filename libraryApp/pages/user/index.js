@@ -49,7 +49,12 @@ Page({
    })
   },
   //绑定学号
-  handelmyInfo(){
+  async handelmyInfo(){
+    const res = await checkInfos();
+    if(!res) {
+      this.handelmyInfo()
+      return;
+    }
     wx.navigateTo({
       url: './myInfo/index'
     });    
