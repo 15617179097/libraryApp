@@ -2,12 +2,10 @@ import http from '../../../utils/request.js'
 import regeneratorRuntime from "../../../utils/runtime.js"
 import {checkInfos} from "../../../utils/check.js"
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
     classRoom:null,
     state:null,
     floors:{} ,
@@ -15,19 +13,11 @@ Page({
     activeFloor:0,
     
   },
-  // queryParams: {
-  //   pagenum: 1,
-  //   pagesize: 10
-  // },
   pageTotal:1,
-
-
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
     if (options.state==='0') {
       this.getToday() 
     } else {
@@ -36,15 +26,12 @@ Page({
     this.setData({
       state:options.state
     })
-  
-    
   },
   //点击教室
   async handelSeats(e){
     //点击教室 判断是否绑定学号 以及信誉值
     const res = await checkInfos()
     if(!res)  return;
-
     let {id,row,line}=e.currentTarget.dataset;
     let { state } = this.data;
     //跳转到座位页面
@@ -52,15 +39,11 @@ Page({
            url: './seats/index?id=' + id + "&row=" + row + "&line=" + line + "&tabState=" + state,
            })
   },
-
-
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
   },
-
   async getToday(){
     let {schoolId} = wx.getStorageSync('info')
     //查询所以的教室以及座位
@@ -69,8 +52,6 @@ Page({
     this.setData({
       classRoomCp: res.data.classroomList,classRoom: res.data.classroomList, floors: res.data.floors
     })
-    
-    
   },
   async getTomorrow(){
     let {schoolId} = wx.getStorageSync('info')
@@ -82,7 +63,6 @@ Page({
       this.setData({
         classRoomCp: res.data.classroomList,classRoom: res.data.classroomList, floors: res.data.floors
       })
-    
   },
   // 选中楼层
   cleckFloor(e){
@@ -99,13 +79,10 @@ Page({
     } else {
       activeClassRoom = classRoomCp
     }
-    
     this.setData({
       classRoom: activeClassRoom, activeFloor
     })
-    
   },
-
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
@@ -123,7 +100,6 @@ Page({
     }
     wx.stopPullDownRefresh()
   },
-
   /**
    * 页面上拉触底事件的处理函数
    */
@@ -134,7 +110,5 @@ Page({
       } else {
         this.getTomorrow()
       }
-    
-    
   }
 })

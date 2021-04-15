@@ -16,8 +16,6 @@ Page({
     seatsNum:null
   }, 
    bindPickerChange: function(e) {
-     console.log(e.detail.value);
-     
     this.setData({
       index: e.detail.value
     })
@@ -35,17 +33,13 @@ Page({
       message.showToastNo("请输入正确的座位号");
     }
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
   },
   async supervisionFrom(e){
-    
     const { classRoomList} = this.data
-
     if (e.detail.value.seatsNum=='') return message.showToastNo("座位号不能不为空")
     if (classRoomList==null) return message.showToastNo("教室不能不为空")
     const result =  await message.showModal("监督占座！ 你确定提交吗！")
@@ -62,20 +56,10 @@ Page({
       seatsNum: null
     })
   },
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
 
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   async onShow () {
     let {schoolId} = wx.getStorageSync('info')
     let result = await http.get("classRoom/findClassRoom/"+schoolId)
-    
       let classRoom =[]
       result.data.forEach(v => {
         classRoom.push(v.classroomName)
@@ -84,6 +68,5 @@ Page({
       this.setData({
         classRoom, classRoomList: result.data
       })
-
   }
 })
