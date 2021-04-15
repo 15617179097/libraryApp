@@ -1,20 +1,20 @@
 .auth_warp {
-  padding-top: 80px;
+  padding-top: 160rpx;
   text-align: center;
 }
 .auth_warp .auth_img{
-  width:140px;
-  height:140px;
-  border-radius: 100px;
+  width:280rpx;
+  height:280rpx;
+  border-radius: 200rpx;
   background: white;
-  margin-left:105px;
-  border:5px solid #9FC8F4;
-  margin-bottom:40px;
+  margin: auto;
+  border:10rpx solid #9FC8F4;
+  margin-bottom:80rpx;
 }
 .auth_warp .auth_img image {
   /* width: 200rpx; */
-  width: 130px;
-  height: 130px;
+  width: 260rpx;
+  height: 260rpx;
 }
 .auth_warp .auth_title {
   font-family: 600;
@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 40rpx;
-  margin-top:50px;
+  margin-top:100rpx;
   flex-wrap: wrap;
 }
 .auth_warp .auth_but button {
@@ -43,5 +43,5 @@
   margin-bottom: 30rpx;
 }
 .auth_warp .auth_but  .over{
-  border: 1px #9b9a9a solid;
+  border: 2rpx #9b9a9a solid;
 }

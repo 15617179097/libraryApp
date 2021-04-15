@@ -1,0 +1,17 @@
+.context1,.context2{
+  margin: 30rpx;
+  height:370rpx;
+  margin-top: 40rpx;
+  background: #f7f7f7;
+  border-radius: 10rpx;
+}
+.pic1{
+  width:100%;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+.time{
+  text-align: center;
+  margin-top:60rpx;
+  color:#4e4e4e;
+}

@@ -1,7 +1,7 @@
 <view class="page">
   <view class="page_hd ">
     
-    <swiper class="swiper" indicator-dots="{{swpierTrue}}" autoplay="{(swpierTrue)}" interval="3000">
+    <swiper class="swiper" indicator-dots="{{swpierTrue}}" autoplay="{(swpierTrue)}" interval="2000" circular="true">
       <swiper-item>
         <image class="pic1" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.gtimg.com%2Fhenan%2Fpics%2Fhv1%2F7%2F160%2F2292%2F149078107.png&refer=http%3A%2F%2Fimg1.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1617591657&t=a7a4ee8542d8f8c30a0e9431e30379c1"></image>
       </swiper-item>
@@ -37,27 +37,51 @@
       </view>
     </view>
   </view>
-  <view class="page_td">
-    <view class="title1">
-      <text class="chinese1">教学培训</text>
-      <text class="english1">Teaching training</text>
+  <view class="page_bd">
+    <view class="title">
+      <text class="chinese">教学培训</text>
+      <text class="english">Teaching training</text>
     </view>
     <view class="body">
-      <view class="img1" bindtap="aboutLibrary">
-        <image src="../../image/newColumn/schedule.png" class="pic1"></image>
+      <view class="img" bindtap="aboutLibrary">
+        <image src="../../image/newColumn/strategy.png" class="pic"></image>
         <text>培训日程</text>
       </view>
-      <view class="img1" bindtap="playLibrary">
-        <image src="../../image/newColumn/period.png" class="pic1"></image>
+      <view class="img" bindtap="playLibrary">
+        <image src="../../image/newColumn/period.png" class="pic"></image>
         <text>往期培训</text>
       </view>
-      <view class="img1" bindtap="curatorMessage">
-        <image src="../../image/newColumn/video.png" id="pic2"></image>
+      <view class="img" bindtap="curatorMessage">
+        <image src="../../image/newColumn/video.png" class="pic"></image>
         <text>教学课程</text>
       </view>
-      <view class="img1" bindtap="pleaseWaite">
-        <image src="../../image/newColumn/strategy.png" class="pic1"></image>
-        <text>使用攻略</text>
+      <view class="img" bindtap="pleaseWaite">
+        <image src="../../image/newColumn/etc.png" class="pic"></image>
+        <text>敬请期待</text>
+      </view>
+    </view>
+  </view> 
+  <view class="page_bd">
+    <view class="title">
+      <text class="chinese">微信公众号</text>
+      <text class="english">WeChat Official Account</text>
+    </view>
+    <view class="body">
+      <view class="img" bindtap="EnglishNews">
+        <image src="../../image/newColumn/new.jpg" class="pic"></image>
+        <text>English News</text>
+      </view>
+      <view class="img" bindtap="CollegeDaily">
+        <image src="../../image/newColumn/henan.jpg" class="pic"></image>
+        <text>河南高校日报</text>
+      </view>
+      <view class="img" bindtap="SiasCollege">
+        <image src="../../image/newColumn/sias1.jpg" class="pic"></image>
+        <text>郑州西亚斯学院</text>
+      </view>
+      <view class="img" bindtap="SiasOffice">
+        <image src="../../image/newColumn/siasoffice.png" class="pic"></image>
+        <text>西亚斯学务处</text>
       </view>
     </view>
   </view> 

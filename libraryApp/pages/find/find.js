@@ -58,6 +58,34 @@ Page({
       url: "../newColumn/playLibrary/index"
     })
   },
+  EnglishNews(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/EnglishNews/index"
+    })
+  },
+  CollegeDaily(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/CollegeDaily/index"
+    })
+  },
+  SiasCollege(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/SiasCollege/index"
+    })
+  },
+  SiasOffice(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/SiasOffice/index"
+    })
+  },
   pleaseWaite(){
     // const res = await checkInfos();
     // if(!res)  return;

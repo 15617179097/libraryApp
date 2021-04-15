@@ -1,0 +1,32 @@
+<view id="time">
+  <span>
+    周三 晚上 10：38
+  </span>
+</view>
+<view class="page">
+  
+  <view class="content" bindtap="new_one">
+    <view class="new-hot">
+      <image src="../../../image/newpic/sias4.jpg" class="new-pic1"></image>
+    </view>
+    <view class="new1" bindtap="new_two">
+      <text>
+        【最美大学@你】关于组织开展“出彩河南人”第四届最美大...
+      </text>
+      <image src="../../../image/newpic/new5.jpg" class="new-pic2"></image>
+    </view>
+    <view class="new2" bindtap="new_three">
+      <text>
+        【三好学生@你】关于评选2020-2021学年度郑州市三好学生的通知
+      </text>
+      <image src="../../../image/newpic/new6.jpg" class="new-pic3"></image>
+    </view>
+    <view class="new3" bindtap="new_four">
+      <text>
+        【假期安全通知@西亚斯】关于做好清明节期间学生安全工作的通知
+      </text>
+      <image src="../../../image/newpic/new7.jpg" class="new-pic4"></image>
+    </view>
+  </view>
+
+</view>

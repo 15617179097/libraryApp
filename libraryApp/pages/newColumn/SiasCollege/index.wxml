@@ -1,0 +1,18 @@
+<view class="page">
+  <view class="time">
+    <text>3月27日 上午21：04</text>
+  </view>
+  
+  <view class="context1" bindtap="new_one">   
+    <image src="../../../image/newpic/sias3.jpg" class="pic1"></image>
+    <text>【周末去哪吃】这么多美食，确定不来看看吗？</text>
+  </view>
+  <view class="time">
+    <text>昨天 下午13：25</text>
+  </view>
+  
+  <view class="context2" bindtap="new_two">   
+    <image src="../../../image/newpic/sias2.jpg" class="pic1"></image>
+    <text style="margin-left:15rpx;">全国政协常委、省政协副主席高体健一行莅临我校调研指导</text>
+</view>
+</view>

@@ -8,7 +8,7 @@
     </view>
     <view class="time">{{dateTime}}</view>
   </view> 
-  <view style="    padding: 20px;">
+  <view style="padding: 20px;">
     <rich-text nodes="{{nodes}}" space="emsp"></rich-text>
   </view>
   <!-- <view class="text">
@@ -38,7 +38,7 @@
   
 </view>
 <view class="siaslogo">
-  <image src="../../../image/siaslogo.png" class="logo"></image>
+  <image src="../../../image/newColumn/siasoffice.png" class="logo"></image>
 </view>
 <view class="e-mail">
   投稿邮箱：********@qq.com

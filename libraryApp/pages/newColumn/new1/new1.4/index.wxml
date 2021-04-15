@@ -1,0 +1,46 @@
+<view class="warp">
+  <view class="title">
+    [20210406] 3 minutes news
+  </view>
+  <view class="tip">
+    <view class="SchoolName">
+      BBC  Englishdailynews
+    </view>
+  </view> 
+  <view class="text">
+    <text>
+      Hello, I'm Moira Alderson with the BBC News. 
+大家好，我是BBC新闻的Moira Alderson。
+
+The half-brother of King Abdullah of Jordan has called on people to come together and make their voices heard in a video in which he said he was under house arrest. In the video that was passed to the BBC, Prince Hamzah bin Hussein accused the country's leaders of corruption and incompetence, but he denied being part of any conspiracy. The military has said the Prince Hamzah was asked to stop any action targeting Jordan security and stability. Here is Lyse Doucet. It's going to be a significant challenge to King Abdullah now. How does he respond to his young, popular half-brother and former crown Prince who has decided to go public in this way? What will be the reaction going forward of the intelligence services? What were the links of the former Crown Prince to other prominent officials including Bassem Awadallah, who I've known for many years. He's always been extremely close to King Abdullah who protected him against the repeated criticism of the tribes and other members of Jordanian society when he oversaw economic reform in the kingdom. Prince Hamzah spoke about his friends being arrested.
+约旦国王阿卜杜拉同父异母的弟弟呼吁人们团结起来为其发声，他在视频中称自己被软禁。在传给BBC的视频中，哈姆扎·本·侯赛因王子指责该国领导人腐败和无能，他也否认参与任何阴谋。军方称已要求哈姆扎王子停止任何针对约旦安全与稳定的行动。Lyse Doucet报道。这对阿卜杜拉国王来说是一个巨大的挑战。在这位前王储以此种方式发声后，他将对其年轻、受欢迎的同父异母的弟弟作何反应?情报机构又该如何应对？前王储和包括巴瑟姆·阿瓦达拉在内的其他重要官员有什么联系？我认识阿瓦达拉很多年了，他一直和国王阿卜杜拉关系极度亲密，他负责的约旦经济改革受到了部落和其他约旦群体的大量批评，国王阿卜杜拉为其提供了保护。哈姆扎王子还提到他的朋友被捕了。
+
+Police in central India has confirmed that at least 22 security personnel have been killed in a gun battle with Maoists in the state of Chhattisgarh. From Delhi, Anbarasan Ethirajan reports. It's one of the deadliest clashes between Indian security forces and the Maoists in recent years. Around 400 elite police commandos went on a search operation in the district of Bijapur. And they came under what seems to have been a well-coordinated attack by the rebels. The police team retreated on Saturday after suffering heavy losses. A search team has now found the bodies of troops who were missing after the battle. The rebels have also taken away the weapons of the dead police commandos. The insurgents who mostly operate in central and eastern parts of India say they are fighting for the rights of rural poor. A senior official said the Maoists are also suffered casualties, but they have not commented so far.
+印度中部警方证实，至少22名安全人员在恰蒂斯加尔邦与毛派武装的枪战中丧生。Anbarasan Ethirajan德里报道。这是近年来印度安全部队和毛派武装之间最致命的冲突之一。大约400名精英警察突击队员在比贾布尔地区展开了搜索行动。他们似乎遭到了反政府武装精心策划的袭击。警方在遭受重大损失后于周六撤退。搜救队现在已经发现了在这场战斗中失踪士兵的尸体。反政府武装还拿走了阵亡警察突击队员的武器。主要在印度中部和东部地区活动的反叛分子表示，他们是在为农村贫困人口的权利而战。一名高级官员表示，毛派分子也有伤亡，但是他们到目前为止没有发表评论。
+
+The British government is planning a series of pilots to allow large crowds into public events in England, but only if people can prove they've been vaccinated or are clear of coronavirus. The Prime Minister has said the COVID status certification scheme will help people return to the things they love. Here's Jessica Parker. There have been concerns raised and not least of all buy some of their own MPs. This could be a discriminatory to people who say hadn't had the vaccine or if they're using an App to prove COVID status, what if you don't have a smartphone to the scene there will be some? A paper certification, you won't have to use digitally, because you're looking at a testing immunity as well, that means that fewer people would potentially be left out of the system. Jessica Parker reporting. World news from the BBC.
+英国政府正计划开展一系列试点活动，在英格兰允许大规模人群参与的公共活动，但前提是人们能证明自己接种了疫苗或未感染新冠病毒。首相表示，新冠病毒身份认证计划将帮助人们回到他们喜欢的事情上。Jessica Parker报道。这引起了人们的担心，并不是所有人都买议员们的账。人们担心这可能会对一些人造成不平等对待，如那些没有接种过疫苗的人，或者假如政府用App证明健康状态，如果你当时没带智能手机怎么办？使用纸质证明就能避免使用电子设备，因为你能直接看到它，这意味着会有更少的人被排除在系统之外。杰西卡·帕克报道。BBC世界新闻。
+
+certification	[.sə:tifi'keiʃən] n. 证明，保证，鉴定
+confirmed	[kən'fə:md] adj. 习惯的，积习的，确认过的，证实的
+stability	[stə'biliti] n. 稳定性，居于修道院
+military	['militəri] adj. 军事的 n. 军队
+intelligence	[in'telidʒəns] n. 理解力，智力 n. 情报，情报工作，情报
+popular	['pɔpjulə] adj. 流行的，大众的，通俗的，受欢迎的
+district	['distrikt] n. 区，地区，行政区
+respond	[ris'pɔnd] v. 回答，答复，反应，反响，响应 
+conspiracy	[kən'spirəsi] n. 阴谋
+vaccine	['væksi:n] n. 疫苗
+
+    </text>
+  </view>
+  <view class="line">
+  
+</view>
+<view class="siaslogo">
+  <image src="../../../../image/newColumn/siasoffice.png" class="logo"></image>
+</view>
+<view class="e-mail">
+  投稿邮箱：********@qq.com
+</view>
+</view>

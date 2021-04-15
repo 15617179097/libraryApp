@@ -1,5 +1,5 @@
 <view class="cirlepic">
-  <image class="cirle" src="../../../image/cirle1.jpg"></image>
+  <image class="cirle" src="../../../image/computer.jpg"></image>
 </view>
 <image class="background" lazy-load="false" />
 <view class="mySubscribe_warp">
@@ -25,7 +25,7 @@
       </view>    
     </view>
   <view id="txt1" wx:if="{{subscribe.state===0}}">
-    <button bindtap="toOnLogin" id="txt2"><text>签到</text></button>
+   
   </view>
   <view class="index_subscribe" wx:if="{{!subscribe}}">
     <view class="subscribe_title isNo">
