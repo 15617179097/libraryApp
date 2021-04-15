@@ -3,12 +3,14 @@
 	<view class="page__hd">
 		<view class="weui-cells">
 			<view class="weui-cell weui-cell_active" wx:if="{{userInfo!=null}}">
-				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
-					<image src="{{userInfo.avatarUrl}}" style="width: 100px; display: block;"></image>
-				</view>
+				<view class="x">
+                    <open-data type="userAvatarUrl" ></open-data>
+                </view>
+
 				<view class="weui-cell__bd">
-					<view> {{userInfo.nickName}}</view>
-					<view style="font-size: 13px; color: #888;">{{schoolName}}</view>
+                <open-data type="userNickName" lang="zh_CN" style="font-size: 20px;margin-left:15px"></open-data>  
+				<!--	<view> {{userInfo.nickName}}</view>-->
+					<view style="font-size: 13px; color: #888;margin-left:15px">{{schoolName}}</view>
 				</view>
             </view>
             <view class="weui-cell weui-cell_active" wx:if="{{userInfo==null}}" bindtap="loginGetInfo">
