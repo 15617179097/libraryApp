@@ -1,0 +1,21 @@
+<view class="page">
+  <view class="title">
+    <text>全部内容</text>
+  </view>
+  <view class="mian">
+  
+            <view class="content_left">
+                <view class="left_title">
+                    <view class="content_title">
+                      图书馆1楼11号自修室
+                    </view>
+                </view>
+            </view>
+            
+            <view class="content_right">
+                <view class="content_seats">
+                  12号座位
+                </view>
+            </view>          
+    </view>
+</view>

@@ -1,0 +1,71 @@
+page{ 
+  height: 100%; 
+ } 
+ .container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: #f2f2f2
+ } 
+ 
+.headtip{
+  text-align: center;
+  font-size: 50rpx;
+  margin-bottom: 300rpx;
+  margin-top:150rpx;
+} 
+
+ /*表单内容*/
+ .login-from { 
+  margin-top: 20px; 
+  flex: auto; 
+  height:100%; 
+ } 
+   
+ .inputView { 
+  background-color: #fff; 
+  line-height: 44px; 
+  width: 600rpx;
+  margin-bottom: 50rpx;
+  border-radius: 5rpx;
+ } 
+ /*输入框*/
+ .nameImage, .keyImage { 
+  margin-left: 22px; 
+
+ } 
+   
+ .loginLab { 
+  margin: 15px 15px 15px 10px; 
+  color: #545454; 
+  font-size: 14px
+ } 
+ .inputText { 
+  flex: block; 
+  float: right; 
+  text-align: right; 
+  margin-right: 22px; 
+  margin-top: 11px; 
+  color: #cccccc; 
+  font-size: 14px
+ } 
+   
+ /*按钮*/
+ .loginBtnView { 
+  width: 100%; 
+  height: auto; 
+  background-color: #f2f2f2; 
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  padding-bottom: 0px; 
+ } 
+   
+ .loginBtn { 
+  width: 80%; 
+  margin-top: 35px; 
+  background: #2F80ED;
+  color: #fff;
+  margin-top: 100rpx;
+ }

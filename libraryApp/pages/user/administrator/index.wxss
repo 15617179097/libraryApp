@@ -1,0 +1,49 @@
+.title{
+  height:100rpx;
+  width:100%;
+  color: white;
+  background:#8fbaf3;
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 100rpx;
+}
+.content_left {
+  display: flex;
+}
+.content_left .left_floor {
+  padding: 10rpx;
+  font-size: 40rpx;
+}
+.content_left .left_title {
+  display: flex;
+  flex-direction: column;
+}
+.content_left .left_title .content_title {
+  font-weight: 500;
+  font-size: 30rpx;
+  padding: 10rpx;
+}
+.content_left .left_title .content_time {
+  padding: 10rpx;
+  color: #ccc;
+}
+.content_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content_right .content_seats {
+  padding: 10rpx;
+}
+.content_right .content_state {
+  padding: 10rpx;
+}
+.notice_err{
+  color: #969393;
+  font-size: 30rpx;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+}

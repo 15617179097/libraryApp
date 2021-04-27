@@ -45,6 +45,7 @@
   border-radius: 10rpx;
   font-size: 26rpx;
   padding: 20rpx;
+  width: 610rpx;
 }
 
 .feedback_warp .feedback_content .content_limit {

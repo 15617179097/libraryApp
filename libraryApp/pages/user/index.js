@@ -112,5 +112,11 @@ Page({
     wx.navigateTo({
       url: '../user/attendanceSituation/index'
     });
+  },
+  //监督管理
+  async handleSupervision(){
+    wx.navigateTo({
+      url: '../user/supervision/index',
+    })
   }
 })

@@ -45,7 +45,13 @@
     "pages/newColumn/new4/new4.1/index",
     "pages/newColumn/new4/new4.2/index",
     "pages/newColumn/new4/new4.3/index",
-    "pages/newColumn/new4/new4.4/index"
+    "pages/newColumn/new4/new4.4/index",
+    "pages/newColumn/laoyan/index",
+    "pages/newColumn/laoyan/date/index",
+    "pages/newColumn/laoyan/line/index",
+    "pages/newColumn/laoyan/valuable/index",
+    "pages/user/supervision/index",
+    "pages/user/administrator/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

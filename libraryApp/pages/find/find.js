@@ -58,6 +58,29 @@ Page({
       url: "../newColumn/playLibrary/index"
     })
   },
+  date() {
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/laoyan/date/index"
+    })
+  },
+  
+  line(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/laoyan/line/index"
+    })
+  },
+  
+  valuable(){
+    // const res = await checkInfos();
+    // if(!res)  return;
+    wx.navigateTo({
+      url: "../newColumn/laoyan/valuable/index"
+    })
+  },
   EnglishNews(){
     // const res = await checkInfos();
     // if(!res)  return;
