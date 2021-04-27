@@ -18,7 +18,8 @@ Page({
     allCity:{},
     multiIndex: [0, 0],
     multiArray: [],     
-    objectMultiArray: []
+    objectMultiArray: [],
+    flag:false
   },
   //选择省市
   async bindPickerChange(e) {
@@ -51,17 +52,19 @@ Page({
     const info = wx.getStorageSync('info')
     if(info===null) return;
     this.setData({
-      info, studentId: info.studentId
+      info, studentId: info.studentId,schoolName:info.schoolName
     })
    
   },
   async getSchoolCity(){
     const res = await http.get("school/schoolInfo")
     if(res.code!=200) return ;
+
     this.setData({
-    schoolCity:res.data.province,
-    allCity:res.data.city
-    })
+      schoolCity:res.data.province,
+      allCity:res.data.city
+      })    
+
   },
   async getSchoolName(){
     let {index,schoolCity} = this.data;
@@ -69,7 +72,7 @@ Page({
     if (index!=null)
       schoolName = schoolCity[index]
     const res = await http.get("school/name/"+schoolName)
-  
+    
     this.setData({
       schoolName:res.data
     })
@@ -80,7 +83,6 @@ Page({
   //绑定学号
   async subInfo(e){
     let {studentId,schoolCity,schoolName}=e.detail.value;
-    console.log(e.detail.value);
     if(schoolCity===""||typeof(schoolCity) == "undefined"){
       message.showToastNo('省份不能为空')
       return;

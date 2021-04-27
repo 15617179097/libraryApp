@@ -1,4 +1,3 @@
-// const baseUrl="https://wx.w.5ixf.vip/libraryApp/"
 const wsBaseUrl="wss://www.paw35u.cn/app"
 // const wsBaseUrl="ws://localhost:8001/"
  import login from './login.js'
@@ -26,8 +25,6 @@ const baseUrl="https://www.paw35u.cn/app/"
             dataType: 'json',
             responseType: 'text',
             success: (result) => {
-                
-              
                 // 校验是否token是否过期
                 if (result.data.code === 401) {
                     wx.removeStorageSync('loginStateUUID')
@@ -67,8 +64,6 @@ const http = {
     }
 }
 export default http
-
-
 function reLogin(){
     wx.showModal({
         title: '提示',

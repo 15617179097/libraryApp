@@ -13,7 +13,10 @@
         授权微信头像、昵称等信息,获取更优质服务
     </view>
     <view class="auth_but">
+        <!--
         <button open-type='getUserInfo' 
+        bindgetuserinfo='bindGetUserInfo' style="background: #2F80ED;color: white; border-radius: 30px; height:50px;">-->
+         <button open-type='getUserInfo' 
         bindgetuserinfo='bindGetUserInfo' style="background: #2F80ED;color: white; border-radius: 30px; height:50px;">
         确定授权
         </button>

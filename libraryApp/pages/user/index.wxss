@@ -5,4 +5,28 @@
 }
 .weui-cell{
   padding: 42rpx;
+}/*
+.page__hd .weui-cells{
+  margin: 0;
+
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+}*/
+.weui-cell__hd1{
+  overflow:hidden;
+  width: 130rpx;
+  height: 130rpx; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  object-position: center;
+}
+.x{ 
+  width: 150rpx;
+  height: 150rpx; 
+  overflow: hidden;
+  border-radius: 50%;
+  
 }

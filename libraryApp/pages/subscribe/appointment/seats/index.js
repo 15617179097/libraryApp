@@ -3,7 +3,6 @@ import message from "../../../../utils/wxRequest.js";
 import regeneratorRuntime from "../../../../utils/runtime.js"
 
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -23,19 +22,15 @@ Page({
     endTime:'',
     // 判断是否已经预约
     subscribeState:false,
-
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
-
   onLoad: async function (options) {
     //教室传值
     let {id,row,line,tabState}=options;
     this.getSeats(id,null,tabState);
     let loginStateUUID= wx.getStorageSync('loginStateUUID');
-
     //校验是否预约
     const res = await http.get("subscribe/check",{"loginStateUUID":loginStateUUID})
     if(res.code!==200) return;
@@ -46,10 +41,8 @@ Page({
       })
   },
   onShow: function () {
-   
     var date = new Date();
     let {tabState} = getCurrentPages()[2].options
-    
     if(tabState==0){
       this.setData({
         startTime: date.getHours() + ":" +(date.getMinutes()+30),
@@ -69,13 +62,6 @@ Page({
     if(res.code!=200) return;
     // let seats=res.data;
     //数组图片变
-    // seats.forEach((v,i) => {
-    //   if(v.state===0&&v.seatsV===undefined)
-    //   seats[i]["img_src"]="../../../../image/seats_n.png";
-    //   else  seats[i]["img_src"]="../../../../image/seats_y.png";
-    // });
-    // console.log(seats);
-    // console.log(res.data);
     this.setData({
       seats:res.data,classRoomId:id
     })
@@ -115,11 +101,9 @@ Page({
           var tomorrowEndTime=this.getTomorrowTime(endTime);
           this.getSubscribeInfo(tomorrowTime,tomorrowEndTime,seats[index].id,classRoomId,index,tabState);
         }
-        
       }else{
           delChooseSeats(index)
       }
-   
   },
   //用户确定预约获取预约信息以及返回状态
   async getSubscribeInfo(createTime,endTime,seatsId,classRoomId,index,tabState){
@@ -131,23 +115,19 @@ Page({
       })
       return message.showToastNo("预约失败");
     } 
-    
     //刷新页面
     this.getSeats(classRoomId,null,tabState);
     message.showToast("预约成功");
   },
-
   //选择状态进行修改数组
   getChooseSeats(index){
      let {seats,options}=this.data;
     // options.push(index);
     seats.findIndex((v,i)=>{
       if(i===index)
-      // seats[i]["img_src"]="../../../../image/seats.png";
       seats[i]["state"]=2;
     })
     //判断用户有没有选中 
-  
     this.getSeatsRowAndLine(options)
     this.setData({
       subscribeState:true
@@ -159,7 +139,6 @@ Page({
     // options.push(index);
     seats.findIndex((v, i) => {
       if (i === index)
-        // seats[i]["img_src"] = "../../../../image/seats.png";
         seats[i]["state"]=0;
     })
     this.setData({
@@ -177,7 +156,6 @@ Page({
     this.setData({
       optionsRow,optionsLine
     })
-  
   },
   //时间选择
   bindTimeChange: function(e) {
@@ -200,7 +178,6 @@ Page({
       message.showToastNo('请先选择正确的时间范围');
       return;
     }
-    
     if((endTime-timeNum)<(60*60*1000)){
       message.showToastNo('最少预约一小时以上');
       return;
@@ -224,10 +201,6 @@ Page({
     tomorrow.setTime(tomorrow.getTime() + 24*60*60*1000);
     var nowDate=tomorrow.toLocaleDateString().split("/").join("-");
     var tomorrowTime=nowDate+" "+time;
-   
     return tomorrowTime;
   }
-
-
-  
 })
