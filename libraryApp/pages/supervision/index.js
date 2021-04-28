@@ -13,8 +13,28 @@ Page({
     //自修室座位列表
     classRoom: [],
     index:0,
-    seatsNum:null
+    seatsNum:null,
+    fedText:""
+
   }, 
+  //文本域的输入事件
+  handleTextInput(e){
+    this.setData({
+      fedText:e.detail.value
+    })
+  },
+  //提交按钮的点击
+  handleFormSubmit(){
+    //1、获取文本域的内容
+    const{fedText}=this.data;
+    //2、合法性的验证
+    if(!fedText.trim()){
+      wx.showToast({
+        title: '内容不能为空',
+      })
+    } 
+    
+  },
    bindPickerChange: function(e) {
     this.setData({
       index: e.detail.value
@@ -40,21 +60,31 @@ Page({
   },
   async supervisionFrom(e){
     const { classRoomList} = this.data
+
+
+
+
+
     if (e.detail.value.seatsNum=='') return message.showToastNo("座位号不能不为空")
     if (classRoomList==null) return message.showToastNo("教室不能不为空")
+    if (e.detail.value.fedText=='') return message.showToastNo("内容不能为空")
     const result =  await message.showModal("监督占座！ 你确定提交吗！")
     if(!result) return;
     const res = await http.post("supervision",
       {
       "schoolId": wx.getStorageSync('info').schoolId,
       "classroomId": classRoomList[e.detail.value.classRoomName].id,
-      "seatsNum": e.detail.value.seatsNum
+      "seatsNum": e.detail.value.seatsNum,
+      "fedText":e.detail.value.fedText
       })
     if (res.code != 200) return message.showToastNo("监督占座失败！");
     message.showToast("监督占座成功！");
     this.setData({
-      seatsNum: null
+      seatsNum: null,
+      fedText: null
     })
+   
+
   },
 
   async onShow () {

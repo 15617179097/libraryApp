@@ -636,6 +636,48 @@
         {
           "name": "pages/newColumn/new4/new4.2/index",
           "pathName": "pages/newColumn/new4/new4.2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/aboutLibrary/index",
+          "pathName": "pages/newColumn/aboutLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/laoyan/date/index",
+          "pathName": "pages/newColumn/laoyan/date/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/supervision/index",
+          "pathName": "pages/supervision/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/supervision/index",
+          "pathName": "pages/user/supervision/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/administrator/index",
+          "pathName": "pages/user/administrator/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/administrator/index",
+          "pathName": "pages/user/administrator/index",
           "scene": null
         }
       ]

@@ -39,7 +39,7 @@ align-items: center;
 border-radius: 5rpx;
 }
 .feedback_warp .fedback_content .fedback_seatsNum input{
-    padding: 15rpx;
+    padding: 17rpx;
     background-color: #e1edf9;
     text-align: center;
 }
@@ -66,4 +66,11 @@ border-radius: 5rpx;
  .feedback_warp .feedback_text:hover{
     background-color: blanchedalmond;
 }
-    
+.fd_content{
+    margin-top:40rpx;
+    border-radius: 7rpx;
+    width:600rpx;
+    height:250rpx;
+    background: #e1edf9;
+    padding:10rpx;
+}   

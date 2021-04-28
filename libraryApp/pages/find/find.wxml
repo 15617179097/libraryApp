@@ -39,21 +39,21 @@
   </view>
   <view class="page_bd">
     <view class="title">
-      <text class="chinese">教学培训</text>
-      <text class="english">Teaching training</text>
+      <text class="chinese">考研专栏</text>
+      <text class="english">Graduate school exam</text>
     </view>
     <view class="body">
-      <view class="img" bindtap="aboutLibrary">
+      <view class="img" bindtap="date">
         <image src="../../image/newColumn/strategy.png" class="pic"></image>
-        <text>培训日程</text>
+        <text>考研资讯</text>
       </view>
-      <view class="img" bindtap="playLibrary">
+      <view class="img" bindtap="line">
         <image src="../../image/newColumn/period.png" class="pic"></image>
-        <text>往期培训</text>
+        <text>往年分数线</text>
       </view>
-      <view class="img" bindtap="curatorMessage">
+      <view class="img" bindtap="valuable">
         <image src="../../image/newColumn/video.png" class="pic"></image>
-        <text>教学课程</text>
+        <text>考研宝典</text>
       </view>
       <view class="img" bindtap="pleaseWaite">
         <image src="../../image/newColumn/etc.png" class="pic"></image>

@@ -10,14 +10,18 @@
             </view>
         </picker>
     </view>
+    
     <view class="fedback_seatsNum">
         <input  value="{{seatsNum}}" type="number" name="seatsNum" placeholder="座位号"
            bindinput="checkseatsName" >
         </input>
     </view>
  </view>
+ <view class="fd_content">
+        <textarea value="{{fedText}}" name="fedText" bindinput="handleTextInput" placeholder="请输入您的监督内容"></textarea>
+</view>
  <view class="feedback_but">
-     <button  type="primary"  form-type="submit" >
+     <button  type="primary"  form-type="submit"  value="{{fedText}}" bindinput="handleFormSubmit" catchtap="gotoresult" id="submit">
          提交
      </button> 
        
