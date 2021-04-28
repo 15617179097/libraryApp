@@ -57,19 +57,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-<<<<<<< HEAD
-    var ta=options.classRoomList;   
-    console.log(txt);
-=======
->>>>>>> e34a427bec47e60c9bd50add2929ed251a558a48
   },
   async supervisionFrom(e){
     const { classRoomList} = this.data
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e34a427bec47e60c9bd50add2929ed251a558a48
+
+
+
     if (e.detail.value.seatsNum=='') return message.showToastNo("座位号不能不为空")
     if (classRoomList==null) return message.showToastNo("教室不能不为空")
     if (e.detail.value.fedText=='') return message.showToastNo("内容不能为空")
