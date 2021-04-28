@@ -27,6 +27,7 @@ Page({
       return true;
     }
   },
+
   todayBut(){
     const res = checkInfos()
     if(!res) return;
@@ -38,6 +39,7 @@ Page({
       url: './appointment/index?state=0'
     });
   },
+
   tomorrowBut(){
     const res = checkInfos()
     if (!res) return;
@@ -47,6 +49,7 @@ Page({
       url: './appointment/index?state=1'
     });
   },
+  
   onShow: function () {
     const info = wx.getStorageSync("info")
     let creditScore = info?info.creditScore:0

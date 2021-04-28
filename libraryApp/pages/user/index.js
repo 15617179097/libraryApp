@@ -51,6 +51,7 @@ Page({
   //绑定学号
   async handelmyInfo(){
     const res = await checkInfos();
+    console.log(res);
     if(!res) {
       this.handelmyInfo()
       return;

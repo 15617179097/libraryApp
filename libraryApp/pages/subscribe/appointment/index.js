@@ -53,6 +53,7 @@ Page({
       classRoomCp: res.data.classroomList,classRoom: res.data.classroomList, floors: res.data.floors
     })
   },
+  
   async getTomorrow(){
     let {schoolId} = wx.getStorageSync('info')
     //查询绑定学号信息

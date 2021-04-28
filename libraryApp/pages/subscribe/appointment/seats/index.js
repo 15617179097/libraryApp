@@ -29,7 +29,7 @@ Page({
   onLoad: async function (options) {
     //教室传值
     let {id,row,line,tabState}=options;
-    this.getSeats(id,null,tabState);
+    this.getSeats(id,null,null,tabState);
     let loginStateUUID= wx.getStorageSync('loginStateUUID');
     //校验是否预约
     const res = await http.get("subscribe/check",{"loginStateUUID":loginStateUUID})
@@ -56,8 +56,12 @@ Page({
     })
   },
   /*根据教室id进行查询座位 */
-  async getSeats(id,time,tabState){
+  async getSeats(id,time,eTime,tabState){
+    // console.log(eTime);
+    // return ;
+    // const res = await http.get("seats/" + id,{"createTime":time,"endTime":eTime,"timeState":tabState})
     const res = await http.get("seats/" + id,{"createTime":time,"timeState":tabState})
+    //校验是否请求成功
     //校验是否请求成功
     if(res.code!=200) return;
     // let seats=res.data;
@@ -116,7 +120,7 @@ Page({
       return message.showToastNo("预约失败");
     } 
     //刷新页面
-    this.getSeats(classRoomId,null,tabState);
+    this.getSeats(classRoomId,null,null,tabState);
     message.showToast("预约成功");
   },
   //选择状态进行修改数组
@@ -159,20 +163,22 @@ Page({
   },
   //时间选择
   bindTimeChange: function(e) {
-    let {classRoomId,tabState}=this.data
-    this.getSeats(classRoomId,e.detail.value,tabState);
+   
+    
     this.setData({
       time: e.detail.value,endTime:''
     })
   },
     //结束时间选择
   bindEndTimeChange: function(e) {
+    let {classRoomId,tabState}=this.data
     let time=this.data.time
     if(time===''){
       message.showToastNo('请先选择开始时间');
       return;
     }
     var timeNum=Date.parse(new Date(this.getTomorrowTime(time)))
+   let eTime= e.detail.value
     var endTime=Date.parse(new Date(this.getTomorrowTime(e.detail.value)))
     if(timeNum>endTime){
       message.showToastNo('请先选择正确的时间范围');
@@ -182,6 +188,7 @@ Page({
       message.showToastNo('最少预约一小时以上');
       return;
     }
+    this.getSeats(classRoomId,time,e.detail.value,tabState);
       this.setData({
         endTime: e.detail.value
       })
