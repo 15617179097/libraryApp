@@ -1,44 +1,53 @@
+import message from '../../../utils/wxRequest.js'
+import http from '../../../utils/request.js'
 Page({ 
   data: { 
-  phone: '', 
-  password:''
+    //获取输入账号 
+    phone: '', 
+    // 获取输入密码 
+    password:''
   }, 
    
  // 获取输入账号 
-  phoneInput :function (e) { 
+  phoneInput(e) { 
   this.setData({ 
   phone:e.detail.value 
   }) 
   }, 
    
  // 获取输入密码 
-  passwordInput :function (e) { 
+  passwordInput(e) { 
   this.setData({ 
   password:e.detail.value 
   }) 
   }, 
-   
+  onShow(options){
+    
+  },
  // 登录 
-  login: function () { 
-  if(this.data.phone.length == 0 || this.data.password.length == 0){ 
-  wx.showModal({ 
-  title: '提示',
-  content:'请输入用户账号、密码',
-  icon: 'loading', 
-  duration: 1000 
-  }) 
- }else { 
-  // 这里修改成跳转的页面 
-  wx.showToast({ 
-  title: '登录成功', 
-  icon: 'success', 
-  duration: 2000,
-  success:function(){
-    wx.navigateTo({
-      url: '../administrator/index',
-    })
+  login(){ 
+    let {phone,password} = this.data
+    if(phone.length == 0 || password.length == 0){ 
+      message.showModal("请输入用户账号、密码");
+      return;
+    }
+      let admin = {}
+      admin.username =  phone
+      admin.password =  password
+      http.post("admin/login",admin).then(item=>{
+        if(item.code!=200){
+          message.showToastNo(item.msg)
+          return;
+        }
+        // 这里修改成跳转的页面 
+        wx.setStorageSync('admin', item.data)
+        message.showToastLazd("登录成功")
+        setTimeout(function() {
+          wx.redirectTo({
+            url: '../administrator/index',
+          })
+        }, 2000) //延迟时间
+      })
   }
-  }) 
-  } 
-  } 
+  
  })

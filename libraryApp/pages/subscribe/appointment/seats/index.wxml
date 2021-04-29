@@ -1,4 +1,3 @@
-<!--头部标识-->
 <view class="seats_tips_warp">
     <view class="seats_tips">
         <view class="seats_img">
@@ -32,7 +31,8 @@
                             <image src="../../../../image/seats_y.png" mode="widthFix" />
                         </block>
                         <block wx:if="{{item.state}}" wx:key="id">
-                            <text decode="false" class="{{item.state?'active':''}}"
+                            <text decode="false" class="{{item.state?'active':''}}" bindtap="showInfo" data-classroomId="{{item.classroomId}}"
+                            data-seatId="{{item.id}}"
                                 data-index="{{index}}">{{index+1}}</text>
                         </block>
                         <block wx:else>

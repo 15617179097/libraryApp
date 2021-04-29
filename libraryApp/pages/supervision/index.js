@@ -61,10 +61,6 @@ Page({
   async supervisionFrom(e){
     const { classRoomList} = this.data
 
-
-
-
-
     if (e.detail.value.seatsNum=='') return message.showToastNo("座位号不能不为空")
     if (classRoomList==null) return message.showToastNo("教室不能不为空")
     if (e.detail.value.fedText=='') return message.showToastNo("内容不能为空")

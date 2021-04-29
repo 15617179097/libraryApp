@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tabs":"../../../components/tabs/tabs"
+  },
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "监督管理"
 }

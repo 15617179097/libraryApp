@@ -2,8 +2,8 @@ const wsBaseUrl="wss://www.paw35u.cn/app"
 // const wsBaseUrl="ws://localhost:8001/"
  import login from './login.js'
 
-const baseUrl="https://www.paw35u.cn/app/"
-// const baseUrl="http://localhost:8001/"
+// const baseUrl="https://www.paw35u.cn/app/"
+const baseUrl="http://localhost:8001/"
 
  function request(u, data, method) {
     return new Promise((resolve, reject) => {

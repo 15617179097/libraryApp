@@ -1,4 +1,78 @@
-<view class="page">
+
+<tabs bindhandleTabs="handleTabs" tabs="{{tabs}}" >
+<!-- <view class="appointment_warp" wx:if="{{tabs[0].isActive}}"> 
+   -->
+   <view class="appointment_warp">
+   <view class="main">
+        <view class="row"
+        wx:for="{{supervisionList}}"
+        wx:key="id"
+        >
+            <view class="content_left">
+                <view class="left_title">
+                    <view class="content_title">
+                    {{item.classroomName}}
+                    </view>
+                    <view class="content_time">
+                            {{item.createTime}}
+                    </view>
+                </view>
+            </view>
+            
+            <view class="content_right">
+                <view class="content_seats">
+                    {{item.seatsNum}}号座位
+                </view>
+                <view class="content_state" bindtap="toUpdateSupervision" data-id="{{item.id}}" wx:if="{{item.state===0}}">            
+                    去处理
+                </view>
+                <view class="content_state" wx:if="{{item.state===1}}">            
+                    已处理
+                </view>
+ 
+            </view>
+              
+        </view>
+        <view wx:if="{{!supervisionList.length>0}}" class="notice_err" >暂无记录！</view>
+          
+    </view>
+      
+</view>
+<!-- <view class="appointment_warp" wx:if="{{tabs[1].isActive}}"> 
+    <view class="main">
+        <view class="row"
+        wx:for="{{userRecord}}"
+        wx:key="id"
+        >
+            <view class="content_left">
+                <view class="left_floor">{{item.floor}}F</view>
+                <view class="left_title">
+                    <view class="content_title">{{item.classroomName}}</view>
+                    <view class="content_time">{{item.createTime}}</view>
+                </view>
+            </view>
+            <view class="content_right">
+                <view class="content_seats">
+                    {{item.seatNunber}}号座位
+                </view>
+                <view class="content_state" wx:if="{{item.state===2}}">            
+                    已完成
+                </view>
+                <view class="content_state" wx:if="{{item.state===4}}">            
+                    未签到
+                </view>
+ 
+            </view>
+              
+        </view>
+        <view wx:if="{{!userRecord.length>0}}" class="notice_err" >暂无记录！</view>
+    </view>
+</view> -->
+
+</tabs>
+
+  
+<!-- <view class="page">
   <view class="title">
     <text>全部内容</text>
   </view>
@@ -18,4 +92,4 @@
                 </view>
             </view>          
     </view>
-</view>
+</view> -->

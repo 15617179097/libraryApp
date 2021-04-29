@@ -1,596 +1,596 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": false,
-		"es6": true,
-		"enhance": false,
-		"postcss": true,
-		"preloadBackgroundData": false,
-		"minified": true,
-		"newFeature": false,
-		"coverView": true,
-		"nodeModules": false,
-		"autoAudits": false,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
-		"uglifyFileName": true,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"compileHotReLoad": false,
-		"useMultiFrameRuntime": false,
-		"useApiHook": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		},
-		"enableEngineNative": false,
-		"bundle": false,
-		"useIsolateContext": true,
-		"useCompilerModule": true,
-		"userConfirmedUseCompilerModuleSwitch": false,
-		"userConfirmedBundleSwitch": false,
-		"packNpmManually": false,
-		"packNpmRelationList": [],
-		"minifyWXSS": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.16.0",
-	"appid": "wxab05f784f49f7837",
-	"projectname": "libraryApp",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"plugin": {
-			"list": []
-		},
-		"game": {
-			"list": []
-		},
-		"gamePlugin": {
-			"list": []
-		},
-		"miniprogram": {
-			"list": [
-				{
-					"id": -1,
-					"name": "yonghu ",
-					"pathName": "pages/user/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/login/index",
-					"pathName": "pages/login/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "预约",
-					"pathName": "pages/appointment/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "座位",
-					"pathName": "pages/seats/index",
-					"query": "id=1",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/optionTime/index",
-					"pathName": "pages/optionTime/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/login/index",
-					"pathName": "pages/login/index",
-					"query": "id=1",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/authorize/index",
-					"pathName": "pages/authorize/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/login/index",
-					"pathName": "pages/login/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 8,
-					"name": "pages/user/index",
-					"pathName": "pages/user/index",
-					"query": "id=1",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "监督座位",
-					"pathName": "pages/feedback/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "\"pages/msg/index\"",
-					"pathName": "pages/msg/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/historicalAppointment/index",
-					"pathName": "pages/historicalAppointment/index",
-					"query": "id=1",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "座位",
-					"pathName": "pages/appointment/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "预约",
-					"pathName": "pages/subscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/user/mySubscribe/index",
-					"pathName": "pages/user/mySubscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/feedback/index",
-					"pathName": "pages/feedback/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/notice/index",
-					"pathName": "pages/notice/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "user",
-					"pathName": "pages/index/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/user/myInfo/index",
-					"pathName": "pages/user/myInfo/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/user/suspend/index",
-					"pathName": "pages/user/suspend/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/advertising/index",
-					"pathName": "pages/advertising/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/subscribe/index",
-					"pathName": "pages/subscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/authorize/index",
-					"pathName": "pages/authorize/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myInfo/index",
-					"pathName": "pages/user/myInfo/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/advertising/index",
-					"pathName": "pages/advertising/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/supervision/index",
-					"pathName": "pages/supervision/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/user/suspend/index",
-					"pathName": "pages/user/suspend/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/subscribe/appointment/index",
-					"pathName": "pages/subscribe/appointment/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/authorize/index",
-					"pathName": "pages/authorize/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myInfo/index",
-					"pathName": "pages/user/myInfo/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myCredit/index",
-					"pathName": "pages/user/myCredit/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/attendanceSituation/index",
-					"pathName": "pages/user/attendanceSituation/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/notice/index",
-					"pathName": "pages/notice/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/pleaseWaite/index",
-					"pathName": "pages/newColumn/pleaseWaite/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/pleaseWaite/index",
-					"pathName": "pages/newColumn/pleaseWaite/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/index",
-					"pathName": "pages/newColumn/playLibrary/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/notice/index",
-					"pathName": "pages/notice/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/index",
-					"pathName": "pages/newColumn/playLibrary/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/subscribe/index",
-					"pathName": "pages/subscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myCredit/index",
-					"pathName": "pages/user/myCredit/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt1/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt1/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/playLibrary/textpages/txt3/index",
-					"pathName": "pages/newColumn/playLibrary/textpages/txt3/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/mySubscribe/index",
-					"pathName": "pages/user/mySubscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myCredit/index",
-					"pathName": "pages/user/myCredit/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/subscribe/index",
-					"pathName": "pages/subscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/aboutLibrary/index",
-					"pathName": "pages/newColumn/aboutLibrary/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/newColumn/curatorMessage/index",
-					"pathName": "pages/newColumn/curatorMessage/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/notice/index",
-					"pathName": "pages/notice/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/noticetext/text2/index",
-					"pathName": "pages/noticetext/text2/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/noticetext/text3/index",
-					"pathName": "pages/noticetext/text3/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/noticetext/text4/index",
-					"pathName": "pages/noticetext/text4/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/subscribe/index",
-					"pathName": "pages/subscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/mySubscribe/index",
-					"pathName": "pages/user/mySubscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/feedback/index",
-					"pathName": "pages/feedback/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/feedback/index",
-					"pathName": "pages/feedback/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/subscribe/index",
-					"pathName": "pages/subscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/index",
-					"pathName": "pages/user/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/mySubscribe/index",
-					"pathName": "pages/user/mySubscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myCredit/index",
-					"pathName": "pages/user/myCredit/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/attendanceSituation/index",
-					"pathName": "pages/user/attendanceSituation/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/feedback/index",
-					"pathName": "pages/feedback/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/authorize/index",
-					"pathName": "pages/authorize/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/find/find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/mySubscribe/index",
-					"pathName": "pages/user/mySubscribe/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myCredit/index",
-					"pathName": "pages/user/myCredit/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/attendanceSituation/index",
-					"pathName": "pages/user/attendanceSituation/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/user/myCredit/index",
-					"pathName": "pages/user/myCredit/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"name": "pages/subscribe/index",
-					"pathName": "pages/subscribe/index",
-					"scene": null
-				}
-			]
-		}
-	}
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.16.0",
+  "appid": "wxab05f784f49f7837",
+  "projectname": "libraryApp",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "yonghu ",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/login/index",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "预约",
+          "pathName": "pages/appointment/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "座位",
+          "pathName": "pages/seats/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/optionTime/index",
+          "pathName": "pages/optionTime/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/login/index",
+          "pathName": "pages/login/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/authorize/index",
+          "pathName": "pages/authorize/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/login/index",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 8,
+          "name": "pages/user/index",
+          "pathName": "pages/user/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "监督座位",
+          "pathName": "pages/feedback/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "\"pages/msg/index\"",
+          "pathName": "pages/msg/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/historicalAppointment/index",
+          "pathName": "pages/historicalAppointment/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "座位",
+          "pathName": "pages/appointment/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "预约",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/feedback/index",
+          "pathName": "pages/feedback/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "user",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/user/myInfo/index",
+          "pathName": "pages/user/myInfo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/user/suspend/index",
+          "pathName": "pages/user/suspend/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/advertising/index",
+          "pathName": "pages/advertising/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/authorize/index",
+          "pathName": "pages/authorize/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myInfo/index",
+          "pathName": "pages/user/myInfo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/advertising/index",
+          "pathName": "pages/advertising/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/supervision/index",
+          "pathName": "pages/supervision/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/user/suspend/index",
+          "pathName": "pages/user/suspend/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/subscribe/appointment/index",
+          "pathName": "pages/subscribe/appointment/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/authorize/index",
+          "pathName": "pages/authorize/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myInfo/index",
+          "pathName": "pages/user/myInfo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/attendanceSituation/index",
+          "pathName": "pages/user/attendanceSituation/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/pleaseWaite/index",
+          "pathName": "pages/newColumn/pleaseWaite/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/pleaseWaite/index",
+          "pathName": "pages/newColumn/pleaseWaite/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/index",
+          "pathName": "pages/newColumn/playLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/index",
+          "pathName": "pages/newColumn/playLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt1/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/playLibrary/textpages/txt3/index",
+          "pathName": "pages/newColumn/playLibrary/textpages/txt3/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/aboutLibrary/index",
+          "pathName": "pages/newColumn/aboutLibrary/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/curatorMessage/index",
+          "pathName": "pages/newColumn/curatorMessage/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notice/index",
+          "pathName": "pages/notice/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noticetext/text2/index",
+          "pathName": "pages/noticetext/text2/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noticetext/text3/index",
+          "pathName": "pages/noticetext/text3/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noticetext/text4/index",
+          "pathName": "pages/noticetext/text4/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/feedback/index",
+          "pathName": "pages/feedback/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/feedback/index",
+          "pathName": "pages/feedback/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/index",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/attendanceSituation/index",
+          "pathName": "pages/user/attendanceSituation/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/feedback/index",
+          "pathName": "pages/feedback/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/authorize/index",
+          "pathName": "pages/authorize/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/mySubscribe/index",
+          "pathName": "pages/user/mySubscribe/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/attendanceSituation/index",
+          "pathName": "pages/user/attendanceSituation/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/myCredit/index",
+          "pathName": "pages/user/myCredit/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/subscribe/index",
+          "pathName": "pages/subscribe/index",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

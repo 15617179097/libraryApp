@@ -23,6 +23,7 @@ Page({
     // 判断是否已经预约
     subscribeState:false,
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -59,8 +60,8 @@ Page({
   async getSeats(id,time,eTime,tabState){
     // console.log(eTime);
     // return ;
-    // const res = await http.get("seats/" + id,{"createTime":time,"endTime":eTime,"timeState":tabState})
-    const res = await http.get("seats/" + id,{"createTime":time,"timeState":tabState})
+    const res = await http.get("seats/" + id,{"createTime":time,"endTime":eTime,"timeState":tabState})
+    // const res = await http.get("seats/" + id,{"createTime":time,"timeState":tabState})
     //校验是否请求成功
     //校验是否请求成功
     if(res.code!=200) return;
@@ -161,10 +162,17 @@ Page({
       optionsRow,optionsLine
     })
   },
+
+  // 查看已经预约的时段
+  showInfo(e){
+    console.log(e.currentTarget.dataset.seatId);
+    console.log(e.currentTarget.dataset.classroomid);
+    // http.get("")
+  },
+
   //时间选择
   bindTimeChange: function(e) {
-   
-    
+
     this.setData({
       time: e.detail.value,endTime:''
     })

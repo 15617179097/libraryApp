@@ -43,11 +43,12 @@ const getShowModalNo=(content)=>{
     })
 
 }
-const getShowToast=(title)=>{
+const getShowToast=(title,duration)=>{
     wx.showToast({
         title: title,
         icon: 'success',
-        duration: 3000
+        duration: duration!=undefined?duration:3000,
+        mask:true
       });
 }
 
@@ -68,6 +69,9 @@ const message = {
     },
     showToast(title) {
         return getShowToast(title)
+    },
+    showToastLazd(title,duration) {
+        return getShowToast(title,duration)
     },
     showToastNo(title) {
         return getShowToastNo(title)

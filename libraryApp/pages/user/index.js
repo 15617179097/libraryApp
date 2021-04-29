@@ -109,6 +109,12 @@ Page({
   },
   //监督管理
   async handleSupervision(){
+    let admin = wx.getStorageSync('admin')||false
+    if(admin){
+      wx.navigateTo({
+        url: './administrator/index',
+      })
+    }
     wx.navigateTo({
       url: '../user/supervision/index',
     })
