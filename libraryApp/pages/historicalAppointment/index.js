@@ -62,10 +62,11 @@ Page({
     let allInfo = result.data.allSubscribe;
     //时间格式
     allInfo.forEach((v,i) => {
-      var s=new Date().toLocaleString()
-      let index=s.lastIndexOf(":");
-      s=s.split("/").join("-").substring(0,index);
-      allInfo[i].createTime=s
+      // var s=new Date().toLocaleString()
+      let index=v.createTime.lastIndexOf(":");
+      // s=
+      // s=s.split("/").join("-").substring(0,index);
+      v.createTime=v.createTime.substring(0,index);
     })
     this.pageTotalAll = result.data.pageTotal
     this.setData({
@@ -80,10 +81,12 @@ Page({
     this.pageTotal = res.data.total
     //时间格式
     res.data.userRecordList.forEach((v, i) => {
-      var s = new Date().toLocaleString()
-      let index = s.lastIndexOf(":");
-      s = s.split("/").join("-").substring(0, index);
-      res.data.userRecordList[i].createTime = s
+      // var s = new Date().toLocaleString()
+      // let index = s.lastIndexOf(":");
+      // s = s.split("/").join("-").substring(0, index);
+      // res.data.userRecordList[i].createTime = s
+      let index=v.createTime.lastIndexOf(":");
+      v.createTime=v.createTime.substring(0,index);
     });
     this.setData({
       userRecord: res.data.userRecordList
