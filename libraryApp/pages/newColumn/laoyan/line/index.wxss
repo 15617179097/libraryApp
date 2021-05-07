@@ -1,1 +1,9 @@
-/* pages/newColumn/laoyan/line/index.wxss */
+.wrap .content{
+  text-align: center;
+  font-size: 50rpx;
+  color: rgb(70, 67, 65);
+  margin-top:50rpx;
+}
+.wrap .content .image{
+  height:1400rpx;width:700rpx;
+}

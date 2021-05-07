@@ -1,1 +1,17 @@
-暂无数据
+<view class="wrap">
+  <view class="content">
+    <text>2021年考研国家线</text>
+    <image src="https://kaoyan.eol.cn/tiao_ji/wang_nian_fen_shu/202103/W020210312589563426543.png" style="height:1500rpx;width:700rpx;"></image>
+    
+  </view>
+  <view class="content">
+    <text>2020年考研国家线</text>
+    <image src="https://kaoyan.eol.cn/nnews/202004/W020200414543624080917.png" style="height:500rpx;width:600rpx;"></image>
+    <image src="https://kaoyan.eol.cn/nnews/202004/W020200414543624117011.png" style="height:500rpx;width:600rpx;"></image>
+  </view>
+  <view class="content">
+    <text>2019年考研国家线</text>
+    <image src="https://kaoyan.eol.cn/tiao_ji/wang_nian_fen_shu/201903/W020190315497056142178.jpg" style="height:500rpx;width:600rpx;"></image>
+    <image src="https://kaoyan.eol.cn/tiao_ji/wang_nian_fen_shu/201903/W020190315497056156800.jpg" style="height:500rpx;width:600rpx;"></image>
+  </view>
+</view>

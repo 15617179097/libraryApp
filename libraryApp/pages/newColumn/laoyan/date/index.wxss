@@ -1,0 +1,22 @@
+.wrap .header .box{
+  border-left: 20rpx solid brown;
+  margin: 50rpx 0rpx 0rpx 20rpx;
+  display: inline-block;
+}
+.wrap .header .font{
+  font-size: 50rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+.wrap .main{
+  margin-top: 50rpx;
+}
+.wrap .main .content{
+  color: rgb(66, 66, 66);
+  margin-left: 60rpx;
+  margin-top:15rpx;
+  font-size: 32rpx;
+}
+.wrap .main .content .text{
+  border-bottom: 2rpx solid blue;
+}

@@ -1,1 +1,39 @@
-暂无数据
+<view class="wrap">
+  <view class="header">
+    <view class="box">
+      <text class="font">考研资讯</text>
+    </view>
+  </view>
+  <view class="main">
+    <view class="content">
+      <text class="text">2020年全年备考时间轴，马上收藏！</text>
+    </view>
+    <view class="content">
+      <text class="text">考研准备：从了解初始开始</text>
+    </view>
+    <view class="content">
+      <text class="text">错过将影响上岸！22考研这些时间点需慎重关注</text>
+    </view>
+    <view class="content">
+      <text class="text">在校学生如何兼顾自己的学业和考研</text>
+    </view>
+    <view class="content">
+      <text class="text">考研“炮灰”的四大特征，你中了吗？</text>
+    </view>
+    <view class="content">
+      <text class="text">22考研|一轮复习结束要达到什么程度呢？</text>
+    </view>
+    <view class="content">
+      <text class="text">本-硕-博贯通成高校招生培养新趋势</text>
+    </view>
+    <view class="content">
+      <text class="text">大动作！重要科研平台落户上海科技大学</text>
+    </view>
+    <view class="content">
+      <text class="text">关于做好2021年同等学历人员申请硕士学位</text>
+    </view>
+    <view class="content">
+      <text class="text">干货！76所院校近年考研专业课真题汇总</text>
+    </view>
+  </view>
+</view>

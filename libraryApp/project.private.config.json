@@ -678,6 +678,24 @@
         {
           "name": "pages/user/administrator/index",
           "pathName": "pages/user/administrator/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/laoyan/line/index",
+          "pathName": "pages/newColumn/laoyan/line/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/laoyan/valuable/index",
+          "pathName": "pages/newColumn/laoyan/valuable/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newColumn/laoyan/date/index",
+          "pathName": "pages/newColumn/laoyan/date/index",
           "scene": null
         }
       ]

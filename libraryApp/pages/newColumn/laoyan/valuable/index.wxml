@@ -1,1 +1,42 @@
-暂无数据
+<view class="wrap">
+  <view class="header">
+    <view class="box">
+      <text class="font">专业报考指导</text>
+    </view>
+  </view>
+  <view class="main">
+    <view class="content">
+      <text class="text">考研报考人数最多的专业有哪些？</text>
+    </view>
+    <view class="content">
+      <text class="text">如何判断考研专业的难易程度</text>
+    </view>
+    <view class="content">
+      <text class="text">考研专业如何选择才能符合自身能力？</text>
+    </view>
+    <view class="content">
+      <text class="text">考研专业需要满足自身兴趣</text>
+    </view>
+    <view class="content">
+      <text class="text">考研专业前景如何分析</text>
+    </view>
+    <view class="content">
+      <text class="text">考研十三大门类解析之教育学</text>
+    </view>
+    <view class="content">
+      <text class="text">考研十三大门类解析之艺术学</text>
+    </view>
+    <view class="content">
+      <text class="text">考研十三大门类解析之管理学</text>
+    </view>
+    <view class="content">
+      <text class="text">考研十三大门类解析之工学</text>
+    </view>
+    <view class="content">
+      <text class="text">考研十三大门类解析之经济学</text>
+    </view>
+    <view class="content">
+      <text class="text">考研十三大门类解析之法学</text>
+    </view>
+  </view>
+</view>

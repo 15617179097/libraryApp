@@ -53,7 +53,7 @@
       </view>
       <view class="img" bindtap="valuable">
         <image src="../../image/newColumn/video.png" class="pic"></image>
-        <text>考研宝典</text>
+        <text>报考指导</text>
       </view>
       <view class="img" bindtap="pleaseWaite">
         <image src="../../image/newColumn/etc.png" class="pic"></image>
