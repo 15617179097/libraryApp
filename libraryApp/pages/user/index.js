@@ -1,5 +1,5 @@
 //检验
-import {checkInfos} from "../../utils/check.js"
+import {checkInfos,checkLogin} from "../../utils/check.js"
 // es7 简化promise
 import regeneratorRuntime from "../../utils/runtime.js"
 Page({
@@ -48,12 +48,15 @@ Page({
      url: '../authorize/index',
    })
   },
+  
   //绑定学号
   async handelmyInfo(){
     const res = await checkInfos();
-    console.log(res);
     if(!res) {
-      this.handelmyInfo()
+      // this.handelmyInfo()
+      wx.navigateTo({
+        url: '../user/myInfo/index',
+      })
       return;
     }
     wx.navigateTo({

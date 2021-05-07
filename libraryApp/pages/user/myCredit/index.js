@@ -1,4 +1,6 @@
-import http from ".././../../utils/request"
+import http from "../../../utils/request"
+// es7 简化promise
+import regeneratorRuntime from "../../../utils/runtime.js"
 Page({
 
   /**

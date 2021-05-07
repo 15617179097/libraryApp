@@ -44,17 +44,19 @@ Page({
   onShow: function () {
     var date = new Date();
     let {tabState} = getCurrentPages()[2].options
+    
     if(tabState==0){
       this.setData({
         startTime: date.getHours() + ":" +(date.getMinutes()+30),
         startEndTime: date.getHours() + 1 + ":" + (date.getMinutes() + 30)
       })
-      return;
+    }else{
+      this.setData({
+        startTime: "8:30",
+        startEndTime: "8:30"
+      })
     }
-    this.setData({
-      startTime: "8:30",
-      startEndTime: "8:30"
-    })
+    
   },
   /*根据教室id进行查询座位 */
   async getSeats(id,time,eTime,tabState){
@@ -121,7 +123,7 @@ Page({
       return message.showToastNo("预约失败");
     } 
     //刷新页面
-    this.getSeats(classRoomId,null,null,tabState);
+    this.getSeats(classRoomId,createTime,endTime,tabState);
     message.showToast("预约成功");
   },
   //选择状态进行修改数组

@@ -48,6 +48,14 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    let loginStateUUID = wx.getStorageSync('loginStateUUID');
+    if (!loginStateUUID) {
+      //logisns.onLaunch()
+      wx.navigateTo({
+        url: '../../authorize/index',
+      })
+      return
+    }
     this.getSchoolCity();
     const info = wx.getStorageSync('info')
     if(info===null) return;
@@ -122,7 +130,7 @@ Page({
   //返回页面
   blockToPage(){
     wx.navigateBack({
-      delta: 1,
+      delta: 2,
     })
   },
 
@@ -132,7 +140,8 @@ Page({
     if(data) {
       const res= await http.delete("userInfo")
       if (res.code !== 200) return message.showModalNo("解绑失败！");
-      wx.removeStorage({key: 'info'})
+      // wx.removeStorage({key: 'info'})
+      wx.removeStorageSync('info')
       this.onShow()
       message.showToast("解绑成功！")
       this.setData({

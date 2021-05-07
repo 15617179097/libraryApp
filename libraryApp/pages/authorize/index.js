@@ -47,21 +47,28 @@ Page({
                return false;
              }
              this.getUserInfos(loginStateUUID)
-             wx.hideLoading({
-               complete: (res) => {},
-             })
-             wx.navigateBack({
-               delta: 1,
-             })
-             wx.showToast({title: '授权成功', icon: 'success', duration: 2000 })
-            http.get("/userInfo",{"loginStateUUID":loginStateUUID}).then(
-              (res)=>{
-                if(res.data==null){
-                  wx.navigateTo({
-                    url: '../user/myInfo/index',
-                  })
-                }
-            })
+            //  wx.hideLoading({
+            //    complete: (res) => {},
+            //  })
+            //  wx.navigateBack({
+            //    delta: 1,
+            //  })
+            wx.showToast({title: '授权成功', icon: 'success', duration: 1000 })
+            setTimeout(() => {
+              http.get("/userInfo",{"loginStateUUID":loginStateUUID}).then(
+                (res)=>{
+                  if(res.data==null){
+                    wx.navigateTo({
+                      url: '../user/myInfo/index',
+                    })
+                  }else{
+                    wx.navigateBack({
+                         delta: 1,
+                       })
+                  }
+              })
+            }, 1000);
+            
           }
         )
       }

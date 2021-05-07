@@ -71,11 +71,11 @@ function reLogin(){
         success (res) {
           if (res.confirm) {
             //login.onLaunch()
-            wx.redirectTo({
+            wx.navigateTo({
                 url: '/pages/authorize/index'
               })
           } else if (res.cancel) {
-            wx.redirectTo({
+            wx.navigateTo({
                 url: '/pages/index/index'
               })
           }

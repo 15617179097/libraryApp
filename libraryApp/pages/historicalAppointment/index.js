@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    allInfo:null,
+    allInfo:[],
     tabs:[
       {
         id:0,
@@ -21,7 +21,7 @@ Page({
     ],
     activeState:0,
     //用户的违约记录
-    userRecord:null
+    userRecord:[]
   },
   queryParams: {
     pagenum: 1,
@@ -43,9 +43,7 @@ Page({
     this.setData({
       tabs, activeState: index
     })
-    
-  }
-  ,
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -56,47 +54,48 @@ Page({
   },
   //获取所有记录
   async getMyhistoricalAppointment(){
+    let {allInfo} = this.data
     let result= await http.get("findMyAllSubscribe",  this.queryParamsAll)
     
     if(result.code!==200) return;
-    let allInfo = result.data.allSubscribe;
+    let resAllInfo = result.data.allSubscribe;
     //时间格式
-    allInfo.forEach((v,i) => {
-      // var s=new Date().toLocaleString()
+    resAllInfo.forEach((v,i) => {
       let index=v.createTime.lastIndexOf(":");
-      // s=
-      // s=s.split("/").join("-").substring(0,index);
       v.createTime=v.createTime.substring(0,index);
     })
     this.pageTotalAll = result.data.pageTotal
     this.setData({
-      allInfo
+      allInfo:[...allInfo,...resAllInfo]
     })
   },
   //获取违约记录
-  async getUserRecord(){
-    const res = await http.get("userRecord", this.queryParams)
-    
+  getUserRecord(){
+    let {userRecord}= this.data
+   http.get("userRecord", this.queryParams).then(res=>{
     if (res.code !== 200) return;
     this.pageTotal = res.data.total
     //时间格式
     res.data.userRecordList.forEach((v, i) => {
-      // var s = new Date().toLocaleString()
-      // let index = s.lastIndexOf(":");
-      // s = s.split("/").join("-").substring(0, index);
-      // res.data.userRecordList[i].createTime = s
+
       let index=v.createTime.lastIndexOf(":");
       v.createTime=v.createTime.substring(0,index);
     });
+
     this.setData({
-      userRecord: res.data.userRecordList
+      userRecord: [...userRecord,...res.data.userRecordList]
     })
+   })
+    
+    
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
+    this.queryParams.pagenum=1
+    this.queryParamsAll.pagenum=1
     this.getMyhistoricalAppointment()
     this.getUserRecord()
     wx.stopPullDownRefresh()
