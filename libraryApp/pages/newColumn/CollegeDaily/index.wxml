@@ -5,7 +5,7 @@
   
   <view class="context1" bindtap="new_one">   
     <image src="../../../image/newpic/pic1.jpg" class="pic1"></image>
-    <text>“何日相聚？念、念、念、念！”左权给妻女的最后一封家书</text>
+    <text>这才是微信列表里最爱你的人</text>
   </view>
   <view class="time">
     <text>3月25日 晚上18：09</text>
@@ -13,6 +13,6 @@
   
   <view class="context2" bindtap="new_two">   
     <image src="../../../image/newpic/pic2.jpg" class="pic1"></image>
-    <text style="margin-left:15rpx;">外交部、商务部、中消协发声！中国品牌集体表态！</text>
+    <text style="margin-left:15rpx;">绝了！又双叒叕破纪录了</text>
 </view>
 </view>

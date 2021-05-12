@@ -73,7 +73,7 @@
       </view>
       <view class="img" bindtap="CollegeDaily">
         <image src="../../image/newColumn/henan.jpg" class="pic"></image>
-        <text>河南高校日报</text>
+        <text>河南共青团</text>
       </view>
       <view class="img" bindtap="SiasCollege">
         <image src="../../image/newColumn/sias1.jpg" class="pic"></image>

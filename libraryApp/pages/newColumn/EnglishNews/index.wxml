@@ -7,7 +7,7 @@
   
   <view class="content" bindtap="new_one">
     <view class="new-hot">
-      <image src="../../../image/newpic/new.1.jpg" class="new-pic1"></image>
+      <image src="../../../image/newpic/sias4.jpg" class="new-pic1"></image>
     </view>
     <view class="new1" bindtap="new_two">
       <text>
@@ -19,7 +19,7 @@
       <text>
         'Greed' and 'capitalism' helped UK's vaccines success,says PM;
       </text>
-      <image src="../../../image/newpic/new.3.jpg" class="new-pic3"></image>
+      <image src="../../../image/newpic/new7.jpg" class="new-pic3"></image>
     </view>
     <view class="new3" bindtap="new_four">
       <text class="one-line">
